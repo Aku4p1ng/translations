@@ -1,0 +1,2045 @@
+{
+  "stats": {
+    "COMPLETED_TRIALS": "完成的试验",
+    "DEATHS": "死亡次数",
+    "PRESTIGE": "声望",
+    "REAGENTS_RELEASED": "放出的试剂",
+    "FAILED_TRIALS": "失败的试验",
+    "TRIALS_IN_HOURS": "试验游戏时间",
+    "TRACKED_ACCOUNTS": "追踪的账户",
+    "TOTAL_DEATHS": "总死亡次数",
+    "TOTAL_RELEASES": "总释放次数",
+    "TOTAL_PRESTIGES": "总声望",
+    "TOTAL_LOBBY_GAMES": "总大厅游戏数",
+    "TOTAL_STAMPS": "总邮票数",
+    "TOTAL_MURKOFF_COINS": "总穆科夫硬币数",
+    "TOTAL_DAMAGED": "承受的总伤害",
+    "TOTAL_TIMES_HIDDEN": "总躲藏次数",
+    "TOTAL_PSYCHOSIS_TIME": "总精神失常时间",
+    "ESCALATION_HIGHEST_TRIAL_REACHED": "升级峰值",
+    "ESCALATION_HIGHEST_TRIAL_REACHED_WITH_TIME": "峰值升级游玩时间",
+    "ESCALATION_RUNS_COMPLETED": "升级次数",
+    "ESCALATION_TRIALS_COMPLETED": "升级试炼数",
+    "ESCALATION_TIME_PLAYED": "升级游戏时间",
+    "ARMWRESTLING_WINS": "掰手腕胜利",
+    "ARMWRESTLING_LOSES": "掰手腕失败",
+    "ARMWRESTLING_RATING": "掰手腕评分",
+    "CHESS_WINS": "象棋胜利",
+    "CHESS_RATING": "象棋评分",
+    "TENNIS_WINS": "网球胜利",
+    "TENNIS_LOSES": "网球失败",
+    "TENNIS_RATING": "网球评分",
+    "STROOP_RATING": "Stroop评分",
+    "INVASION_POINTS": "入侵积分",
+    "INVASION_IMPOSTER_WON_MATCHES": "冒名者胜场",
+    "INVASION_IMPOSTER_LOST_MATCHES": "冒名者败场",
+    "INVASION_REAGENT_WON_MATCHES": "试剂胜场",
+    "INVASION_REAGENT_LOST_MATCHES": "试剂败场",
+    "STAMPS": "邮票",
+    "EVENT_TOKENS": "活动代币"
+  },
+  "sitebar": {
+    "home": "主页",
+    "leaderboard": "排行榜",
+    "badges": "徽章",
+    "roadmap": "路线图",
+    "addAccount": "添加账户",
+    "discord": "Discord服务器",
+    "contribute": "贡献",
+    "dataLegal": "隐私政策",
+    "imprint": "版本说明",
+    "terms": "使用条款",
+    "reporting": "报告",
+    "more": "更多",
+    "explore": "发现",
+    "menu": {
+      "getInvolved": "加入我们",
+      "community": "社区",
+      "siteInfo": "站点信息",
+      "reportingDescription": "游戏和站点季度统计报告",
+      "newOn": "网站新功能",
+      "mapsDescription": "每个试炼的的交互地图，包含物品和怪的刷点信息。",
+      "studioDescription": "在3D中放置最多五个试剂，并导出高达4K的壁纸。"
+    }
+  },
+  "faqPage": {
+    "title": "常见问题&帮助",
+    "subtitle": "关于跟踪、您的个人资料、隐私以及网站的所有其他内容的答案。",
+    "menuDescription": "对常见问题的答复",
+    "searchPlaceholder": "搜索帮助…",
+    "topics": "话题",
+    "popular": "常见问题",
+    "noResultsTitle": "未搜索到有关\"{query}\"的结果",
+    "noResultsDesc": "换个关键词试试，或者直接在Discord上问问我们",
+    "clearSearch": "清空检索",
+    "copyLink": "复制链接",
+    "linkCopied": "链接已复制",
+    "contact": {
+      "title": "需要更多帮助？",
+      "desc": "我们的团队和社区在Discord上可以快速回复",
+      "discord": "在Discord上问问"
+    },
+    "categories": {
+      "general": "通用",
+      "tracking": "追踪与更新",
+      "account": "账号与关联",
+      "privacy": "隐私与数据",
+      "leaderboards": "榜单与徽章",
+      "tools": "工具与项目"
+    },
+    "categoryDescriptions": {
+      "general": "项目、数据来源以及如何联系我们。",
+      "tracking": "注册网站账户并保持其更新。",
+      "account": "通过 Discord 关联你的游戏资料。",
+      "privacy": "隐藏您的个人资料、停止更新并删除您的数据。",
+      "leaderboards": "排名、徽章和入侵段位如何运作。",
+      "tools": "监控应用、Discord 机器人以及我们的其他项目。"
+    },
+    "links": {
+      "discord": "Discord 服务器",
+      "settings": "设置",
+      "linkPage": "链接个人资料",
+      "addAccount": "添加账户",
+      "monitor": "试炼状态监控器",
+      "privacyPolicy": "隐私政策",
+      "github": "GitHub",
+      "linkAccountFaq": "关联你的个人资料",
+      "hideProfileFaq": "如何隐藏我的个人资料？",
+      "deleteAccountFaq": "如何删除我的账户？",
+      "leaderboards": "排行榜",
+      "badges": "徽章",
+      "discordBot": "Discord 机器人",
+      "compare": "比较",
+      "maps": "交互式地图",
+      "skinStudio": "试剂工作室"
+    },
+    "items": {
+      "what-is-totstats": {
+        "q": "Outlast Trials Stats 是什么？",
+        "a": [
+          "Outlast Trials Stats 是《逃生：试炼》的免费社区项目。它追踪玩家档案，并将其转化为统计数据、排行榜、徽章和试炼历史，让你了解自己和好友的表现。",
+          "除了数据统计网站之外，我们还运营着覆盖每个试炼的交互式地图、3D试剂工作室、一个 Discord 机器人以及 TOTStatsMonitor 桌面应用。"
+        ],
+        "keywords": "关于 网站 totstats about website guanyu wangzhan"
+      },
+      "affiliation": {
+        "q": "网站与Red Barrels有隶属关系吗？",
+        "a": [
+          "不。TOTStats 是一个非官方、独立的粉丝项目。它与 Red Barrels Inc. 无关联，也未获得其认可或赞助。“The Outlast Trials”和“Outlast”是 Red Barrels Inc. 的商标。"
+        ],
+        "keywords": "官方 合作 伙伴 开发者 开发 official partner developer guanfang kaifa hezuo huoban"
+      },
+      "is-it-free": {
+        "q": "需要收费吗？",
+        "a": [
+          "不。本站是一个非商业性的社区项目。无需账号即可浏览个人资料、排行榜和徽章。只有当你想要关联和管理自己的个人资料时，才需要使用 Discord 登录。"
+        ],
+        "keywords": "价格 资金 账户 必填 price paid money account required jiage zijin zhanghu bitian"
+      },
+      "data-source": {
+        "q": "数据来自哪里？",
+        "a": [
+          "数据来自《逃生：试炼》的游戏服务，与游戏向你展示的数据相同。为了查找账号，我们还会使用公开的 Steam 社区信息以及玩家提交的个人资料 ID。",
+          "我们绝不会索要你的游戏账号或密码。详情请见我们的{privacy}。"
+        ],
+        "keywords": "API 源 数据 爬虫 抓取 采集 api source scraper collect yuan shuju pachong zhuaqu caiji"
+      },
+      "languages": {
+        "q": "网站有我的语言版本吗？",
+        "a": [
+          "网站支持 9 种语言，会根据你的浏览器自动选择。你可以随时通过页脚的语言选择器切换。",
+          "翻译由社区完成。如果你的语言缺失，或发现译文有误，可以在 {github} 上帮忙改进。"
+        ],
+        "keywords": "翻译 语言 德语 法语 西班牙语 俄语 波兰语 意大利语 中文 阿拉伯语 translation translate language german french spanish russian polish italian chinese arabic fanyi yuyan zhongwen"
+      },
+      "report-bug": {
+        "q": "在哪里可以报告 Bug 或提出功能建议？",
+        "a": [
+          "加入我们的 {discord}，并在支持或反馈频道中发布。附上截图以及受影响个人主页或页面的链接，对我们帮助很大。"
+        ],
+        "keywords": "缺陷 错误 故障 想法 建议 反馈 联系 bug error broken idea suggestion feedback contact cuowu fankui jianyi lianxi"
+      },
+      "add-account": {
+        "q": "如何让我的账户被追踪？",
+        "a": [
+          "有三种方法，你只需要其中一种：",
+          "你的个人资料一经收录，就会出现在搜索和排行榜中。"
+        ],
+        "steps": [
+          "进行一场入侵或升级比赛。我们会定期扫描这些排行榜并自动添加新玩家，无需 ID。这是最简单的方式。",
+          "在 {addAccount} 页面输入你的好友代码（格式为 XXXX-XXXX，可在游戏内查看）。",
+          "或者在那里输入你的 SteamID64，一个以 7656 开头的 17 位数字。像 steamid.io 这样的网站可以帮你找到它。"
+        ],
+        "keywords": "添加 追踪 注册 登录 提交 好友 代码 steam id 新 账户 zhanghu tianjia zhuizong haoyou daima zhuce denglu add track register submit friend code steam id new account"
+      },
+      "platforms": {
+        "q": "支持哪些平台？",
+        "a": [
+          "Steam、Epic Games、PlayStation 和 Xbox 个人资料均会被追踪，所有排行榜均可按平台筛选。",
+          "好友代码适用于所有平台。当你通过 Discord {linkAccount} 时，PlayStation 和 Xbox 个人资料也会自动添加。"
+        ],
+        "keywords": "psn ps4 ps5 playstation xbox epic steam console pc crossplay 主机 pc 跨平台 联机 zhuji lianji kuapingtai psn ps4 ps5 playstation xbox epic steam console pc crossplay pingtai"
+      },
+      "how-long-until-visible": {
+        "q": "我已添加我的账户。多久后才会显示？",
+        "a": [
+          "通常几分钟内，有时需要几个小时。提交内容会进入队列，由我们的收集器依次处理，而收集器依赖一个并非全天候运行的外部登录服务。",
+          "如果过了一天后你的个人资料仍未显示，请再次检查你的好友代码或 SteamID64，然后重新提交。提交两次也无妨，重复项会被忽略。"
+        ],
+        "keywords": "未找到 缺失 等待 已 添加 队列 not found missing wait added queue queshi tianjia duilie 没有 账号 更新 update account none meiyou zhanghao gengxin"
+      },
+      "update-frequency": {
+        "q": "个人资料多久更新一次？",
+        "a": [
+          "每个被追踪的个人资料大约每 12 小时会进行一次基础检查（名称、平台、上次登录）。",
+          "只有在自上次更新以来登录过游戏，才会重新获取统计数据、物品栏和近期试炼。结束一场游戏后，预计新数据会在约 12 小时内出现，具体取决于队列的繁忙程度。如果你没有游玩，就没有新内容需要获取。",
+          "试炼和外观排行榜每 2 小时更新一次。个人资料一更新，综合排行榜就会立即变化。"
+        ],
+        "keywords": "刷新 更新 计划 间隔 小时 同步 refresh update schedule interval hours sync shuaxin gengxin jihua jiange tongbu xiaoshi"
+      },
+      "request-update": {
+        "q": "我现在可以更新个人资料吗？",
+        "a": [
+          "可以。打开个人资料，点击名称旁的刷新图标（“请求更新个人资料”）。弹窗会显示每一步的进度。",
+          "为保证队列公平，每个个人资料都有冷却时间：未登录为 24 小时，登录后为 6 小时，自己关联的个人资料为 1 小时。冷却生效期间，按钮会隐藏。"
+        ],
+        "keywords": "刷新 按钮 强制 更新 冷却 手动 refresh button force update cooldown manual shuaxin qiangzhi gengxin lengque shoudong"
+      },
+      "stats-outdated": {
+        "q": "为什么我的统计数据过时或与游戏内不一致？",
+        "a": [
+          "大多数情况下，更新只是还没有发生：统计数据只会在你重新登录并且你的个人资料经过队列处理后才会刷新。你也可以在个人资料中请求更新。",
+          "部分数值，尤其是来自大厅游戏的数值，游戏服务根本不提供，所以我们无法显示。如果某个数字一直明显有误，请在我们的 {discord} 上告知我们。"
+        ],
+        "keywords": "错误 旧 过时 不正确 缺失 统计 大厅 wrong old outdated incorrect missing stats lobby cuowu jiu guoshi buzhengque queshi tongji dating"
+      },
+      "inactive-label": {
+        "q": "个人资料上的“不活跃”标签是什么意思？",
+        "a": [
+          "该玩家已超过 3 个月未登录《逃生：试炼》。该标签将在其下次登录并更新个人资料后消失。"
+        ],
+        "keywords": "未 激活 徽章 标签 离线 inactive badge chip label offline wei jihuo huizhang biaoqian lixian"
+      },
+      "profile-url": {
+        "q": "我的个人资料链接是如何运作的？",
+        "a": [
+          "每个个人资料都可以通过基于游戏内名称的短链接打开，例如 {example}。如果多名玩家重名，就会带上一个编号，例如 {duplicate}。声望更高的玩家编号更小。",
+          "由于短链接与你的游戏内名称关联，因此改名后链接也会随之改变。使用个人资料 ID 的链接则始终不变。"
+        ],
+        "keywords": "url 链接 用户 名 更改 个性化 分享 link username name change vanity share yonghu ming genggai gexinghua fenxiang"
+      },
+      "link-account": {
+        "q": "如何将我的游戏档案关联到我的账户？",
+        "a": [
+          "绑定即可证明该个人资料归你所有。之后你可以将其隐藏、选择哪些标签页公开、挑选背景、通过我们的 Discord 机器人获取身份组，并更频繁地请求更新。",
+          "我们通过将你的 Discord 连接中的平台 ID 与游戏档案进行匹配来验证所有权，因此该连接必须是你用于游戏的账号。"
+        ],
+        "steps": [
+          "在 Discord 中，打开用户设置 → 连接，然后关联你的 Steam、PlayStation 或 Xbox 账号。",
+          "打开 {linkPage} 页面并使用 Discord 登录。",
+          "选择你的游戏档案，即刻关联。"
+        ],
+        "keywords": "关联 领取 验证 登录 discord 连接 自己 个人 资料 link claim verify login connect own profile guanlian lingqu yanzheng denglu lianjie ziji geren ziliao"
+      },
+      "link-epic": {
+        "q": "我在 Epic Games 上玩。我可以关联我的个人资料吗？",
+        "a": [
+          "无法自动完成，因为 Discord 不提供可用于验证你账户的 Epic Games 连接。请在我们的 {discord} 上提交支持工单，我们会手动关联你的个人资料。"
+        ],
+        "keywords": "epic games link claim ticket 关联 领取 验证 登录 连接 自己 个人 资料 link claim verify login connect own profile guanlian lingqu yanzheng denglu lianjie ziji geren ziliao 工单 gongdan"
+      },
+      "link-not-tracked": {
+        "q": "尝试关联时，我的个人资料没有列出。怎么办？",
+        "a": [
+          "如果我们还不知道你的资料，你在 {linkPage} 页面登录时它会自动加入队列。点击“预选”，一旦找到便会自动关联，通常在 15 分钟内完成。",
+          "如果这样不行，请先在 {addAccount} 页面添加，稍后再试。"
+        ],
+        "keywords": "关联 领取 验证 登录 discord 连接 自己 个人 资料 link claim verify login connect own profile guanlian lingqu yanzheng denglu lianjie ziji geren ziliao link not found missing pre-select pending claim 预选 yuxuan 不 没 bu mei"
+      },
+      "link-rules": {
+        "q": "我可以关联多个个人资料，或切换到另一个吗？",
+        "a": [
+          "每个 Discord 账号可关联一个游戏档案，每个游戏档案只能关联一个 Discord 账号。",
+          "要切换，请在{settings}的“账户”下取消关联当前个人资料，然后关联另一个。如果其他人已经关联了你的个人资料，请通过我们的{discord}联系我们。"
+        ],
+        "keywords": "取消 关联 切换 更改 多个 账户 小号 unlink switch change multiple second account alt quxiao guanlian zhanghu xiaohao"
+      },
+      "customize-profile": {
+        "q": "我可以自定义我的个人资料吗？",
+        "a": [
+          "可以。个人资料关联后，你可以在{settings}的“外观”中选择16种个人资料背景之一，并在“隐私”中选择哪些标签页公开。",
+          "个人资料上显示的称号是随机选取的，无法自行选择。"
+        ],
+        "keywords": "背景 横幅 外观 标题 自定义 background banner appearance title customize beijing hengfu waiguan biaoti zidingyi"
+      },
+      "hide-profile": {
+        "q": "如何隐藏我的个人资料？",
+        "a": [
+          "关联你的个人资料，打开你的{settings}，然后在隐私中开启隐藏个人资料。隐藏的个人资料会从搜索和排行榜中消失，其他玩家也无法打开。你仍然可以查看自己的个人资料。",
+          "你可以随时让它重新可见。"
+        ],
+        "keywords": "隐藏 私密 隐身 隐私 移除 搜索 排行榜 hide private invisible privacy remove search leaderboard yincang simi yinshen yinsi yichu sousuo paihangbang"
+      },
+      "hide-sections": {
+        "q": "我可以只隐藏个人资料的一部分吗？",
+        "a": [
+          "可以。在{settings}的隐私设置中，你可以将 Last Trials、Shop Packs 和 Murkoff-Coins 逐一隐藏，个人资料的其他部分仍保持公开。而在你自己的个人资料里，你始终能看到全部内容。"
+        ],
+        "keywords": "标签 试炼 商店 礼包 货币 金币 隐私 隐藏 私密 隐身 隐私 移除 搜索 排行榜 private invisible privacy remove search leaderboard yincang simi yinshen yinsi yichu sousuo paihangbang hide tabs last trials shop packs currency coins biaoqian shilian shangdian libao huobi jinbi"
+      },
+      "stop-updates": {
+        "q": "我可以阻止我的个人资料被更新吗？",
+        "a": [
+          "是的，在个人资料隐藏期间。在{settings}的“隐私”下，关闭数据处理。你的统计数据会一直冻结，直到你重新开启。"
+        ],
+        "keywords": "停止 冻结 处理 更新 跟踪 退出 stop freeze processing updates tracking opt out tingzhi dongjie chuli gengxin zhuizong tuichu"
+      },
+      "delete-data": {
+        "q": "如何删除我的数据？",
+        "a": [
+          "打开 {settings}，进入“账户”，选择“删除个人资料数据”。你需要再次使用同一个 Discord 账户登录以确认删除。删除随即会被安排，并在 7 天后执行。届时我们会移除：",
+          "在此之前，你可以在设置中取消删除。删除一旦执行，就无法撤销：你的个人资料会被隐藏，并排除在后续收集之外，直到你自行重新开启处理。你的 Discord 登录信息和资料链接会保留，因此你仍可掌控它。",
+          "如果你还想删除网站账号，请参阅 {deleteAccount}。"
+        ],
+        "bullets": [
+          "您的试炼统计与历史",
+          "你的物品栏、外观物品和商店礼包",
+          "你的徽章、任务和名称历史",
+          "你在所有赛季的入侵进度",
+          "你的显示名称、好友码以及我们存储的原始游戏数据"
+        ],
+        "keywords": "删除 移除 清除 数据 擦除 delete remove erase gdpr data wipe shan chu guan tui 退出"
+      },
+      "delete-account": {
+        "q": "如何删除我的账户？",
+        "a": [
+          "登录，打开你的 {settings}，前往“账户”，并在“危险区域”中选择“删除账户”。再次使用同一 Discord 账号登录即可确认删除。你的 Discord 访问令牌会立即删除；其他所有内容将在 7 天宽限期后处理。我们会移除：",
+          "如果关联了游戏个人资料，如何处理它由你选择；系统不会预选任何选项。“保留”会让它像任何没有账户的玩家资料一样留在网站上，并沿用你当前的可见性设置；之后若要更改这些设置，你需要重新关联该资料。“删除”还会清除其数据，并使其保持隐藏且阻止进一步收集。如果你已请求“删除个人资料数据”，“保留”会取消该请求，“删除”则会执行该请求。",
+          "你会立即退出登录。7 天内再次登录即可取消删除。逾期后将无法撤销，再次使用 Discord 登录会创建一个新的空白账号。工作人员账号无法通过此方式删除，需由管理员先移除工作人员身份组。"
+        ],
+        "bullets": [
+          "你的 Discord ID、名称、头像和电子邮件地址",
+          "我们存储的 Discord 访问令牌会在你确认后立即删除；我们也会在 Discord 端撤销它们。",
+          "你的个人资料链接、待处理的认领和验证历史记录"
+        ],
+        "keywords": "删除 移除 账户 关闭 清除 取消 关联 delete remove erase gdpr data wipe shan chu guan tui 退出"
+      },
+      "export-data": {
+        "q": "我能获取我的数据副本吗？",
+        "a": [
+          "可以。登录后，打开你的 {settings}，前往“账户”，然后选择“下载我的数据”。你会得到一个 HTML 页面，可在任意浏览器中打开，其中包含我们数据库存储的关于你的账户和已关联个人资料的信息，例如账户详情、个人资料设置、统计数据、试用记录、徽章和验证历史。该页面还可以将相同数据保存为 JSON 文件。",
+          "绝不会包含已存储的登录令牌。"
+        ],
+        "keywords": "删除 移除 账户 关闭 清除 取消 关联 delete remove erase gdpr data wipe shan chu guan tui 退出 导出 export download copy data gdpr json html access portability 下载 移动 daochu xiazai yidong"
+      },
+      "opt-out-without-account": {
+        "q": "我不用 Discord。怎样才能删除我的数据？",
+        "a": [
+          "请发送邮件至 {email}，或通过我们的 {discord} 提交工单，并告知涉及的是哪个个人资料。我们会将其隐藏并停止收集其数据。"
+        ],
+        "keywords": "删除 移除 账户 关闭 清除 取消 关联 delete remove erase gdpr data wipe shan chu guan tui 退出 邮件 没有 mei you youjian"
+      },
+      "cookies": {
+        "q": "你们使用 Cookie 或跟踪吗？",
+        "a": [
+          "仅收集网站运行所必需的信息，例如你的登录状态和语言。使用统计、输入内容已掩码处理的会话录制以及错误报告（PostHog，托管于欧盟）只有在征得你同意后才会收集。你可以拒绝，并随时通过页脚的“Cookie 设置”更改你的选择。",
+          "其他内容请见我们的{privacy}。"
+        ],
+        "keywords": "分析 追踪 同意 隐私 cookies analytics tracking posthog consent privacy zhuizong yinsi fenxi"
+      },
+      "leaderboard-ranking": {
+        "q": "排行榜如何运作？",
+        "a": [
+          "每个类别按该数值从高到低对玩家进行排名。你可以按平台筛选，每个类别都会列出前 1,000 名玩家。",
+          "{leaderboards} 分为综合（试炼、进度、入侵、小游戏）、试炼（各试炼及难度下的最佳用时与完成次数）和外观（拥有最多、最稀有和装备最多的物品）。"
+        ],
+        "keywords": "排行 排名 热门 榜单 分类 leaderboard rank ranking top toplist categories bang paihang"
+      },
+      "not-on-leaderboard": {
+        "q": "为什么我不在排行榜上？",
+        "a": [
+          "最常见的原因有："
+        ],
+        "bullets": [
+          "你的个人资料已隐藏（{hideProfile}）",
+          "你不在该类别的前 1,000 名内",
+          "你的个人资料是最近添加的，尚未完全处理",
+          "试炼和外观排行榜每 2 小时才重建一次",
+          "该记录已被我们的团队移除，原因可能是利用了漏洞或时间异常"
+        ],
+        "keywords": "缺少 排行 未 列出 排名 排除 missing leaderboard not listed rank excluded bang paihang yichu liechu"
+      },
+      "badges": {
+        "q": "我如何获得徽章？",
+        "a": [
+          "大多数徽章会在你的个人资料更新时自动授予，例如因参与封闭测试或抢先体验、释放 100、250 或 500 个试剂、在试炼中保持最快时间、在每张精神外科地图上达到 A+，或拥有所有物品而获得。",
+          "速通者、完美主体和全物品收集每小时检查一次，且可能再次失去，例如当有人打破你的时间记录或有新物品出现时。少数特殊徽章由我们的团队颁发。所有徽章都列在 {badges} 页面上。"
+        ],
+        "keywords": "徽章 成就 获得 速通者 完美 科目 badge achievement earn speed runner perfect subject sutong huizhang chengjiu huode"
+      },
+      "contributor-badge": {
+        "q": "如何获得贡献者徽章？",
+        "a": [
+          "游玩时运行 {monitor}。它会报告你遇到的玩家的个人资料 ID，一旦其中出现我们尚不认识的玩家，你就会获得徽章。"
+        ],
+        "keywords": "贡献者 徽章 监控 贡献 contributor badge monitor contribute gongxian jiankong huizhang"
+      },
+      "invasion-rank": {
+        "q": "我的入侵排名是如何计算的？",
+        "a": [
+          "你的段位由当前赛季获得的入侵积分决定。段位从未定级开始，依次为入门、青铜、白银，最高到黄金，每个段位分三级。每个新赛季都从零开始。"
+        ],
+        "keywords": "入侵 段位 赛季 积分 铜 银 金 invasion rank season points pvp bronze silver gold ruqin duanwei jifen saiji tong yin jin"
+      },
+      "leaderboard-moderation": {
+        "q": "为什么有些玩家未显示在排行榜中？",
+        "a": [
+          "当玩家的数据并非通过正常游玩获得，或本身就是错误的时候，我们团队会将其从所有排行榜中隐藏。每个被隐藏的玩家都符合以下原因之一：",
+          "隐藏玩家会保留个人资料和所有统计数据。其个人资料会显示原因和日期，但不会获得排名。",
+          "要查看他们，请在总排行榜的“排序依据”下或试炼排行榜的“筛选”下开启“显示隐藏玩家”。它还会告诉你隐藏了多少名玩家。他们以变暗的方式列出，并标注了隐藏原因。",
+          "如果你的个人资料被隐藏，而你认为这是个错误，请通过我们的 {discord} 联系我们。我们会审核每一次申诉。"
+        ],
+        "bullets": [
+          "人机：数据是通过自动化操作获得的，例如机器人、宏或脚本。",
+          "作弊：这些数据是通过作弊获得的，例如使用作弊工具、修改过的游戏，或利用漏洞和缺陷。",
+          "错误：由于游戏数据或我们这边的错误，统计数据有误。玩家没有任何过错。"
+        ],
+        "keywords": "隐藏 排除 移除 审核 刷分 作弊 数据 错误 统计 封禁 申诉 未 排名 hidden excluded removed moderation botting bot cheating cheat boosting data error wrong stats banned appeal not ranked yincang paichu yichu shenhe shuafen zuobi shuju cuowu fengjin shensu paiming meiyou"
+      },
+      "monitor": {
+        "q": "什么是 TOTStatsMonitor，它安全吗？",
+        "a": [
+          "TOTStatsMonitor 是一款在后台运行的 Windows 小工具，玩游戏时它会自动启动。它会把你的当前试炼以 Discord Rich Presence 形式显示出来，并上报你遇到的人的资料 ID，帮助我们找到新玩家。",
+          "它只读取游戏已经写入的日志文件。它不会接触游戏、游戏内存或游戏文件，并且只发送个人资料 ID。源代码已在 GitHub 上公开。",
+          "由于该应用未进行代码签名，Windows SmartScreen 可能会在首次启动时发出警告。请点击“更多信息”，然后点击“仍要运行”。下载和设置均在 {monitor} 页面。"
+        ],
+        "keywords": "监控 应用 桌面 下载 安全 病毒 丰富状态 monitor app desktop windows download safe virus smartscreen rich presence jiankong yinyong zhuomian xiazai anquan bingdu fengfuzhuangtai"
+      },
+      "discord-bot": {
+        "q": "Discord 机器人是做什么的？",
+        "a": [
+          "Futterman's Radio 将你的统计数据带到 Discord 服务器。它会根据声望、等级、装备、入侵排名、平台等分配角色，同步昵称，并让排行榜频道保持最新。",
+          "成员需要关联个人资料，机器人才能找到他们。邀请链接和设置位于 {discordBot} 页面。该机器人是开源的，可自行托管。"
+        ],
+        "keywords": "机器人 身份组 服务器 电台 discord bot roles server futterman radio fuwu diantai shenfen"
+      },
+      "compare-favorites": {
+        "q": "比较和收藏功能是如何工作的？",
+        "a": [
+          "使用 {compare}，你最多可以将 4 个个人资料并排显示。收藏可通过个人资料上的收藏按钮添加。这两项都只保存在你的浏览器中，因此你无需账号，但也不会同步到其他设备。"
+        ],
+        "keywords": "对比 收藏 星标 书签 好友 compare favorites star bookmark friends duibi shoucang xinbiao hsuqian haoyou"
+      },
+      "map-skin-studio": {
+        "q": "什么是 地图 和 Reagent Studio？",
+        "a": [
+          "两个配套项目：{maps} 展示了每个试炼的房间、敌人刷新点、钥匙和目标，任何人都可以用浏览器编辑器协助绘制地图。{skinStudio} 以实时 3D 渲染你的 Reagent，涵盖所有服装和装饰品、表情、姿势和手型，在工作室、游戏房间或菜单背景中，每个场景最多可容纳五个 Reagent，并可导出最高 4K 的壁纸、GIF 和分享链接。"
+        ],
+        "keywords": "地图 地图 皮肤 试剂 工作室 服装 编辑 表情动作 姿势 房间 壁纸 map maps skin reagent studio 3d outfits editor emotes poses rooms gif wallpaper 4k ditu pifu shiji bianji fuzhuang zishi"
+      }
+    }
+  },
+  "homePageV4": {
+    "announcement": null,
+    "newTag": "v4 新增内容",
+    "hero": {
+      "title": "The Outlast Trials 统计",
+      "subline": "数据、排行榜、地图与皮肤，一站式尽享。"
+    },
+    "quickLinks": {
+      "leaderboard": "排行榜",
+      "badges": "徽章",
+      "compare": "比较",
+      "map": "地图",
+      "skinStudio": "试剂工作室"
+    },
+    "featuredUsers": {
+      "title": "精选试剂"
+    },
+    "popularOutfits": {
+      "title": "热门套装",
+      "subtitle": "Reagents 目前最常穿的套装。",
+      "equipped": "试剂",
+      "viewAll": "查看全部"
+    },
+    "map": {
+      "eyebrow": "试炼地图",
+      "title": "进入每个房间前，先了解它",
+      "desc": "为每个试炼提供交互式地图——房间、敌人刷新点、钥匙、门和目标。免费的浏览器编辑器让整个社区都能帮助绘制游戏地图。",
+      "features": {
+        "trials": "每个试炼",
+        "spawns": "刷怪点",
+        "objectives": "要点与目标",
+        "editor": "社区编辑器"
+      },
+      "cta": "打开地图",
+      "badge": "新建"
+    },
+    "skinStudio": {
+      "eyebrow": "试剂工作室",
+      "title": "您的试剂，以 3D 呈现",
+      "desc": "为你的 Reagent 穿上任意服装或物品，选择发色和体型，并用表情、自定义姿势和手型为其摆造型。在工作室、游戏室或菜单背景中最多排列五个 Reagent，设置灯光和相机，然后导出最高 4K 的壁纸、GIF 或分享链接。",
+      "features": {
+        "outfits": "1,400+ 件物品和套装",
+        "appearance": "发色与体型",
+        "emotes": "表情动作、姿势和手型",
+        "group": "每个场景最多 5 个试剂",
+        "scene": "游戏房间与菜单背景",
+        "export": "4K 壁纸、GIF 和链接"
+      },
+      "cta": "打开 Reagent Studio",
+      "badge": "新建"
+    },
+    "monitor": {
+      "eyebrow": "TOT统计监控",
+      "title": "你的试炼状态，已在 Discord 上线",
+      "desc": "我们的桌面伴侣会在你的 Discord 个人资料上显示你正在参与的试玩，帮助我们在你游玩时发现新玩家，并为你赢得贡献者徽章。",
+      "features": {
+        "presence": "Discord 状态",
+        "discover": "发现新玩家",
+        "badge": "贡献者徽章"
+      },
+      "cta": "了解更多"
+    },
+    "discordBot": {
+      "eyebrow": "Discord 机器人",
+      "title": "将你的统计数据带到 Discord",
+      "desc": "根据你的游戏进度和实时排名，在服务器频道内自动分配身份组。",
+      "cta": "添加机器人"
+    },
+    "statsBand": {
+      "title": "试炼数据",
+      "subtitle": "所有已追踪账户的实时总计。"
+    },
+    "community": "社区",
+    "faqHint": "对追踪、更新或个人资料有疑问？",
+    "faqLink": "阅读常见问题"
+  },
+  "homePage": {
+    "projects": "我们的项目",
+    "secretProject": {
+      "comingSoon": "敬请期待",
+      "placeholderHeadline": "秘密项目",
+      "placeholderDesc": "新的事务正在计划中。详细信息暂不便透露。",
+      "placeholderButton": "了解更多",
+      "placeholderChipOne": "最高机密",
+      "placeholderChipTwo": "制作中",
+      "placeholderChipCaption": "机密"
+    },
+    "maps": {
+      "title": "逃生试炼地图",
+      "desc": "每个试炼的交互式地图 — — 房间、刷怪门、钥匙、门和目标。包括免费的浏览器编辑器，以便任何人都能帮助测绘。",
+      "openMaps": "打开地图",
+      "betaChip": "测试",
+      "mapsChip": "交互式地图",
+      "mapsChipCaption": "刷怪门和房间",
+      "editorChip": "地图编辑器",
+      "editorChipCaption": "社区"
+    },
+    "topPlayers": "顶尖玩家",
+    "addAccount": {
+      "title": "追踪您的帐户",
+      "desc": "提交您的《逃生：试炼》好友代码或者 Steam ID来开始跟踪您的统计数据。",
+      "cta": "添加账户"
+    },
+    "discordBot": {
+      "autoRoles": "自动分配身份组",
+      "liveRankings": "频道内实时显示"
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": {
+        "addAccount": {
+          "question": "如何添加我的账户？",
+          "answer": "请前往{link}页面然后递交您的《逃生：试炼》好友代码或者 Steam ID。递交之后，您的账号就会出现在排行榜和搜索结果中。",
+          "linkText": "添加账户"
+        },
+        "updateFrequency": {
+          "question": "我的个人资料什么时候会更新？",
+          "answer": "受跟踪的账户将会自动刷新。大多数个人资料（这取决于我们的刷新队列负载）将会在您游玩游戏后24小时内更新。"
+        },
+        "hideOrDelete": {
+          "question": "我想要隐藏我的个人资料，使其不再更新或删除我的资料，我该怎么办？",
+          "answer": "一旦你完成关联并登录了账户，请前往你的{link}：在那里，你可以选择将个人资料设为不可见或者申请停止更新资料，亦或者直接彻底删除账户及所有相关数据。当然，你也可以随时通过我们的 Discord 客服来联系我们。",
+          "linkText": "设置"
+        },
+        "linkAccount": {
+          "question": "如何将我的账户与我的Outlast Trials Stats账户关联？",
+          "answer": "请先用 Discord 登录，然后打开你的 {link} 来绑定你的游戏档案。绑定成功后，你就可以自定义哪些信息对外公开，还能顺便管理你的账号了。",
+          "linkText": "设置"
+        }
+      }
+    },
+    "errors": {
+      "statsTitle": "统计数据不可用",
+      "statsMessage": "我们当前无法加载统计数据。请稍后再试。",
+      "topPlayersTitle": "顶尖玩家数据不可用",
+      "topPlayersMessage": "我们现在无法加载顶尖玩家的数据。请稍后再试。"
+    }
+  },
+  "leaderboard": {
+    "general": "综合",
+    "cosmetics": "外观",
+    "trials": "试炼",
+    "platform": "平台",
+    "rank": "排名",
+    "reagent": "试剂",
+    "value": "数值",
+    "sortMostOwned": "最多拥有",
+    "sortRarest": "最稀有",
+    "sortMostEquipped": "最常装备",
+    "cosmeticType": "类型",
+    "cosmeticTypeAll": "全部",
+    "cosmeticGroupCharacter": "角色",
+    "cosmeticGroupProfile": "资料",
+    "cosmeticGroupCell": "牢房",
+    "cosmeticExcludedGroup": "类目",
+    "cosmeticFilterNone": "无类目",
+    "trialsShowExcluded": "包括已排除的条目",
+    "excludedBadge": "已排除",
+    "subtitle": "查看你在所有试剂中的排名方式",
+    "trialsProgram": "项目",
+    "trialsTrial": "试炼",
+    "trialsDifficulty": "难度",
+    "trialsBestTime": "最佳时间",
+    "trialsCompletions": "完成次数",
+    "trialsGroupedMore": "其余{count}项",
+    "hidden": {
+      "show": "{count} 项已隐藏 · 显示",
+      "hide": "正在显示隐藏项 · 隐藏",
+      "none": "无隐藏玩家",
+      "toggle": "显示隐藏的玩家",
+      "toggleHint": "{count} 个已隐藏于此排行榜",
+      "active": "显示隐藏的玩家",
+      "why": "为什么玩家被隐藏了？",
+      "explanation": "我们的团队会隐藏那些数据并非通过正常游玩获得，或因数据错误而不正确的玩家。他们的数据仍会显示在个人资料中，但不会参与排名。",
+      "breakdownTitle": "在此排行榜上隐藏",
+      "breakdownItem": null,
+      "mapCount": "{count} 项已隐藏",
+      "faqLink": "在常见问题解答中了解更多"
+    }
+  },
+  "moderation": {
+    "reasons": {
+      "BOTTING": {
+        "label": "人机",
+        "description": "统计数据是通过自动化操作（如机器人、宏或脚本）获得的，而非正常游玩。"
+      },
+      "CHEATING": {
+        "label": "作弊",
+        "description": "统计数据是通过作弊获得的，例如使用作弊工具、修改过的游戏，或滥用漏洞和故障。"
+      },
+      "DATA_ERROR": {
+        "label": "错误",
+        "description": "该档案的统计数据有误，原因是游戏数据或我们这边出了错。玩家没有任何过错。"
+      }
+    },
+    "excludedResult": {
+      "label": "已排除的结果",
+      "description": "该成绩已被我们团队从排行榜中移除，原因可能是利用了漏洞或计时异常。"
+    },
+    "notRanked": "未排名",
+    "notRankedTooltip": "此个人资料已从排行榜中隐藏，因此没有排名。"
+  },
+  "cosmetics": {
+    "ALL": "全部",
+    "customization": "自定义",
+    "badge": "徽章",
+    "document": "文件",
+    "passive_drug": "被动药物",
+    "upgrade": "升级",
+    "excludedHint": {
+      "DATAMINE": "这种物品是通过漏洞获得的，已无法合法获取。",
+      "WIP_ITEM": "这种物品仍在制作阶段，会在不久后发布。",
+      "DEFAULT_ITEM": "这是给每个玩家的初始物品，因此计算拥有比例没有意义。",
+      "IGNORE": "这件物品在榜单中被有意隐藏。"
+    },
+    "legacyHint": "旧版饰品——这个装饰品已经从游戏中移除，已经无法获得。",
+    "loadingDetails": "正在加载装饰详情……",
+    "errorTitle": "加载装饰时出错",
+    "errorMessage": "无法加载装饰详情。请稍后再试。",
+    "detail": {
+      "types": {
+        "outfit": "套装",
+        "upperBody": "上身",
+        "lowerBody": "下身",
+        "hair": "头发",
+        "headAccessory": "头饰",
+        "head": "头部",
+        "esop": "实验平台",
+        "nightVision": "夜视仪",
+        "glove": "手套",
+        "watch": "关注",
+        "podiumEmote": "领奖台表情",
+        "terminalEmote": "终端表情"
+      },
+      "rarity": "稀有度",
+      "thumbnailAlt": "{name} 的缩略图",
+      "loadError": "加载外观详情时出错"
+    }
+  },
+  "siteFooter": {
+    "brandDesc": "您的 The Outlast Trials 统计、排行榜、活动和玩家档案伙伴。",
+    "notPartnered": "TOTStats 是非官方粉丝项目，与 Red Barrels Inc. 无关，也未获其认可或赞助。",
+    "trademarks": "“The Outlast Trials”和“Outlast”是 Red Barrels Inc. 的商标。其他所有商标和版权均归其各自所有者所有。",
+    "ariaDiscord": "加入 Discord",
+    "ariaInstagram": "在 Instagram 上关注",
+    "ariaX": "在 X 上关注",
+    "columns": {
+      "pages": "页面",
+      "community": "社区",
+      "legal": "合规信息"
+    }
+  },
+  "shopPacks": {
+    "loadFailTitle": "加载失败",
+    "loadFailMessage": "无法获取此玩家的商店礼包数据。请稍后再试。",
+    "emptyState": "尚未购买任何商店礼包",
+    "purchasedTitle": "已购买的商店礼包"
+  },
+  "reagentViewer": {
+    "modelLabel": "{name}的试剂的3D模型",
+    "modelLabelGeneric": "试剂的 3D 模型",
+    "modelLabelCosmetic": "{name} 的 3D 预览",
+    "loading": "正在加载试剂…",
+    "toolbar": "试剂查看器控件",
+    "expand": "显示全身",
+    "collapse": "折叠",
+    "podiumEmote": "领奖台表情",
+    "terminalEmote": "终端表情",
+    "nightVision": "夜视仪",
+    "pause": "暂停动画",
+    "play": "播放动画",
+    "resetView": "重置视图",
+    "openInStudio": "在 Reagent Studio 中打开",
+    "renderFailed": "无法更新 3D 模型",
+    "bodyType": "体型",
+    "bodyMale": "男性身体",
+    "bodyFemale": "女性身体"
+  },
+  "reagentList": {
+    "title": "试剂",
+    "notOwnedCosmetic": "目前没有用户拥有此装饰品。",
+    "notOwnedBadge": "目前没有用户拥有此徽章。",
+    "showMore": "显示更多",
+    "limitReached": "仅可显示前{count}名拥有者。"
+  },
+  "badges": {
+    "subtitle": "收集和展示您的成就",
+    "deprecatedTitle": "即将移除",
+    "deprecated": "由于游戏不再提供此信息，此徽章已不再更新，即将被移除。",
+    "retiredTitle": "不再颁发",
+    "retired": "由于游戏不再提供此信息，此徽章已不再颁发。"
+  },
+  "addAccount": {
+    "title": "Murkoff试剂追踪",
+    "subtitle": "加入实验并追踪您的进度",
+    "or": "或",
+    "friendCode": "好友代码",
+    "enterFriendCode": "输入您的好友代码...",
+    "errorValidationFriendCode": "请输入有效的好友代码",
+    "friendCodeTip": "添加您的好友代码开始追踪您的账户",
+    "successMessage": "请求发送成功。请等待最多48小时来追踪账户。",
+    "failedMessage": "发送请求时发生错误。请稍后重试。",
+    "steamId": null,
+    "enterSteamId": "输入您的SteamID64...",
+    "errorValidationSteamId": "请输入有效的SteamID64（17位数字）",
+    "steamIdTip": "输入您的SteamID64。您可以在{link}的\"steamID64\"下找到它。",
+    "tabFriendCode": "好友代码",
+    "tabSteamId": null,
+    "invasionTitle": "入侵 / 升级试炼",
+    "invasionRecommended": "推荐",
+    "invasionStep1": "请在《逃生：试炼》中至少玩一场入侵或升级试炼模式",
+    "invasionStep2": "您的档案将自动被检测并追踪",
+    "invasionStep3": "在您的档案中查看您的统计数据、排名和进度",
+    "invasionNoIdNeeded": "无需好友代码或 Steam ID",
+    "startTracking": "开始追踪",
+    "processing": "处理中……"
+  },
+  "maintenance": {
+    "eyebrow": "穆科夫 // 系统状态",
+    "status": "平台正在离线维护中",
+    "title": "维护中",
+    "reassurance": "我们正在改进该工具，感谢您的耐心等待。",
+    "autoCheck": "正在自动检查状态…",
+    "discordPrompt": "需要了解更多？加入我们的 Discord 服务器。",
+    "fallbackMessage": "我们目前正在进行维护。请稍后再试。"
+  },
+  "profile": {
+    "notFound": {
+      "title": "未找到个人资料",
+      "desc": "您正在寻找的个人资料不存在或尚未被我们跟踪。",
+      "or": "或者",
+      "addAccount": "添加一个新账户以开始跟踪"
+    },
+    "copyId": "复制资料ID",
+    "idCopied": "资料ID复制成功",
+    "copyFailed": "资料ID复制失败",
+    "hero": {
+      "lastOnline": "最后在线：{time}",
+      "lastOnlineTooltip": "该玩家上次在《逃生试炼》中在线的时间",
+      "lastOnlineExactTooltip": "最后在线于 {date}。其他玩家只能看到大致范围。",
+      "lastOnlineHiddenTooltip": "最后在线时间：{date}。对其他玩家隐藏。",
+      "lastOnlineRange": {
+        "RECENT": "最近在线",
+        "WEEK": "本周在线",
+        "MONTH": "本月在线",
+        "OVER_MONTH": "一个月前在线"
+      },
+      "statsUpdated": "统计已更新：{time}",
+      "addFavorite": "添加到收藏",
+      "removeFavorite": "从收藏中移除",
+      "favorite": "收藏",
+      "platformProfile": "打开平台个人资料",
+      "sectionsNav": "个人资料分区",
+      "profileId": "配置文件 ID"
+    },
+    "overview": {
+      "aboutMe": "关于我",
+      "copyDiscord": "复制 Discord 名称",
+      "discordCopied": "已复制 Discord 用户名",
+      "favoriteTrial": "收藏的试用版",
+      "favoriteTrialNotCompleted": "尚未完成。",
+      "recentTrials": "近期试炼",
+      "viewAllTrials": "查看全部",
+      "keyFigures": "关键数据",
+      "playedTime": "播放时长",
+      "successRate": "成功率",
+      "failedCount": "{n} 失败",
+      "escalation": "升级",
+      "lobbyRatings": "大厅游戏评分",
+      "invasionSeason": "入侵 · 第 {season} 赛季",
+      "leaderboard": "排行榜",
+      "viewInvasion": "查看入侵"
+    },
+    "navV4": {
+      "reagent": "试剂",
+      "collection": "收藏",
+      "owned": "已拥有"
+    },
+    "sections": {
+      "statsGeneral": "通用"
+    },
+    "errors": {
+      "invalidUuidTitle": "无效的个人资料 ID",
+      "invalidUuidMessage": "提供的个人资料 ID 不是一个有效的 UUID 格式。",
+      "serverErrorTitle": "服务器错误",
+      "serverErrorMessage": "服务器开小差了，请稍后再试。",
+      "networkErrorTitle": "连接错误",
+      "networkErrorMessage": "网络出错。请检查您的网络连接并重试。",
+      "unknownErrorTitle": "加载资料时时出错",
+      "unknownErrorMessage": "发生意外错误。请重试。",
+      "unknownErrorStatusMessage": "发生意外错误（状态码：{status}）。请重试。"
+    },
+    "addedToFavorites": "已添加到收藏",
+    "removedFromFavorites": "已从收藏中移除",
+    "viewCount": "资料浏览量",
+    "inactive": "不活跃",
+    "inactiveTooltip": "该玩家已超过3个月未登录",
+    "lastUpdated": {
+      "today": "今天",
+      "yesterday": "1天前",
+      "daysAgo": "{count}天前",
+      "weeksAgo": "{count}周前",
+      "tooltip": "资料最后更新"
+    },
+    "update": {
+      "tooltip": "请求更新资料",
+      "error": "发送更新请求失败",
+      "finished": "资料更新完成",
+      "items": {
+        "profile": "个人资料",
+        "stats": "统计信息",
+        "inventory": "物品",
+        "entity": "实体"
+      },
+      "notification": {
+        "title": "资料更新"
+      }
+    },
+    "tabs": {
+      "overview": "总览",
+      "stats": "统计",
+      "invasion": "入侵",
+      "trials": "试验",
+      "lobbyGames": "大厅游戏",
+      "currency": "货币",
+      "lastTrials": "最近试验",
+      "inventory": "物品"
+    },
+    "moreTabs": {
+      "completedTrials": "完成的试炼",
+      "joinedEvents": "已加入的活动",
+      "tasks": "任务"
+    },
+    "joinedEvents": {
+      "emptyTitle": "暂无已加入的活动",
+      "emptyMessage": "该玩家还没有参加任何活动。",
+      "loadErrorTitle": "加载失败",
+      "loadErrorMessage": "我们无法获取该玩家的事件。请稍后重试。"
+    },
+    "completedTrials": {
+      "completions": "完成次数",
+      "bestTime": "最佳时间",
+      "personalTq": "个人TQ",
+      "groupTq": "团队TQ",
+      "noResults": "没有匹配的试炼",
+      "noResultsMessage": "没有试炼符合所选筛选条件。"
+    },
+    "settings": {
+      "showLastTrials": "显示最近试验",
+      "showShopPacks": "显示商店包",
+      "showCurrency": "显示Murkoff硬币",
+      "error": "保存设置失败"
+    },
+    "moderation": {
+      "title": "已从排行榜隐藏",
+      "since": "自 {date} 起",
+      "notRankedInfo": "此个人资料上的所有统计数据仍然可见，但不会在任何排行榜上参与排名。",
+      "appeal": "觉得这是个错误？请通过 {discord} 联系我们进行申诉。",
+      "appealLink": "我们的 Discord 服务器",
+      "learnMore": "了解更多"
+    },
+    "visibility": {
+      "hidden": "已被资料所有者隐藏",
+      "profileHiddenTitle": "个人资料已隐藏",
+      "profileHidden": "此个人资料已被其所有者隐藏。",
+      "profileHiddenNoticeTitle": "个人资料已隐藏",
+      "profileHiddenNotice": "此个人资料已对大众隐藏。只有您和工作人员可以看到它。",
+      "visibleToYou": "对您可见"
+    },
+    "tabErrors": {
+      "statsTitle": "无法加载统计数据",
+      "statsMessage": "我们无法加载此玩家的统计信息。请稍后再试。",
+      "invasionTitle": "无法加载入侵数据",
+      "invasionMessage": "我们无法加载此玩家的入侵数据。请稍后再试。"
+    },
+    "trials": {
+      "trialsStatsTitle": "试验统计",
+      "playedTrials": "游玩试验",
+      "completedTrials": "完成的试验",
+      "failedTrials": "失败的试验",
+      "deaths": "死亡次数",
+      "reagentReleases": "试剂释放",
+      "prestige": "声望",
+      "combatDefenseStatsTitle": "战斗与防御",
+      "headshots": "爆头",
+      "helpTeammates": "帮助队友",
+      "distractEnemies": "干扰敌人",
+      "hideInSpot": "躲藏次数",
+      "useAntidote": "使用解毒剂",
+      "survivalDamageStatsTitle": "生存与伤害",
+      "knockedDown": "被击倒次数",
+      "lostHealthPoints": "损失生命值",
+      "nightVisionTime": "夜视时间",
+      "psychosisTime": "精神失常时间",
+      "objectivesStatsTitle": "目标",
+      "collectEvidence": "收集证据",
+      "unlockContainer": "解锁容器",
+      "collectItem": "收集物品",
+      "disarmDoorTrap": "拆除门陷阱",
+      "breakLockedDoors": "破坏锁门",
+      "movementRigStatsTitle": "移动与装备",
+      "runningTime": "跑步时间",
+      "slidingTime": "滑行时间",
+      "crouchedTime": "蹲伏时间",
+      "useRig": "使用装备",
+      "performCoopMoves": "合作动作",
+      "useRigRecharges": "装备充能使用",
+      "escalationStatsTitle": "升级统计",
+      "escalationHighestTrialReached": "达到的最高试炼",
+      "escalationHighestTrialReachedWithTime": "最高试炼达成时间",
+      "escalationTrialsRunsCompleted": "已完成的升级数",
+      "escalationPlayTime": "升级游戏时间",
+      "escalationTrialsCompleted": "完成的升级试验",
+      "escalationPrevious": "上一个",
+      "escalationV1Peak": "升级峰值",
+      "escalationV1PlayTime": "已游玩升级",
+      "escalationV1Attempts": "升级尝试",
+      "escalationV1TrialsCompleted": "已完成升级试炼",
+      "itemsStatsTitle": "使用的物品",
+      "useAdrenaline": "使用肾上腺素",
+      "useBatteryBooster": "使用电池加速器",
+      "useLargeBattery": "使用大电池",
+      "useSmallBattery": "使用小电池",
+      "useLargeMedicine": "使用大药品",
+      "useSmallMedicine": "使用小药品",
+      "distanceTraveled": "行走距离",
+      "revivedWithoutDeath": "无死亡复活",
+      "revivedWithDeath": "死亡后复活",
+      "revivedOrHelpFriend": "复活或帮助朋友",
+      "hitEnemiesByThrowable": "投掷物命中敌人",
+      "noDamageDuringTrial": "试验中无伤害"
+    },
+    "playstyle": {
+      "title": "游戏风格",
+      "survivor": "幸存者",
+      "teamPlayer": "团队玩家",
+      "combatant": "战斗者",
+      "explorer": "探索家",
+      "veteran": "老兵",
+      "dedication": "专注",
+      "hoverHint": "悬停在一个坐标轴上以查看它的计算方法",
+      "tapHint": "点击一个坐标轴以查看它的计算方法",
+      "influences": {
+        "survivor": [
+          "低死亡率 · 45%",
+          "无伤试炼数 · 30%",
+          "使用隐藏点频率 · 25%"
+        ],
+        "teamPlayer": [
+          "复活与帮助队友 · 40%",
+          "合作移动次数 · 35%",
+          "踢击敌人协助队友 · 25%"
+        ],
+        "combatant": [
+          "爆头敌人 · 40%",
+          "投掷物命中敌人 · 35%",
+          "吸引敌人注意 · 25%"
+        ],
+        "explorer": [
+          "收集证据 · 30%",
+          "行走距离 · 25%",
+          "解锁容器 · 25%",
+          "收集物品 · 20%"
+        ],
+        "veteran": [
+          "升级峰值 · 40%",
+          "声望等级 · 35%",
+          "试炼完成率 · 25%"
+        ],
+        "dedication": [
+          "游戏时间 · 50%",
+          "试炼游玩数 · 50%"
+        ]
+      }
+    },
+    "lobbyGames": {
+      "noDataAvailable": "不可用，因为Red Barrels显然不发送此信息。",
+      "armWrestling": "掰手腕",
+      "chess": "象棋",
+      "tennis": "网球",
+      "stroop": "斯特鲁普",
+      "wins": "胜利",
+      "loses": "失败",
+      "rating": "评分"
+    },
+    "currency": {
+      "stamps": "邮票",
+      "coins": "Murkoff硬币",
+      "vouchers": "优惠券",
+      "releasetokens": "释放代币",
+      "event": "活动代币"
+    },
+    "lastTrials": {
+      "noRecentTitle": "无近期试炼",
+      "noRecentMessage": "近期试炼数据在此个人资料不可用。",
+      "playerScore": "玩家分数",
+      "deaths": "死亡",
+      "groupInfo": "队伍信息",
+      "score": "分数",
+      "clickForDetails": "点击查看详情",
+      "action": "行动",
+      "count": "数量",
+      "points": "分数",
+      "scoresLoadError": "加载分数详情失败",
+      "groupMembers": "共同游玩的队友",
+      "loadMore": "加载更早的试用",
+      "noDifficulty": "无难度",
+      "imposter": "入侵（伪装者）",
+      "variators": "变量"
+    },
+    "items": {
+      "loadErrorTitle": "加载失败",
+      "loadErrorMessage": "无法获取此玩家的物品数据。请稍后再试。",
+      "rig": "装备",
+      "perks": "特长",
+      "character": "角色自定义",
+      "posters": "海报",
+      "items": "物品",
+      "emotes": "表情",
+      "cellRoom": "牢房",
+      "allOwned": "全部拥有",
+      "equippedOnly": "仅已装备",
+      "shopPacks": "商店礼包",
+      "ownedCosmetics": "拥有的装饰品",
+      "equipped": "已装备",
+      "missing": "缺失",
+      "missingCosmetics": "缺失的装饰品",
+      "noMissingItems": "该玩家已拥有所有装饰品！",
+      "noItems": "未找到该玩家的装饰品。",
+      "loadouts": "配装",
+      "reagent": "试剂",
+      "imposter": "冒名者",
+      "reagentLoadouts": "试剂配装",
+      "imposterLoadouts": "冒名者配装",
+      "loadoutSlot": "配装 {n}",
+      "selectedLoadout": "已选择",
+      "emptyLoadoutSlot": "空槽位",
+      "loadoutsNotAvailable": "该玩家的配装数据暂不可用。",
+      "characterShort": "角色",
+      "rigAndPerks": "装具&强化剂",
+      "cell": "牢房",
+      "emotePodium": "领奖台",
+      "emoteTerminal": "终端",
+      "slotLabel": null
+    },
+    "invasion": {
+      "alltimeStatsTitle": "入侵总计统计",
+      "inaccurateHint": "这些数字直接来自 Red Barrels，并不总是准确。遗憾的是，我们这边无法修正。",
+      "seasonMatchesPlayed": "赛季比赛场次",
+      "seasonImposterMatches": "冒名者比赛场次",
+      "seasonImposterWonMatches": "冒名者胜场",
+      "seasonImposterLostMatches": "冒名者败场",
+      "seasonReagentMatches": "试剂比赛场次",
+      "seasonReagentWonMatches": "试剂胜场",
+      "seasonReagentLostMatches": "试剂败场",
+      "seasonRank": "赛季 {season} 段位",
+      "totalPoints": "总点数",
+      "noSeasonData": "无第{season}赛季的数据"
+    },
+    "tasks": {
+      "title": "任务",
+      "all": "全部",
+      "completed": "已完成",
+      "inProgress": "进行中",
+      "empty": "暂无任务可用",
+      "loadErrorTitle": "加载失败",
+      "loadErrorMessage": "无法获取此玩家的任务数据。请稍后再试。"
+    }
+  },
+  "profileSearch": {
+    "title": "资料搜索",
+    "subtitle": "在所有平台查找试剂",
+    "searchButton": "搜索",
+    "resultsCount": "找到 {count} 个结果",
+    "showWithoutName": "显示无名称的资料",
+    "noName": "未知试剂",
+    "platformFilter": "按平台筛选"
+  },
+  "profileSearchInput": {
+    "searchText": "搜索试剂",
+    "searchTextShort": "搜索……",
+    "noResultsFound": "未找到结果",
+    "clickToTrackAccount": "点击这里追踪账户",
+    "enterSearchTerm": "请输入搜索关键词以查找试剂",
+    "searchResults": "搜索结果",
+    "recentPlayers": "最近玩家",
+    "favorites": "收藏",
+    "noFavorites": "暂无收藏",
+    "noRecentPlayers": "暂无最近玩家",
+    "showAllResults": "显示“{query}”的所有结果",
+    "openAdvancedSearch": "打开高级搜索",
+    "keyNavigate": "导航",
+    "keyOpen": "打开",
+    "keyClose": "关闭",
+    "clear": "清除搜索"
+  },
+  "platform": {
+    "STEAM": "Steam",
+    "PSN": "PlayStation",
+    "XBOX": "Xbox",
+    "EPIC_GAMES": null,
+    "NINTENDO": "任天堂",
+    "ALL": "全部"
+  },
+  "roadmap": {
+    "title": "路线图",
+    "subtitle": "The Outlast Trials 路线图",
+    "noEntries": "未找到路线图条目",
+    "showDetails": "显示详情",
+    "status": {
+      "inProgress": "进行中",
+      "planned": "已计划"
+    },
+    "labels": {
+      "official": "官方",
+      "unofficial": "泄露"
+    },
+    "features": "功能："
+  },
+  "compare": {
+    "title": "比较",
+    "pageTitle": "比较资料",
+    "pageSubtitle": "比较多个试剂之间的统计数据",
+    "addToCompare": "添加到比较列表",
+    "removeFromCompare": "从比较列表移除",
+    "clearAll": "清除全部",
+    "loadingStats": "加载统计数据...",
+    "searchProfile": "搜索资料...",
+    "searchHeroTitle": "开始比较",
+    "searchHeroSubtitle": "搜索一个资料并将其作为首位参赛者。",
+    "selectProfilesHint": "在上方选择至少2个资料以比较其统计数据",
+    "addedToCompare": "已将资料添加到比较列表",
+    "removedFromCompare": "已从比较列表移除资料",
+    "v4": {
+      "lineup": "所选试剂",
+      "level": "{level}级",
+      "leading": "赢家",
+      "wins": "胜 | 胜",
+      "addPlayer": "添加试剂",
+      "openProfile": "打开 {name} 的个人资料",
+      "full": "对比已满（最多 {max} 个试剂）",
+      "loadError": "无法加载此配置文件",
+      "retry": "重试",
+      "lowerIsBetter": "越低越好",
+      "playtime": "游戏时间",
+      "teamworkTitle": "团队合作",
+      "invasionSeasonTitle": "入侵赛季 {season}",
+      "matchesPlayed": "比赛场次",
+      "lobbyWins": "{game} 获胜",
+      "lobbyLosses": "{game} 败场",
+      "lobbyRating": "{game} 评分",
+      "badgesTitle": "徽章",
+      "badgeCount": "已收集徽章",
+      "badgeCollection": "集合"
+    }
+  },
+  "otherPages": {
+    "title": "其他页面",
+    "subtitle": "探索更多资源和社区内容",
+    "viewButton": "查看",
+    "deprecated": "已弃用",
+    "cards": {
+      "roadmap": {
+        "description": "查看开发路线图和即将推出的功能"
+      },
+      "gameassets": {
+        "title": "游戏资源",
+        "description": "探索The Outlast Trials的游戏资源"
+      },
+      "translate": {
+        "title": "帮助翻译",
+        "description": "在 GitHub 上帮助我们将 OutlastTrialsStats 翻译成您的语言"
+      },
+      "contribute": {
+        "description": "通过向项目贡献数据帮助我们成长"
+      },
+      "discordBot": {
+        "title": "福特曼电台",
+        "description": "自动分配身份组、同步昵称并显示排行榜"
+      }
+    }
+  },
+  "auth": {
+    "login": "登录",
+    "logout": "退出",
+    "login_benefit": "关联您的Discord账户以认领游戏资料并访问个性化功能。",
+    "login_with_discord": "使用Discord登录",
+    "login_notice": "登录时适用我们的{terms}。账户面向年满16岁的人士；18岁以下者仅可在父母或监护人同意后使用。我们如何处理您的数据：{privacy}。",
+    "login_notice_terms": "使用条款",
+    "login_notice_privacy": "隐私政策",
+    "login_failed": "登录失败",
+    "try_again": "重试",
+    "discord_denied": "Discord授权被拒绝",
+    "invalid_state": "无效的OAuth状态。请重试。",
+    "missing_code": "缺少授权码",
+    "error_getting_url": "无法获取Discord授权URL",
+    "my_profile": "我的资料",
+    "view_profile": "查看个人资料",
+    "discord_account": "Discord 账户",
+    "claim_profile": "认领资料",
+    "claim_profile_description": "从Discord关联的平台中选择您的游戏资料。",
+    "claim": "认领",
+    "claim_success": "资料关联成功！",
+    "claim_failed": "认领资料失败",
+    "loading_connections": "加载关联平台...",
+    "failed_load_connections": "加载平台失败",
+    "no_connections": "没有与Discord关联的游戏平台。请在Discord设置中连接Steam、PlayStation或Xbox。您也可以在我们的Discord服务器上创建支持工单来手动关联您的账户。",
+    "no_profile_found": "未找到资料",
+    "already_claimed": "已被认领",
+    "profile_pending": "搜索中……",
+    "claim_pending": "预先选择",
+    "claim_pending_success": "我们正在搜索您的资料。一旦找到将自动关联。",
+    "claim_pending_info": "尚未找到您的资料。您可以预先选择它，在15分钟内一旦发现将自动关联。",
+    "unclaim_profile": "取消关联资料",
+    "unclaim": "取消关联",
+    "unclaim_confirm": "您确定要取消关联游戏资料吗？您可以稍后重新关联。",
+    "unclaim_success": "资料取消关联成功！",
+    "unclaim_failed": "取消关联资料失败",
+    "settings": "设置",
+    "account": "账户",
+    "claim_success_title": "档案关联成功！",
+    "claim_success_description": "您的游戏档案现在已与Discord账户关联。",
+    "already_linked_title": "已关联",
+    "already_linked_description": "您的Discord账户已关联到游戏资料。",
+    "go_to_profile": "前往我的档案",
+    "continue": "继续",
+    "continue_to_maps": null,
+    "link_support_hint": "在关联您的帐户时遇到困难？请联系我们的支持",
+    "page_title": "关联账户",
+    "page_subtitle": "将您的游戏资料与Discord账户连接",
+    "step_1_title": "将平台关联到Discord",
+    "step_1_desc": "在 Discord 设置 → {connections} 中，关联您的 Steam、PlayStation、Xbox 或 Epic 账户。",
+    "verification": {
+      "method_title": "你想如何关联你的个人资料？",
+      "method_discord_title": "Discord 连接",
+      "method_discord_desc": "从已关联到你的 Discord 账号的 Steam、PlayStation 或 Xbox 账号中选择你的个人资料。",
+      "method_friend_code_title": "好友代码",
+      "method_friend_code_badge": "所有平台",
+      "method_friend_code_presence_desc": "在游戏中更改两项设置，以证明该个人资料归你所有。也适用于 Epic Games 和 Nintendo平台。",
+      "change_method": "选择其他方法",
+      "claim_fallback_title": "领取不起作用？",
+      "claim_fallback_desc": "请改用好友代码验证你的个人资料。它适用于所有平台，即使这里列出了某个关联账号。",
+      "claim_fallback_action": "使用好友码",
+      "step_label": "验证个人资料",
+      "intro_title": "使用好友代码验证",
+      "intro_presence": "我们会查看你的个人资料，并要求你在游戏中更改地区和跨平台游玩设置。我们看到更改后，你的个人资料就会关联到你的 Discord 账号。",
+      "friend_code_label": "好友码",
+      "friend_code_hint": "你可以在游戏内的好友菜单中找到你的好友代码。",
+      "friend_code_invalid": "请输入有效的好友代码（XXXX-XXXX）",
+      "start": "开始验证",
+      "challenges_left": "今日还剩 {remaining}/{max} 次数",
+      "no_challenges_left": "您今天已用完所有验证次数，请明天再试。",
+      "resolving_title": "正在查找你的个人资料",
+      "resolving_presence_desc": "我们正在检查你的个人资料和在线状态。请确保你在游戏中处于在线状态。这通常需要几秒钟。",
+      "waiting_for_source": "游戏数据源正在启动。这可能需要几分钟，请保持此页面打开。",
+      "presence_title": "更改游戏设置",
+      "presence_desc": "在游戏中更改这两个设置，然后在此确认。",
+      "presence_desc_named": "在游戏中更改 {name} 上的这两项设置，然后在此确认。",
+      "requirement_region": "区域",
+      "requirement_crossplay": "跨平台联机",
+      "requirement_now": "现在：{value}",
+      "crossplay_on": "开",
+      "crossplay_off": "关",
+      "status_pending": "未检查",
+      "status_set": "设置",
+      "status_not_set": "未设置",
+      "time_left": "剩余时间",
+      "attempts": "尝试次数",
+      "attempts_left": "剩余 {left}/{max}",
+      "instructions_title": "工作原理",
+      "presence_instruction_1": "启动《The Outlast Trials》并前往大厅。",
+      "presence_instruction_2": "打开“设置”，然后进入“网络”，仅选择区域 {region}。",
+      "presence_instruction_3": "将跨平台联机设为{state}。",
+      "presence_instruction_4": "留在等待大厅并点击确认。随后我们会检查你的在线状态。",
+      "presence_warning": "切勿因他人要求而更改这些设置。仅当你自己在本页面发起验证时才可操作。我们的工作人员绝不会要求你这样做。",
+      "not_in_lobby": "我们在游戏大厅中无法看到你在线。请启动游戏，进入大厅并再次确认。本次尝试未计入。",
+      "checking_presence": "正在检查您的在线状态...",
+      "confirm": "确认",
+      "cancel": "取消",
+      "verified_linking": "验证成功！正在关联你的个人资料...",
+      "try_again": "重试",
+      "error_title": "验证错误",
+      "dialog_hint": "平台缺失或认领无效？",
+      "dialog_hint_link": "使用好友代码验证",
+      "result_title": {
+        "FAILED": "验证失败",
+        "EXPIRED": "验证已过期",
+        "CANCELLED": "验证已取消"
+      },
+      "result_desc": {
+        "FAILED": "无法完成验证。",
+        "EXPIRED": "本次挑战已超时，你的更改尚未确认。",
+        "CANCELLED": "验证已取消。"
+      },
+      "errors": {
+        "INVALID_FRIEND_CODE": "未找到此好友代码对应的玩家。请检查后重试。",
+        "INVALID_FRIEND_CODE_FORMAT": "请输入格式为 XXXX-XXXX 的有效好友代码。",
+        "PROFILE_NOT_VERIFIABLE": "无法验证此个人资料。如果您认为这是误判，请联系我们的支持团队。",
+        "USER_ALREADY_LINKED": "你的账号已关联游戏档案。",
+        "NO_PROGRESSION_DATA": "无法读取此配置文件的已装备外观。请先启动一次游戏，然后重试。",
+        "NO_ALTERNATIVE_COSMETICS": "该个人资料没有足够的头像或边框来参加挑战。请联系我们的客服手动关联。",
+        "PLAYER_OFFLINE": "你需要在线连接到《The Outlast Trials》才能开始验证。请启动游戏后重试。",
+        "MAX_ATTEMPTS_REACHED": "本次挑战的所有尝试均已用完，未匹配成功。",
+        "SOURCE_UNAVAILABLE": "我们的游戏数据源当前不可用。请稍后重试。",
+        "SOURCE_ERROR": "游戏服务器返回了一个错误。请稍后重试。",
+        "STAFF_OVERRIDE": "验证已关闭，因为工作人员更改了关联的个人资料。",
+        "LINKED_OTHERWISE": "由于你的账户已通过其他方式关联，验证已关闭。",
+        "VERIFICATION_ALREADY_ACTIVE": "您已有验证正在进行中。",
+        "DAILY_LIMIT_REACHED": "您已达到每日验证次数上限，请明天再试。",
+        "VERIFICATION_NOT_ACTIVE": "此验证已不再有效。",
+        "VERIFICATION_EXPIRED": "此验证已过期。",
+        "GENERIC": "出了点问题，请重试。"
+      }
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "管理您的个人资料和隐私设置",
+    "tabs": {
+      "appearance": "外观",
+      "privacy": "隐私",
+      "account": "账户"
+    },
+    "saving": "保存中…",
+    "saved": "已保存",
+    "saveError": "保存失败",
+    "visibleTabs": "可见标签页",
+    "visibleTabsHint": "仅在您的个人资料可见时可用。",
+    "visibleTabItems": {
+      "lastTrials": "最终试炼",
+      "lastTrialsHint": "你最近几次的试运行。",
+      "shopPacks": "商店礼包",
+      "shopPacksHint": "您已购买的商店礼包",
+      "currency": "默科夫硬币",
+      "currencyHint": "您的 Murkoff-Coins 余额和记录。"
+    },
+    "visibility_description": "选择哪些标签对其他玩家可见。",
+    "processing": {
+      "title": "数据处理",
+      "hint": "当您隐藏个人资料时可用。"
+    },
+    "linked_profile": "关联的个人资料",
+    "linked_profile_description": "您的游戏资料已关联到Discord账户。您可以在此取消关联。",
+    "profileDetails": {
+      "title": "他人看到的内容",
+      "description": "选择个人资料中其他玩家可见的部分。",
+      "platformLink": "平台链接",
+      "platformLinkHint": "链接到你的 Steam、PlayStation 或 Xbox 页面。",
+      "badges": "徽章",
+      "badgesHint": "你收集的徽章显示在名字下方。",
+      "lastLogin": "上次登录",
+      "lastLoginHint": "确切日期、大致时间段或留空。"
+    },
+    "lastLoginToggle": {
+      "exact": "精确",
+      "range": "范围"
+    },
+    "toggle": {
+      "visible": "可见",
+      "hidden": "隐藏",
+      "on": "开启",
+      "off": "关闭"
+    },
+    "account": {
+      "discord": {
+        "title": "Discord 账号",
+        "description": "你将使用此 Discord 账号登录 Outlast Trials Stats。",
+        "signedIn": "已通过 Discord 登录"
+      },
+      "profile": {
+        "viewTitle": "个人资料页面",
+        "viewHint": "以其他玩家的视角查看你的个人资料。",
+        "unlinkHint": "解除此游戏档案与你的 Discord 账号之间的关联。"
+      }
+    },
+    "no_linked_profile": "未关联游戏资料。通过用户菜单关联资料以配置可见性设置。",
+    "privacy": {
+      "title": "隐私",
+      "description": "控制谁能看到您的个人资料，以及资料是否更新。"
+    },
+    "hideProfile": {
+      "title": "隐藏个人资料",
+      "description": "完全隐藏您的个人资料。您的个人资料将不再被处理，不会出现在搜索结果或排行榜中，也不会对其他玩家可见。您可以随时撤销此操作。"
+    },
+    "processProfile": {
+      "description": "当您的个人资料被隐藏时，您可以阻止爬虫更新数据。您的统计资料将被冻结直到您重新开启。",
+      "statusEnabled": "个人资料将被处理",
+      "statusDisabled": "个人资料将不会被处理"
+    },
+    "appearance": {
+      "description": "自定义他人看到的个人资料外观。"
+    },
+    "background": {
+      "title": "个人资料背景",
+      "description": "选择您的个人资料页面展示的背景图像。",
+      "tileLabel": "背景{n}"
+    },
+    "nightVision": {
+      "title": null,
+      "description": null,
+      "up": null,
+      "down": null
+    },
+    "profileAccent": {
+      "title": "主色",
+      "description": "从我们的建议中选择一种，或为个人资料页的高亮选择任意颜色。",
+      "custom": "自定义颜色",
+      "colors": {
+        "steel": "钢铁",
+        "crimson": "深红色",
+        "amber": "琥珀",
+        "emerald": "翡翠",
+        "teal": "蓝绿色",
+        "violet": "紫罗兰",
+        "rose": "玫瑰",
+        "silver": "银色",
+        "orange": "橙色",
+        "lime": "青柠",
+        "cyan": "青色",
+        "indigo": "靛蓝"
+      },
+      "presets": "预设",
+      "preview": "预览",
+      "reset": "重置",
+      "hex": "十六进制颜色"
+    },
+    "aboutMe": {
+      "title": "关于我",
+      "description": "一段关于你的简短介绍，显示在你的个人资料中。最多 200 个字符。",
+      "placeholder": "告诉其他玩家一些关于你的事……"
+    },
+    "favoriteTrial": {
+      "title": "收藏的试用",
+      "description": "选择一个试炼，展示在你的个人资料中。",
+      "none": "暂无收藏的试用"
+    },
+    "socialLinks": {
+      "title": "社交链接",
+      "description": "在你的个人资料中显示为图标。仅输入你的用户名，而不是链接。",
+      "placeholder": "用户名",
+      "discordPlaceholder": "Discord 用户名",
+      "invalid": "{platform} 名称无效"
+    },
+    "country": {
+      "title": "国家",
+      "description": "在你的个人资料中与其旗帜一同显示。",
+      "none": "无国家"
+    },
+    "deleteProfile": {
+      "sectionTitle": "危险操作区",
+      "sectionHint": "删除将在 7 天后生效，此后无法撤销。",
+      "title": "删除个人资料数据",
+      "hint": "清除存储在 outlasttrialsstats.com 上的所有游戏数据。你的游戏本身不会受到影响，你的 Discord 登录信息和个人资料链接将保持不变。",
+      "whatHeader": "以下内容将被删除：",
+      "whatItems": [
+        "试炼统计和试炼历史记录",
+        "库存、饰品和拥有物品数据",
+        "商店礼包和货币历史数据",
+        "徽章、 任务和用户名历史数据",
+        "入侵进度(所有赛季)",
+        "您的显示名称、朋友代码和我们存储的原始游戏数据",
+        "你的自我介绍、国家、最喜欢的试炼和社交链接"
+      ],
+      "button": "删除所有个人资料数据",
+      "confirmTitle": "删除所有个人资料数据？",
+      "confirmText": "你的所有统计数据、外观、徽章、入侵数据、试炼和商店礼包都将被永久移除。你的个人资料将被隐藏，并在你自行重新启用处理并再次将其设为可见之前，被阻止进行任何进一步收集。你的 Discord 账号和个人资料链接保持不变。",
+      "gracePeriod": "您的数据将在 7 天后删除。在此之前，您可以在设置中取消删除。",
+      "understand": "我了解我的个人资料数据将在 7 天后被永久删除。",
+      "scheduled": "您的个人资料数据将于 {date} 删除。",
+      "scheduledTitle": "个人资料数据将于 {date} 删除",
+      "scheduledHint": "在此之前，你都可以取消删除。",
+      "cancelButton": "取消删除",
+      "cancelled": "已取消删除您的个人资料数据。",
+      "cancelError": "取消删除您的个人资料数据失败",
+      "reauthFailed": "无法确认你的 Discord 登录。你的个人资料数据未被删除，请重试。",
+      "reauthMismatch": "你使用了其他 Discord 账号登录。你的个人资料数据未被删除。请使用与此个人资料关联的 Discord 账号登录。",
+      "reauthCancelled": "Discord 登录已取消。你的个人资料数据未被删除。",
+      "noProfile": "您的账号已不再关联任何游戏档案，因此没有可删除的档案数据。",
+      "error": "删除个人资料数据失败"
+    },
+    "reauth": {
+      "hint": "为确认，请再次使用您的 Discord 账号登录。",
+      "continueWithDiscord": "使用 Discord 继续"
+    },
+    "accountData": {
+      "sectionTitle": "您的数据",
+      "sectionDescription": "下载您的数据副本或删除您的账户。",
+      "exportTitle": "下载您的数据",
+      "exportDescription": "以 HTML 页面形式下载我们存储的关于你账户和关联资料的所有内容。",
+      "exportButton": "下载我的数据",
+      "exportFirst": "想保留一份副本？请先下载你的数据。",
+      "exportFile": {
+        "title": "你在 outlasttrialsstats.com 上的数据",
+        "intro": "本页面包含我们的数据库存储的关于你的 outlasttrialsstats.com 账户和已关联游戏档案的数据。它可离线使用。点击某个部分即可将其折叠或展开，并使用“下载 JSON”以机器可读格式获取相同数据。",
+        "created": "创建于 {date}",
+        "contents": "内容",
+        "downloadJson": "下载 JSON",
+        "print": "打印",
+        "expandAll": "全部展开",
+        "collapseAll": "全部折叠",
+        "entries": "{count} 条目 | {count} 条目",
+        "empty": "无",
+        "yes": "是",
+        "no": "否",
+        "sections": {
+          "account": "账户",
+          "linkedProfile": "已关联的个人资料",
+          "profileSettings": "个人资料设置",
+          "processingBlock": "正在处理区块",
+          "leaderboardModeration": "排行榜审核",
+          "profileStats": "个人资料统计",
+          "completedTrials": "已完成的试验",
+          "invasion": "入侵",
+          "tasks": "任务",
+          "badges": "徽章",
+          "ownedCosmeticItemIds": "已拥有的外观物品",
+          "recentTrials": "近期试验",
+          "joinedEvents": "已加入的活动",
+          "verifications": "验证记录",
+          "pendingClaims": "待处理领取",
+          "auditEntries": "活动日志"
+        }
+      },
+      "exportError": "无法创建你的数据导出。请稍后一分钟再试。",
+      "exportRateLimited": "您在短时间内多次请求了数据。请过几分钟再试。",
+      "deleteTitle": "删除账户",
+      "deleteHint": "删除你的 TOTStats 账户并断开 Discord 登录连接。",
+      "deleteWhatItems": [
+        "你的 Discord ID、名称、头像和电子邮箱地址",
+        "我们存储的 Discord 访问令牌（你确认后立即存储；我们也会在 Discord 端撤销它们）",
+        "你的个人资料链接、待处理的声明和验证历史记录"
+      ],
+      "profileChoiceTitle": "关联的游戏资料应该如何处理？",
+      "profileKeep": "在网站上保留我的游戏资料",
+      "profileKeepHint": "你的个人资料会像任何没有账号的玩家一样保留在网站上，并沿用你当前的可见性设置。你的“关于我”、国家、最喜欢的试炼和社交链接会被移除。之后若要更改设置，你需要重新关联该个人资料。",
+      "profileKeepCancelsWipe": "这也会取消您待处理的所有个人资料数据删除操作。",
+      "profileWipe": "同时删除我的游戏档案数据",
+      "profileWipeHint": "你的统计数据已被清除，个人资料将永久保持隐藏，并被禁止继续采集。只有用新账号重新关联该个人资料，才能解除这一限制。",
+      "profileChoiceRequired": "游戏档案现已关联至你的账户。请选择要如何处理它。",
+      "button": "删除账户",
+      "confirmTitle": "确定要删除你的账户吗？",
+      "confirmWarning": "确认后，你将退出登录，我们存储的 Discord 访问令牌会立即被删除并撤销。经过 7 天宽限期后，你的账号和个人数据将被永久删除。在这 7 天内再次登录可取消删除；超过此期限则无法撤销。",
+      "understand": "我了解我的账户将在 7 天后被永久删除。",
+      "scheduled": "你的账户已计划删除。请在 7 天内重新登录以取消。",
+      "deletionCancelled": "欢迎回来！您的账号删除已取消。",
+      "reauthFailed": "我们无法确认你的 Discord 登录。你的账号未被删除，请重试。",
+      "reauthMismatch": "你使用了另一个 Discord 账号登录。你的账号未被删除。请使用你想要删除的 Discord 账号登录。",
+      "reauthCancelled": "Discord 登录已取消。你的个人资料数据未被删除。",
+      "error": "无法删除你的账户",
+      "loadError": "无法加载你的账户。请重试。",
+      "staffBlocked": "员工账号无法在此删除。请先让管理员移除你的员工角色。"
+    }
+  },
+  "profileDeletionRequest": {
+    "footerLink": "删除你的个人资料",
+    "hero": {
+      "title": "删除你的个人资料",
+      "subline": "想让数据消失？我们会删除已存储的全部个人资料，并停止追踪。"
+    },
+    "fastPath": {
+      "signedOut": {
+        "title": "用 Discord 自行删除",
+        "desc": "使用 Discord 登录，并通过好友代码验证你的个人资料。之后你可以在设置中自行删除。删除将在 7 天后执行，在此之前可以取消。",
+        "descClaim": "使用 Discord 登录，并关联你已连接到 Discord 的游戏账号（Steam、PlayStation 或 Xbox）。然后，你可以在设置中自行删除它。删除将在 7 天后执行，在此之前可以取消。",
+        "button": "使用 Discord 继续"
+      },
+      "unverified": {
+        "title": "请先验证你的资料",
+        "desc": "你的 Discord 尚未关联到游戏个人资料。使用好友代码验证你的个人资料，然后在设置中将其删除。",
+        "descClaim": "你的 Discord 尚未关联到游戏档案。请关联你已连接到 Discord 的 Steam、PlayStation 或 Xbox 账号，然后在设置中将其删除。",
+        "fallback": "无法验证？请退出登录，改为向工作人员发送请求。",
+        "button": "验证我的资料"
+      },
+      "verified": {
+        "title": "在设置中删除你的个人资料",
+        "desc": "你的个人资料已关联，你可以自行删除。在“设置”→“账户”中，选择“删除所有个人资料数据”。",
+        "button": "打开账户设置"
+      }
+    },
+    "form": {
+      "title": "改为发送请求",
+      "desc": "工作人员会先确认该个人资料属于你，之后才会删除任何内容。这可能需要几天时间。",
+      "profileLabel": "个人资料",
+      "searchPlaceholder": "姓名、个人资料链接或 ID",
+      "searching": "搜索中…",
+      "noResults": "未找到个人资料。隐藏的个人资料不会显示在搜索中，请改为粘贴你的个人资料链接。",
+      "resultsLabel": "匹配的配置文件",
+      "change": "更改",
+      "idNotFound": "未找到此 ID 对应的配置文件。请检查后重试。",
+      "lookupNotFound": "未找到此链接对应的个人资料。请检查链接，或改为粘贴个人资料 ID。",
+      "lookupFailed": "无法检查此链接。请重试或粘贴个人资料 ID。",
+      "profileRequired": "选择要删除的配置文件。",
+      "contactLabel": "邮箱或 Discord 用户名",
+      "contactRequired": "请告诉我们您的联系方式。",
+      "contactLength": "使用 {min} 到 {max} 个字符。",
+      "messageLabel": "消息（可选）",
+      "messageHint": "任何能表明该资料属于你的信息，例如好友代码或平台账号。",
+      "confirm": "我拥有此个人资料，并理解删除是永久性的。",
+      "confirmRequired": "发送请求前请先确认。",
+      "submit": "发送删除请求",
+      "privacyNote": "我们仅使用你的信息来处理此请求，并在请求关闭 30 天后删除这些信息。只有工作人员会看到你的截图，截图会在请求处理完毕后删除。",
+      "privacyLink": "隐私政策"
+    },
+    "screenshots": {
+      "label": "截图（可选）",
+      "count": null,
+      "drop": "选择图片，拖放或粘贴",
+      "hint": "游戏内玩家卡片截图（能看清名称和好友代码）最有帮助。",
+      "thumbAlt": "截图 {n}",
+      "remove": "删除截图 {n}",
+      "processing": "正在准备…",
+      "errors": {
+        "type": "仅支持 PNG、JPEG 或 WebP 图像。",
+        "tooLarge": "图片过大，即使压缩后也仍然过大。请裁剪图片或使用更小的截图。",
+        "unreadable": "无法读取此图片。请尝试其他文件。",
+        "limit": "最多可附加 {max} 张截图。"
+      }
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": "该个人资料不存在。请检查链接或 ID 后重试。",
+      "PROFILE_ALREADY_DELETED": "该配置文件的数据已被删除。",
+      "REQUEST_ALREADY_PENDING": "您已经使用此联系方式向该个人资料发送过请求。工作人员会回复您。",
+      "SIGNED_IN": "你已登录，因此无法使用请求表单。请在设置中自行删除个人资料，或退出登录以发送请求。",
+      "INVALID_SCREENSHOT": "有一张截图无法处理。请将其移除，或换一张图片试试。",
+      "rateLimited": "请求过多。请稍等片刻后重试。",
+      "generic": "请求无法发送。请稍后重试。"
+    },
+    "success": {
+      "title": "已收到请求",
+      "desc": "我们会核实该个人资料是否属于你，并可能联系你。确认后，统计信息将被清除，个人资料将被隐藏。",
+      "reference": "参考",
+      "home": "返回首页",
+      "another": "再发送一个请求"
+    }
+  },
+  "consent": {
+    "title": "Cookie 设置",
+    "description": "我们使用 Cookie 和类似技术。必要的 Cookie 是网站运行所必需的。经你同意后，我们还会使用 PostHog（PostHog Inc.，数据托管在欧盟）统计页面浏览和点击、录制会话（表单输入已遮蔽）并报告错误。你可以随时通过页脚的“Cookie 设置”更改你的选择。",
+    "essential": "必要",
+    "alwaysActive": "始终启用",
+    "essentialDescription": "核心功能所需，如登录和语言设置。",
+    "analytics": "统计",
+    "analyticsDescription": "通过 PostHog 收集页面浏览、点击、会话录制（输入已遮蔽）和错误报告。仅在你同意后启用。",
+    "acceptAll": "全部接受",
+    "essentialOnly": "拒绝",
+    "showDetails": "显示详情",
+    "hideDetails": "隐藏详情",
+    "savePreferences": "保存偏好",
+    "cookieSettings": "Cookie 设置",
+    "privacyPolicy": "隐私政策"
+  },
+  "contribute": {
+    "title": "贡献",
+    "hero": {
+      "eyebrow": "Windows 桌面应用"
+    },
+    "flow": {
+      "eyebrow": "社群",
+      "meet": "在比赛中遇到其他玩家",
+      "send": "他们的个人资料 ID 会发送给我们",
+      "track": "新玩家出现在网站上",
+      "total": "目前已跟踪的配置文件"
+    },
+    "banner": {
+      "title": "帮助我们成长 — 贡献数据",
+      "desc": "在您游戏时运行我们的后台工具，即可获得独家徽章",
+      "learnMore": "了解更多",
+      "contributorBadge": "贡献者徽章",
+      "presenceChip": "游戏状态展示"
+    },
+    "howTo": {
+      "title": "如何贡献",
+      "step1Title": "下载工具",
+      "step1Desc": "下载并运行贡献工具。它将自动安装并随Windows启动。",
+      "step2Title": "游玩游戏",
+      "step2Desc": "工具会在后台监控您的游戏日志，并将新的玩家ID发送到我们的系统。",
+      "step3Title": "获得您的徽章",
+      "step3Desc": "活跃的贡献者会在其个人资料上获得独家贡献者徽章。",
+      "download": "下载",
+      "viewSource": "在GitHub上查看",
+      "smartScreenNote": "可执行文件未签名，所以Windows安全机制可能会在第一次运行时警告您。请您点击“更多”，然后点击“仍然运行”。"
+    },
+    "features": {
+      "presence": {
+        "title": "Discord 活动状态",
+        "newTag": "新",
+        "desc": "您的 Discord 个人资料将显示您目前正在进行的试炼，从游戏日志中直接读取。",
+        "statusTitle": "实时试炼状态",
+        "statusDesc": "哪个试炼、哪个地图、哪个难度、队伍是否满员以及你在试炼里呆了多久。",
+        "artworkTitle": "美术和状态链接",
+        "artworkDesc": "附带精美试炼美图，外加一键直达您的个人资料。"
+      },
+      "data": {
+        "title": "贡献玩家数据",
+        "desc": "网站只能跟踪已知玩家。这是我们追加新玩家的方式。",
+        "discoverTitle": "发现新玩家",
+        "discoverDesc": "当您处于局内时，应用会收集您遇到的玩家的个人资料ID并将它们发送到outlasttrialsstats.com。",
+        "privacyTitle": "仅个人资料 ID",
+        "privacyDesc": "只上传作为贡献者的你和他们的ID。没有名字，没有聊天内容，不影响表现。"
+      }
+    },
+    "reward": {
+      "title": "贡献者奖励",
+      "desc": "每一次贡献都有助于社区成长。活跃的贡献者将获得独家的个人资料徽章。"
+    },
+    "personal": {
+      "title": "您的贡献",
+      "successful": "成功",
+      "noProfile": "关联一个资料以查看您的贡献统计。"
+    },
+    "leaderboard": {
+      "title": "顶尖贡献者",
+      "totalProfiles": "共追踪 {count} 个资料",
+      "profiles": "资料",
+      "errorTitle": "加载失败",
+      "errorMessage": "无法加载贡献者排行榜。请再试一次。"
+    }
+  },
+  "discordBot": {
+    "title": "福特曼电台",
+    "hero": {
+      "eyebrow": "Discord 机器人",
+      "rolesEyebrow": "角色",
+      "leaderboardEyebrow": "排行榜"
+    },
+    "commands": {
+      "title": "命令",
+      "subtitle": "只需几个斜杠命令即可开始。",
+      "admin": "仅限管理员",
+      "setupStart": "引导你完成服务器的基本角色设置。",
+      "syncProfile": "将你自己的角色更新至与最新属性匹配。",
+      "leaderboard": "逐页显示任意统计类别的排行榜。",
+      "setupLeaderboard": "在频道中发布排行榜，每小时刷新一次。"
+    },
+    "invite": {
+      "title": "福特曼电台",
+      "desc": "一个Discord机器人，能够根据The Outlast Trials的玩家统计数据自动分配身份组、同步昵称并显示排行榜。",
+      "addBot": "添加到服务器",
+      "learnMore": "了解更多",
+      "viewSource": "在GitHub上查看"
+    },
+    "features": {
+      "roles": {
+        "title": "身份组分配",
+        "desc": "机器人会根据您的服务器成员在 Outlast Trials 中的统计数据自动分配 Discord 身份组。玩家会获得与其声望、等级、装备、入侵排名等相匹配的身份组——在他们同步或加入服务器时实时更新。",
+        "categoriesTitle": "支持的类别",
+        "autoTitle": "加入时自动分配",
+        "autoDesc": "已验证的成员在加入您的服务器时会自动获得他们的身份组。",
+        "syncTitle": "按需同步",
+        "syncDesc": "玩家可以随时更新自己的身份组，管理员也可以一次性同步所有成员。",
+        "customTitle": "完全可自定义",
+        "customDesc": "将您自己的身份组映射到类别，或让机器人为您创建。使用您自己的翻译自定义机器人消息。"
+      },
+      "leaderboard": {
+        "title": "排行榜",
+        "desc": "直接在您的 Discord 频道中显示实时统计排行榜。设置一个每小时自动更新的永久排行榜，或让玩家通过斜杠命令按需查看排名。",
+        "autoTitle": "自动更新频道",
+        "autoDesc": "将排行榜固定到任意频道——每小时刷新最新数据。",
+        "onDemandTitle": "按需排名",
+        "onDemandDesc": "玩家可以通过斜杠命令查看任意排行榜类别，并支持分页。"
+      },
+      "nameSync": {
+        "autoTitle": "名称同步",
+        "autoDesc": "自动将您的 Outlast Trials 资料名称与您的 Discord 昵称同步。"
+      }
+    },
+    "selfHost": {
+      "title": "自托管与开源",
+      "desc": "该机器人完全开源，可以使用 Docker 和 PostgreSQL 进行自托管。请查看 GitHub 仓库了解安装说明。",
+      "openSource": "开源",
+      "viewDocs": "查看文档"
+    }
+  },
+  "common": {
+    "cancel": "取消",
+    "save": "保存",
+    "loading": "加载中...",
+    "retry": "重试",
+    "scrollToTop": "回到顶部"
+  },
+  "trials": {
+    "familyOther": "其他",
+    "programs": {
+      "programcore": "创世计划",
+      "programchain": "升级试炼",
+      "programinvasion": "入侵",
+      "programcreator": "试炼创造者",
+      "programweekly": "周活动",
+      "programevent": "活动"
+    },
+    "difficulties": {
+      "Easy": "初级",
+      "Normal": "标准",
+      "Hard": "困难",
+      "Insane": "噩梦",
+      "Undefined": "未知"
+    },
+    "variators": {
+      "BadTrip1": "噩梦之旅",
+      "BadTrip2": "噩梦之旅 II",
+      "BarricadedDoors": "障碍门",
+      "Bleeding": "流血",
+      "BlockedDoors": "封闭的门",
+      "BombStrapped": "炸弹倒计时",
+      "BreakTVs": "摧毁电视",
+      "Bundle_NPC": "威胁加倍",
+      "Bundle_Traps": "更多陷阱",
+      "Bundle_Traps2": "更多陷阱 II",
+      "ColdMines": "冰冻地雷",
+      "ColdSnap": "寒潮",
+      "ColdTrial": "永冻",
+      "CollectFromCorpses": "提取器官样本",
+      "CollectGenericSchematics": "收集示意图",
+      "CollectGifts": "收集礼物",
+      "CollectRats": "收集老鼠",
+      "DamageDisableRigs": null,
+      "DeadlyPrimeAsset": null,
+      "DeadlyTraps": null,
+      "DeepBurn": null,
+      "EnragedEnemies": null,
+      "ExitRush": null,
+      "FindTheRadio": null,
+      "FindTheTelevision": null,
+      "FireMines": null,
+      "FlameThrowerTraps": null,
+      "FrancoTime": null,
+      "GenericCollectBoxesSecondaryObjective": null,
+      "GenericFrequencyMatchSecondaryObjective": null,
+      "GlassDamage": null,
+      "HealthSickness": null,
+      "HighDoorVariators": null,
+      "HighEnemyDensity": null,
+      "HudImmersion": "Immersion",
+      "Insane_TrialMaker": "Psychosurgery",
+      "Inventory_Minus1": null,
+      "Inventory_Minus2": null,
+      "Jaeger": "Jaeger",
+      "KressTime": null,
+      "LevelOne": null,
+      "LiliyaTime": null,
+      "LimitedItems": null,
+      "LockedItems": null,
+      "LowEnemyDensity": null,
+      "MandatorySecondaryObjective": null,
+      "MorePushers": null,
+      "MoreTraps2": null,
+      "NauseaTraps": null,
+      "NoIntel": null,
+      "NoItems": null,
+      "NoPlaceToHide": null,
+      "NoPlaceToHide2": null,
+      "NoPlayerUpgrades": null,
+      "NoRadio": null,
+      "NoRunning": null,
+      "NoTechItems": null,
+      "PadLockedDoors": null,
+      "PermanentDamage": null,
+      "PermanentHallucinations": null,
+      "PrimeTime": null,
+      "PsychosisDamage": null,
+      "Psychosis_Hard": null,
+      "Rigs_InfiniteCooldown": null,
+      "RollingGates_CloseAfterPassage": null,
+      "RollingGates_Unlockable": null,
+      "SanitizationProcess": null,
+      "SoundTraps": null,
+      "StrongerEnemies2": null,
+      "TogetherWeAreStronger": null,
+      "TrappedDoors": null,
+      "VoiceDisturbance": null
+    },
+    "events": {
+      "amelia": "Amelia",
+      "badtrip_2026": null,
+      "bambino_2024": null,
+      "be_quiet_08_2026": null,
+      "bequiet_2025": null,
+      "blood_donation": null,
+      "bomb_2024": null,
+      "burnout_march_2026": "Burnout",
+      "chemical": null,
+      "classified_2026": "Classified",
+      "deadlock_march_2026": "Deadlock",
+      "deadly_prime_2026": null,
+      "deepburn": null,
+      "exitrush_may2025": null,
+      "flashback_2024": null,
+      "flashback_2025": null,
+      "halloween_2024": null,
+      "halloween_2025": null,
+      "jaeger": "Jaeger",
+      "kress": null,
+      "liliyatime": null,
+      "limitedrigs_may2025": null,
+      "lockedcontainers_2024": null,
+      "mirror_2026": "Mirror",
+      "noradio_december_2025": null,
+      "nostophobia": "Nostophobia",
+      "nostophobia_2026": "Nostophobia",
+      "onechance_2024": null,
+      "prime": null,
+      "prime_time_2026": null,
+      "scarred_2025": "Scarred",
+      "scavenger": "Scavenger",
+      "sharp_glass_november_2025": null,
+      "sharpglass_2024": null,
+      "stamps_2025": null,
+      "stamps_feb_2024": null,
+      "stamps_november_2025": null,
+      "stamps_weekend_october_2024": null,
+      "stay_together_09_2026": null,
+      "toxic_2024": null,
+      "wbadtrip_2024": null,
+      "wbleeding_2024": "Bleeding",
+      "wdualobjectives_2025": null,
+      "whard_2024": "Hard",
+      "wimposters_2024": "Imposters",
+      "winter_kills_2024": null,
+      "winterkills_2025": null,
+      "wlockedcontainers_2024": null,
+      "wnaked_2024": "Naked",
+      "wnomeds_2024": null,
+      "wnoradio_2024": null,
+      "wnorigs_2024": null,
+      "wnorunning_2025": null,
+      "wnotech_2024": null,
+      "wpadlockeddoors_2025": null,
+      "wsurvivor_2024": "Survivor"
+    },
+    "metrics": {
+      "BEST_TIME": "最佳时间",
+      "COMPLETIONS": "完成次数"
+    },
+    "families": {
+      "fp": "游乐园",
+      "ch": "法院",
+      "ps": "警察局",
+      "or": "孤儿院",
+      "mh": "码头",
+      "sr": "郊区",
+      "tf": "玩具工厂",
+      "dt": "市中心",
+      "sm": "购物中心",
+      "re": "度假村",
+      "ts": "电视台",
+      "ae": "逃离"
+    },
+    "maps": {
+      "fp_trial": "碾碎坏苹果",
+      "fpb_mt01": "惩罚恶人",
+      "fpb_mt02": "打开大门",
+      "fpb_mt03": "损毁福特曼父女",
+      "fpc_mt01": "钻穿福特曼",
+      "fpc_mt02": "兑换自由",
+      "fpi_mt01": "蛊惑孩童",
+      "fpi_mt02": "赢得真相",
+      "ch_trial": "为罪行辩护",
+      "cha_mt01": "逃离法院",
+      "cha_mt02": "销毁证据",
+      "cha_mt03": "释放的动力",
+      "chj_mt01": "让正义的天平倾斜",
+      "chj_mt02": "对被告做出判决",
+      "ps_trial": "杀死告密者",
+      "psa_mt01": "教育警察",
+      "psb_mt01": "取消尸检",
+      "psb_mt02": "冲破封锁",
+      "psb_mt03": "消除过往",
+      "pso_mt01": "释放囚犯",
+      "pso_mt02": "缴获毒品",
+      "or_trial": "净化孤儿",
+      "ors_mt01": "喂养孩童",
+      "ors_mt02": "收养孤儿",
+      "ors_mt03": "重聚家庭",
+      "ori_mt01": "召集上帝之子",
+      "mh_trial": "在药物中下毒",
+      "mhs_mt01": "清空保险库",
+      "mhs_mt02": "给牛下毒",
+      "mhs_mt03": "储藏违禁品",
+      "mhs_mt04": "炙烤告密者",
+      "sr_trial": "瓦解工会",
+      "srr_mt01": "动员选民投票",
+      "srr_mt02": "扰乱社区",
+      "srr_mt03": "消除旧有遗留问题",
+      "tf_trial": "腐蚀福特曼",
+      "tfs_mt01": "粉碎性玩具",
+      "tfs_mt02": "焚烧性玩具",
+      "tfs_mt03": "工厂消毒",
+      "tfw_mt01": "关闭工厂",
+      "tfw_mt02": "击倒工头",
+      "dt_trial": "取悦检察官",
+      "dts_mt01": "绑架情妇",
+      "dts_mt02": "传播疾病",
+      "dts_mt03": "贩卖货物",
+      "sm_trial": "消灭政客",
+      "smc_mt01": "调查牛头怪",
+      "smc_mt02": "捏造丑闻",
+      "re_trial": "洗劫拍卖会",
+      "res_mt01": "侦破谋杀案",
+      "res_mt02": "焚烧圣物",
+      "ts_trial": "让偶像噤声",
+      "aet_mt01": "逃离谎言"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+name: Sync to app
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "locales/**"
+
+concurrency:
+  group: sync-to-app
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  sync-to-app:
+    if: ${{ github.repository == 'OutlastTrialsStats/translations' && !startsWith(github.event.head_commit.message, 'chore(sync): strings from the app') && !contains(github.event.head_commit.message, 'sync/app') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout translations
+        uses: actions/checkout@v7
+        with:
+          path: translations
+          fetch-depth: 0
+
+      - name: Checkout app
+        uses: actions/checkout@v7
+        with:
+          repository: OutlastTrialsStats/OutlastTrialsStats
+          token: ${{ secrets.TRANSLATIONS_SYNC_TOKEN }}
+          path: app
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Apply changed translations
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          mkdir -p before pending-base pending-head
+          if git -C translations cat-file -e "$BEFORE:locales" 2>/dev/null; then
+            git -C translations archive "$BEFORE" locales | tar -x -C before
+          else
+            cp -r translations/locales before/
+          fi
+          if git -C app rev-parse --verify -q origin/translations/update >/dev/null; then
+            base=$(git -C app merge-base origin/main origin/translations/update)
+            git -C app archive "$base" frontend/src/i18n/locales | tar -x -C pending-base
+            git -C app archive origin/translations/update frontend/src/i18n/locales | tar -x -C pending-head
+            node translations/scripts/sync.mjs to-app --before pending-base/frontend/src/i18n/locales --after pending-head/frontend/src/i18n/locales --target app/frontend/src/i18n/locales
+          fi
+          node translations/scripts/sync.mjs to-app --before before/locales --after translations/locales --target app/frontend/src/i18n/locales
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: app
+          token: ${{ secrets.TRANSLATIONS_SYNC_TOKEN }}
+          branch: translations/update
+          base: main
+          commit-message: "chore(i18n): update translations"
+          title: "chore(i18n): update translations"
+          body: |
+            Translations merged in OutlastTrialsStats/translations (${{ github.sha }}).
+          delete-branch: true

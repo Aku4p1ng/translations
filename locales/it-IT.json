@@ -1,0 +1,2045 @@
+{
+  "stats": {
+    "COMPLETED_TRIALS": "Test Completati",
+    "DEATHS": "Morti",
+    "PRESTIGE": "Prestigio",
+    "REAGENTS_RELEASED": "Reagenti Liberati",
+    "FAILED_TRIALS": "Test Falliti",
+    "TRIALS_IN_HOURS": "Tempo trascorso nei Test",
+    "TRACKED_ACCOUNTS": "Account Tracciati",
+    "TOTAL_DEATHS": "Morti Totali",
+    "TOTAL_RELEASES": "Rinascite Totali",
+    "TOTAL_PRESTIGES": "Prestigi Totali",
+    "TOTAL_LOBBY_GAMES": "Partite Totali ai Minigiochi",
+    "TOTAL_STAMPS": "Sigilli Totali",
+    "TOTAL_MURKOFF_COINS": "Monete Murkoff Totali",
+    "TOTAL_DAMAGED": "Danni Totali Subiti",
+    "TOTAL_TIMES_HIDDEN": "Volte Nascosto Totali",
+    "TOTAL_PSYCHOSIS_TIME": "Tempo Totale in Psicosi",
+    "ESCALATION_HIGHEST_TRIAL_REACHED": "Picco Massimo Intensificazione",
+    "ESCALATION_HIGHEST_TRIAL_REACHED_WITH_TIME": null,
+    "ESCALATION_RUNS_COMPLETED": null,
+    "ESCALATION_TRIALS_COMPLETED": null,
+    "ESCALATION_TIME_PLAYED": null,
+    "ARMWRESTLING_WINS": "Vittorie a Braccio di Ferro",
+    "ARMWRESTLING_LOSES": "Sconfitte a Braccio di Ferro",
+    "ARMWRESTLING_RATING": "Punteggio a Braccio di Ferro",
+    "CHESS_WINS": "Vittorie a Scacchi",
+    "CHESS_RATING": "Punteggio a Scacchi",
+    "TENNIS_WINS": "Vittorie a Tennis",
+    "TENNIS_LOSES": "Sconfitte a Tennis",
+    "TENNIS_RATING": "Punteggio a Tennis",
+    "STROOP_RATING": "Punteggio al Test di Stroop",
+    "INVASION_POINTS": "Punti Invasione",
+    "INVASION_IMPOSTER_WON_MATCHES": "Vittorie da Impostore",
+    "INVASION_IMPOSTER_LOST_MATCHES": "Sconfitte da Impostore",
+    "INVASION_REAGENT_WON_MATCHES": "Vittorie da Reagente",
+    "INVASION_REAGENT_LOST_MATCHES": "Sconfitte da Reagente",
+    "STAMPS": "Sigilli",
+    "EVENT_TOKENS": "Gettoni Evento"
+  },
+  "sitebar": {
+    "home": "Home",
+    "leaderboard": "Classifica",
+    "badges": "Encomi",
+    "roadmap": "Roadmap",
+    "addAccount": "Aggiungi Account",
+    "discord": "Server Discord",
+    "contribute": "Contribuisci",
+    "dataLegal": "Informativa sulla privacy",
+    "imprint": "Info Legali",
+    "terms": null,
+    "reporting": "Segnalazione",
+    "more": "Altro",
+    "explore": "Esplora",
+    "menu": {
+      "getInvolved": "Partecipa",
+      "community": "Community",
+      "siteInfo": "Info sul Sito",
+      "reportingDescription": "Rapporti trimestrali delle statistiche di gioco e del sito",
+      "newOn": "Novità su Outlast Trials Stats",
+      "mapsDescription": "Mappe interattive di ogni test con spawn, chiavi e obiettivi.",
+      "studioDescription": "Vesti fino a cinque Reagenti in 3D ed esporta sfondi fino a 4K."
+    }
+  },
+  "faqPage": {
+    "title": "FAQ & Supporto",
+    "subtitle": "Risposte sul monitoraggio, il tuo profilo, privacy e tutto il resto su Outlast Trials Stats.",
+    "menuDescription": "Risposte alle domande più comuni",
+    "searchPlaceholder": "Cerca nelle FAQ…",
+    "topics": "Discussioni",
+    "popular": "Domande più frequenti",
+    "noResultsTitle": "Nessun risultato per \"{query}\"",
+    "noResultsDesc": "Prova un termine diverso o chiedi direttamente a noi su Discord.",
+    "clearSearch": "Pulisci ricerca",
+    "copyLink": "Copia link",
+    "linkCopied": "Link copiato",
+    "contact": {
+      "title": "Hai ancora problemi?",
+      "desc": "Il nostro team e la community ti rispondono rapidamente su Discord.",
+      "discord": "Chiedi su Discord"
+    },
+    "categories": {
+      "general": "Generale",
+      "tracking": "Monitoraggio & aggiornamenti",
+      "account": "Account & collegamento",
+      "privacy": "Privacy & dati",
+      "leaderboards": "Classifiche & encomi",
+      "tools": "Strumenti & progetti"
+    },
+    "categoryDescriptions": {
+      "general": "Il progetto, da dove arrivano i dati e come contattarci.",
+      "tracking": "Come portare il tuo account sul sito e mantenerlo aggiornato.",
+      "account": "Collegare il tuo profilo di gioco tramite Discord.",
+      "privacy": "Come nascondere il tuo profilo, bloccare gli aggiornamenti ed eliminare i tuoi dati.",
+      "leaderboards": "Come funzionano le classifiche, gli encomi e i ranghi Invasione.",
+      "tools": "L'app di monitoring, il bot Discord e gli altri nostri progetti."
+    },
+    "links": {
+      "discord": "Server Discord",
+      "settings": "Impostazioni",
+      "linkPage": "Collega Profilo",
+      "addAccount": "Aggiungi Account",
+      "monitor": "TOTStatsMonitor",
+      "privacyPolicy": "informativa sulla privacy",
+      "github": "GitHub",
+      "linkAccountFaq": "reclama il tuo profilo",
+      "hideProfileFaq": "Come nascondo il mio profilo?",
+      "deleteAccountFaq": null,
+      "leaderboards": "classifiche",
+      "badges": "Encomi",
+      "discordBot": "Bot Discord",
+      "compare": "Confronta",
+      "maps": "Mappa Interattiva",
+      "skinStudio": null
+    },
+    "items": {
+      "what-is-totstats": {
+        "q": "Che cos'è Outlast Trials Stats?",
+        "a": [
+          "Outlast Trials Stats è un progetto gratuito per la community di The Outlast Trials. Traccia i profili dei giocatori e li converte in statistiche, punteggi, encomi e storico test, cosicché tu e i tuoi amici possiate vedere i vostri progressi.",
+          "Oltre al sito delle statistiche abbiamo anche mappe interattive per ogni test, un Reagent Studio in 3D, un bot Discord e l'app per desktop TOTStatsMonitor."
+        ],
+        "keywords": "riguardo sito totstats"
+      },
+      "affiliation": {
+        "q": "Siete affiliati a Red Barrels?",
+        "a": [
+          "No. TOTStats is an unofficial, independent fan project. It is not affiliated with, endorsed or sponsored by Red Barrels Inc. “The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc."
+        ],
+        "keywords": "ufficiale partner sviluppatore"
+      },
+      "is-it-free": {
+        "q": "È a pagamento?",
+        "a": [
+          "No. Il sito è un progetto di community non commerciale. Puoi visualizzare profili, classifiche ed encomi senza alcun account. C'è bisogno di accedere al proprio account Discord qualora volessi collegare e gestire il tuo profilo personale."
+        ],
+        "keywords": "prezzo pagamento soldi account richiesto"
+      },
+      "data-source": {
+        "q": "Da dove arrivano i dati?",
+        "a": [
+          "Le statistiche arrivano dai servizi in gioco di The Outlast Trials e sono gli stessi dati che il gioco ti mostra. Per trovare gli account usiamo anche informazioni pubbliche della Comunità di Steam e gli ID profilo che i giocatori ci mandano.",
+          "Non ti chiederemo mai il tuo login o la tua password di gioco. Tutti i dettagli sono nella nostra {privacy}."
+        ],
+        "keywords": "api sorgente scraper colleziona"
+      },
+      "languages": {
+        "q": "Il sito è disponibile nella mia lingua?",
+        "a": [
+          "Il sito è attualmente disponibile in 9 lingue e seleziona in automatico quella impostata dal tuo browser. Puoi cambiarla in ogni momento dal selettore a piè di pagina.",
+          "Le traduzioni sono fatte dalla community. Se la tua lingua non c'è o qualcosa non è stato scritto correttamente, puoi aiutarci su {github}."
+        ],
+        "keywords": "traduzione traduci lingua tedesco francese spagnolo russo polacco italiano cinese arabo"
+      },
+      "report-bug": {
+        "q": "Dove posso segnalare un bug o proporre nuove funzionalità?",
+        "a": [
+          "Entra nel nostro {discord} e posta tutto nel canale support o feedback. Uno screenshot e il link alla pagina o al profilo segnalati ci sono di grande aiuto."
+        ],
+        "keywords": "bug errore rotto idea proposta feedback contatto"
+      },
+      "add-account": {
+        "q": "Come faccio ad avere il mio account monitorato?",
+        "a": [
+          "Ci sono tre strade diverse, ma te ne basta soltanto una:",
+          "Non appena il tuo profilo è stato raccolto, viene mostrato nelle ricerche e sulle classifiche."
+        ],
+        "steps": [
+          "Gioca una partita a Invasione o Intensificazione. Scansioniamo regolarmente le classifiche e aggiungiamo nuovi giocatori automaticamente senza l'uso di un ID. Questa è la via più facile.",
+          "Inserisci il tuo Codice Amico (formato XXXX-XXXX, mostrato in gioco) nella pagina {addAccount}.",
+          "Altrimenti inserisci il tuo SteamID64, un numero di 17 cifre che comincia con 7656. Siti come steamid.io possono aiutarti a recuperarlo."
+        ],
+        "keywords": "aggiungi traccia registra invia codice amico steam id nuovo account"
+      },
+      "platforms": {
+        "q": "Quali piattaforme sono supportate?",
+        "a": [
+          "I profili Steam, Epic Games, PlayStation e Xbox sono tutti tracciabili, con filtri presenti sulle classifiche, divisi per piattaforma.",
+          "I Codici Amico funzionano per ogni piattaforma. Anche i profili PlayStation e Xbox vengono aggiunti automaticamente con \"{linkAccount}\" attraverso Discord."
+        ],
+        "keywords": "psn ps4 ps5 playstation xbox epic steam console pc multipiattaforma"
+      },
+      "how-long-until-visible": {
+        "q": "Ho aggiunto il mio account. Quanto tempo serve prima che compaia?",
+        "a": [
+          "Normalmente nel giro di qualche minuto, a volte alcune ore. L'account inviatoci finisce in una coda gestita dal nostro collector, il quale dipende da un servizio esterno di accesso che non è in esecuzione 24 ore su 24.",
+          "Se il tuo profilo ancora non si trova qui dopo un giorno, ricontrolla il tuo Codice Amico o SteamID64 e invialo di nuovo. Riprovare non guasta, il sistema ignora i duplicati in automatico."
+        ],
+        "keywords": "non trovato mancante attesa aggiunto coda"
+      },
+      "update-frequency": {
+        "q": "Quanto spesso vengono aggiornati i profili?",
+        "a": [
+          "Ogni profilo tracciato passa un controllo di base (nome, piattaforma, ultimo accesso) circa ogni 12 ore.",
+          "Punteggi, inventario e test recenti vengono recuperati una volta entrati nel gioco in seguito all'ultimo aggiornamento. A fine sessione, le nuove statistiche sono da attendersi in circa 12 ore, in base alla capienza della coda. Se non hai giocato, non ci sono nuovi dati da raccogliere.",
+          "Classifiche dei test e degli accessori si aggiornano ogni 2 ore. Quella generale invece ogni volta che un profilo si aggiorna."
+        ],
+        "keywords": "ricarica aggiornamento ordine intervallo ore sincronizza"
+      },
+      "request-update": {
+        "q": "Posso aggiornare il mio profilo ora?",
+        "a": [
+          "Sì. Apri il profilo e clicca sull'icona di aggiornamento (\"Richiedi aggiornamento profilo\") vicino al nome. Apparirà un popup con lo stato di avanzamento di ogni passaggio.",
+          "Per mantenere ordine nella coda, c'è un tempo di attesa per ogni profilo: 24 ore se non sei registrato, 6 ore con l'accesso eseguito, 1 ora se il tuo profilo è collegato. Il bottone è nascosto durante l'attesa."
+        ],
+        "keywords": "ricarica bottone forza aggiornamento attesa manuale"
+      },
+      "stats-outdated": {
+        "q": "Perché le mie statistiche sono vecchie o diverse dal gioco?",
+        "a": [
+          "La maggior parte degli aggiornamenti semplicemente non sono ancora conclusi: una volta eseguito l'accesso e passata la coda, i punteggi vengono aggiornati. Puoi anche richiedere un aggiornamento sul tuo profilo.",
+          "Alcuni valori, specialmente dei minigiochi, non provengono dai servizi di gioco e non possiamo mostrarli. Se un numero ti risulta sbagliato, faccelo sapere sul nostro {discord}."
+        ],
+        "keywords": "sbagliato vecchio obsoleto errato mancante statistiche minigiochi"
+      },
+      "inactive-label": {
+        "q": "Che cosa significa \"Inattivo\" sul profilo di qualcuno?",
+        "a": [
+          "Il giocatore non è entrato su The Outlast Trials per più di 3 mesi. L'etichetta sparisce al suo prossimo accesso e aggiornamento del profilo."
+        ],
+        "keywords": "inattivo encomio chip etichetta offline"
+      },
+      "profile-url": {
+        "q": "Come funziona il mio link profilo?",
+        "a": [
+          "Ogni profilo può essere raggiunto tramite un breve link basato sul nome in gioco, come {example}. Se più persone hanno lo stesso nome, si avranno invece dei numeri come {duplicate}. Il giocatore col prestigio più alto avrà il numero più basso.",
+          "Siccome il link si affida al tuo nome in gioco, cambierà una volta che ti rinomini. L'indirizzo col tuo ID profilo invece resterà sempre uguale."
+        ],
+        "keywords": "url link username nome cambio vanità condivisione"
+      },
+      "link-account": {
+        "q": "Come collego il mio profilo di gioco al mio account?",
+        "a": [
+          "Il collegamento prova che il profilo appartiene a te. Puoi nasconderlo, scegliere quali sezioni sono pubbliche, scegliere uno sfondo, ottenere ruoli dal nostro bot Discord e richiedere aggiornamenti più frequenti.",
+          "Verifichiamo la proprietà di un profilo abbinando l'ID di piattaforma del collegamento sul tuo account Discord e il profilo di gioco, in modo tale che sia proprio l'account da cui tu giochi."
+        ],
+        "steps": [
+          "Su Discord, apri le Impostazioni utente → Collegamenti e connetti il tuo account Steam, PlayStation o Xbox.",
+          "Apri la pagina \"{linkPage}\" e accedi con Discord.",
+          "Seleziona il tuo profilo di gioco. Si collega immediatamente."
+        ],
+        "keywords": "collega rivendica verifica accesso discord connetti profilo personale"
+      },
+      "link-epic": {
+        "q": "Gioco da Epic Games. Posso collegare il mio profilo?",
+        "a": [
+          "Non in autonomia, purtroppo Discord non offre un collegamento a Epic Games che possiamo usare per verificare il tuo account. Apri un ticket di supporto sul nostro {discord} e collegheremo il tuo profilo manualmente."
+        ],
+        "keywords": "epic games collega rivendica ticket"
+      },
+      "link-not-tracked": {
+        "q": "Il mio profilo non compare quando provo a collegarlo. Che faccio?",
+        "a": [
+          "Se non abbiamo ancora il tuo profilo, verrà messo in coda automaticamente una volta che accedi alla pagina \"{linkPage}\". Clicca \"Pre-seleziona\" e verrà collegato non appena sarà trovato, solitamente entro 15 minuti.",
+          "Se ciò non dovesse funzionare, aggiungilo prima da {addAccount} e riprova in seguito."
+        ],
+        "keywords": "collegamento non trovato mancante pre-seleziona attesa rivendica"
+      },
+      "link-rules": {
+        "q": "Posso collegare più di un profilo o cambiarlo con un altro?",
+        "a": [
+          "Ogni account Discord può collegare soltanto un profilo di gioco e ogni profilo di gioco può essere collegato a un solo account Discord.",
+          "Per cambiare, scollega il profilo che hai attualmente in {settings} sotto Account e collega l'altro. Se qualcun'altro ha già collegato il tuo profilo, contattaci sul nostro {discord}."
+        ],
+        "keywords": "scollega scambia cambia multiplo secondo account alt"
+      },
+      "customize-profile": {
+        "q": "Posso personalizzare il mio profilo?",
+        "a": [
+          "Sì. Una volta collegato il tuo profilo, può selezionare uno tra 16 sfondi diversi in {settings} sotto Aspetto e scegli quali sezioni tenere pubbliche sotto Privacy.",
+          "Il titolo mostrato su un profilo è casuale e non può essere selezionato."
+        ],
+        "keywords": "sfondo banner aspetto titolo personalizza"
+      },
+      "hide-profile": {
+        "q": "Come nascondo il mio profilo?",
+        "a": [
+          "Collega il tuo profilo, apri {settings} e attiva \"Nascondi Profilo\" sotto Privacy. I profili nascosti non appaiono nelle ricerche e nelle classifiche, in più gli altri giocatori non possono vederli. Solo tu puoi ancora vedere il tuo profilo.",
+          "Puoi renderlo nuovamente visibile in ogni momento."
+        ],
+        "keywords": "nascondi privato invisibile privacy rimuovi ricerca classifiche"
+      },
+      "hide-sections": {
+        "q": "Posso nascondere solo alcune parti del profilo?",
+        "a": [
+          "Sì. In {settings} sotto Privacy puoi nascondere i tuoi Test Recenti, Pacchetti Negozio e Monete Murkoff uno a uno, mentre il resto del tuo profilo rimane pubblico. Dalla tua visuale riesci comunque a vedere tutto."
+        ],
+        "keywords": "nascondi sezioni test recenti pacchetti negozio valuta monete privacy"
+      },
+      "stop-updates": {
+        "q": "Posso impedire l'aggiornamento del mio profilo?",
+        "a": [
+          "Sì, mentre il tuo profilo è nascosto. In {settings} sotto Privacy, disattiva elaborazione dati. Le tue statistiche restano congelate fino al momento in cui non lo riattivi."
+        ],
+        "keywords": "ferma congela elaborazione aggiornamenti tracciamento opt out"
+      },
+      "delete-data": {
+        "q": "Come cancello i miei dati?",
+        "a": [
+          "Open your {settings}, go to Account and choose \"Delete Profile Data\". You confirm the deletion by signing in with the same Discord account once more. The deletion is then scheduled and runs 7 days later. Then we remove:",
+          "Until then you can cancel the deletion in your settings. Once it has run, it can't be undone: your profile is hidden and excluded from further collection until you turn processing back on yourself. Your Discord login and the profile link stay, so you keep control over it.",
+          "If you want your website account gone as well, see {deleteAccount}."
+        ],
+        "bullets": [
+          "le tue statistiche dei test e cronologia test",
+          "il tuo inventario, accessori e pacchetti del negozio",
+          "i tuoi encomi, attività e storico nomi",
+          "i tuoi progressi in tutte le stagioni d'Invasione",
+          "il tuo nome visualizzato, Codice Amico e dati di gioco che abbiamo raccolto"
+        ],
+        "keywords": "elimina rimuovi cancella gdpr pulizia dati"
+      },
+      "delete-account": {
+        "q": null,
+        "a": [
+          "Sign in, open your {settings}, go to Account and choose \"Delete account\" in the Danger Zone. You confirm the deletion by signing in with the same Discord account once more. Your Discord access tokens are deleted right away; everything else follows after a 7-day grace period. We remove:",
+          "If a game profile is linked, you choose what happens to it; nothing is preselected. \"Keep\" leaves it on the site like the profile of any player without an account, with your current visibility settings; to change them later, you have to link the profile again. \"Delete\" also wipes its data and keeps it hidden and blocked from further collection. If you already requested \"Delete Profile Data\", \"Keep\" cancels that request and \"Delete\" carries it out.",
+          "You are signed out right away. Signing in again within the 7 days cancels the deletion. After that it can't be undone, and signing in with Discord again creates a new, empty account. Staff accounts can't be deleted this way; an admin has to remove the staff role first."
+        ],
+        "bullets": [
+          "your Discord ID, name, avatar and email address",
+          "the Discord access tokens we stored, right away when you confirm; we also revoke them at Discord",
+          "your profile link, pending claims and verification history"
+        ],
+        "keywords": null
+      },
+      "export-data": {
+        "q": null,
+        "a": [
+          "Yes. Sign in, open your {settings}, go to Account and choose \"Download my data\". You get an HTML page that you can open in any browser, with what our database stores about your account and your linked profile, such as your account details, profile settings, stats, trials, badges and verification history. The page can also save the same data as a JSON file.",
+          "Stored login tokens are never included."
+        ],
+        "keywords": null
+      },
+      "opt-out-without-account": {
+        "q": "Non uso Discord. Come posso far si che i miei dati vengano rimossi?",
+        "a": [
+          "Inviaci un'email a {email} oppure apri un ticket sul nostro {discord} e dicci di quale profilo si tratta. Lo nasconderemo e smetteremo di raccoglierne i dati."
+        ],
+        "keywords": "email contatto rimuovi cancella senza discord gdpr"
+      },
+      "cookies": {
+        "q": "Usate cookies o traccianti?",
+        "a": [
+          "Only what the site needs to work, such as your login and language. Usage statistics, session recordings with masked inputs and error reports (PostHog, hosted in the EU) are only collected if you agree to them. You can reject them and change your choice any time via \"Cookie Settings\" in the footer.",
+          "Tutto il resto è spiegato nella nostra {privacy}."
+        ],
+        "keywords": "cookies analisi traccianti posthog consenso privacy"
+      },
+      "leaderboard-ranking": {
+        "q": "Come funzionano le classifiche?",
+        "a": [
+          "Ogni categoria ordina i giocatori per quel valore, il più alto in cima. Puoi filtrare per piattaforma e i primi 1.000 giocatori vengono sempre mostrati.",
+          "Le {leaderboards} sono divise in Generale (test, progresso, Invasione, minigiochi), Test (tempi migliori, completamenti per test e difficoltà) e Accessori (più comuni, più rari e più equipaggiati)."
+        ],
+        "keywords": "classifica rango posizione top primi categorie"
+      },
+      "not-on-leaderboard": {
+        "q": "Perché non sono sulla classifica?",
+        "a": [
+          "I motivi più comuni possono essere:"
+        ],
+        "bullets": [
+          "il tuo profilo è nascosto ({hideProfile})",
+          "sei fuori dai primi 1.000 di quella categoria",
+          "il tuo profilo è stato aggiunto di recente e non è stato ancora processato del tutto",
+          "classifiche dei test e accessori vengono ricostruite ogni 2 ore",
+          "il risultato è stato rimosso dal nostro team, per esempio a seguito di un tempo truccato"
+        ],
+        "keywords": "mancante classifica non listato rango escluso"
+      },
+      "badges": {
+        "q": "Come ottengo gli encomi?",
+        "a": [
+          "La maggior parte degli encomi vengono assegnati automaticamente dopo che il tuo profilo si aggiorna, per esempio per aver giocato la Closed Beta o l'Accesso Anticipato, rilasciando 100, 250 o 500 Reagenti, ottenendo il tempo più veloce in un test, ottenendo A+ in ogni mappa in Neurochirurgia o possedendo ogni oggetto.",
+          "Speed Runner, Soggetto Perfetto e Tutti gli Oggetti Ottenuti vengono controllati ogni ora e possono essere persi, per esempio una volta che qualcuno batte il tuo tempo o quando nuovi oggetti escono. Alcuni encomi speciali sono conferiti dal nostro team. Tutti gli encomi sono visualizzabili nella pagina \"{badges}\"."
+        ],
+        "keywords": "encomio obiettivo guadagna speed runner soggetto perfetto"
+      },
+      "contributor-badge": {
+        "q": "Come ottengo l'encomio Collaboratore?",
+        "a": [
+          "Esegui {monitor} mentre giochi. Raccoglie gli ID profilo dei giocatori che incontri e, una volta che ne trovi uno che non conosciamo, ti assegnamo l'encomio."
+        ],
+        "keywords": "collaboratore encomio monitora collabora"
+      },
+      "invasion-rank": {
+        "q": "Come viene calcolato il mio rango Invasione?",
+        "a": [
+          "Il tuo rango è basato sui punti Invasioni che ottieni nella stagione corrente. Parte da Non Classificato, poi Neofita, Bronzo, Argento e arrivando a Oro, ognuno con tre livelli. Ogni nuova stagione si ricomincia da zero."
+        ],
+        "keywords": "invasione rango stagione punti pvp bronzo argento oro"
+      },
+      "leaderboard-moderation": {
+        "q": "Perché alcuni giocatori sono nascosti dalle classifiche?",
+        "a": [
+          "Il nostro team nasconde i giocatori da tutte le classifiche quando i loro punteggi risultano non guadagnati attraverso giocate regolari, oppure sono semplicemente sbagliati. I motivi possono essere i seguenti:",
+          "I giocatori nascosti mantengono il proprio profilo e statistiche. I loro profili mostrano le ragioni e le date, ma non vengono classificati.",
+          "Per visualizzarli, attiva \"Mostra giocatori nascosti\" sotto \"Ordina per\" nella classifica generale o sotto \"Filtra\" sulle classifiche dei test. Ti viene detto anche quanti giocatori sono nascosti. Sono mostrati oscurati e contrassegnati con le loro ragioni.",
+          "Se il tuo profilo è stato nascosto e pensi che sia un errore, contattaci sul nostro {discord}. Revisioniamo ogni richiesta."
+        ],
+        "bullets": [
+          "Botting: i punteggi sono stati ottenuti da automazioni, come bot, macro o script.",
+          "Cheating: punteggi ottenuti attraverso l'uso di trucchi, come cheat tools, file di gioco modificati o abuso di exploits e glitches.",
+          "Errore nei Dati: i punteggi di questi profili sono sbagliati a causa di un errore coi dati di gioco o del nostro sistema. I giocatori non hanno fatto nulla di sbagliato."
+        ],
+        "keywords": "nascosto escluso rimosso moderazione botting bot cheating trucco boosting dati errore sbagliato punteggi bannato richiesta non classificato"
+      },
+      "monitor": {
+        "q": "Che cos'è TOTStatsMonitor? È sicuro?",
+        "a": [
+          "TOTStatsMonitor è una piccola app di Windows che gira in background mentre giochi. Mostra il test che stai attualmente giocando attraverso Discord Rich Presence e ci aiuta a trovare nuovi giocatori recuperando gli ID profilo dai giocatori che incontri.",
+          "Legge esclusivamente i file di log che il gioco scrive già di per sé. Non tocca il gioco, la sua memoria o i suoi file e invia solamente gli ID profilo, nient'altro. Il codice sorgente è pubblico su GitHub.",
+          "Dato che l'applicazione non ha firma digitale, Windows SmartScreen potrebbe avvisarti al primo avvio. Clicca \"Ulteriori informazioni\" e poi \"Esegui comunque\". Download e configurazione si trovano nella pagina \"{monitor}\"."
+        ],
+        "keywords": "monitor app desktop windows download sicuro virus smartscreen rich presence"
+      },
+      "discord-bot": {
+        "q": "Che cosa fa il bot Discord?",
+        "a": [
+          "Radio Futterman riporta le tue statistiche sul server Discord. Assegna i ruoli in base al prestigio, livello, artefatto, rango Invasione, piattaforma e altro, sincronizza i nomi giocatori e mantiene i canali delle classifiche aggiornati.",
+          "I membri necessitano di aver collegato il profilo in modo tale che il bot li possa trovare. Il link d'invito e setup si trovano sulla pagina \"{discordBot}\". Il bot è open source e può essere usato in self-hosting."
+        ],
+        "keywords": "discord bot ruoli server futterman radio"
+      },
+      "compare-favorites": {
+        "q": "Come funzionano il confronto e i preferiti?",
+        "a": [
+          "Con {compare} puoi mettere accanto fino a 4 profili per confrontarli. I preferiti vengono aggiunti cliccando sul bottone dei preferiti su un profilo. Entrambi sono solo salvati nel tuo browser, perciò non hai bisogno di un account, ma non possono essere portati su altri dispositivi."
+        ],
+        "keywords": "confronta preferiti stella segnalibro amici"
+      },
+      "map-skin-studio": {
+        "q": "Cosa sono l'Editor Mappa e il Reagent Studio?",
+        "a": [
+          "Two companion projects: the {maps} shows every trial with rooms, enemy spawns, keys and objectives, and anyone can help map it with the browser editor. The {skinStudio} renders your Reagent in real-time 3D with every outfit and cosmetic, emotes, poses and hand shapes, up to five Reagents per scene in the studio, game rooms or menu backdrops, and exports wallpapers up to 4K, GIFs and share links."
+        ],
+        "keywords": null
+      }
+    }
+  },
+  "homePageV4": {
+    "announcement": null,
+    "newTag": "Novità in v4",
+    "hero": {
+      "title": null,
+      "subline": "Statistiche, classifiche, mappe & skins. Tutto in un unico posto."
+    },
+    "quickLinks": {
+      "leaderboard": "Classifiche",
+      "badges": "Encomi",
+      "compare": "Confronta",
+      "map": "Mappa",
+      "skinStudio": null
+    },
+    "featuredUsers": {
+      "title": "Reagenti in Evidenza"
+    },
+    "popularOutfits": {
+      "title": "Abiti più popolari",
+      "subtitle": "Gli abiti più indossati dai Reagenti in questo momento.",
+      "equipped": "Reagenti",
+      "viewAll": "Mostra tutti"
+    },
+    "map": {
+      "eyebrow": null,
+      "title": "Conosci ogni stanza prima di entrarci",
+      "desc": "Mappe interattive per ogni test — stanze, spawn dei nemici, chiavi, porte e obiettivi. Un editor gratuito nel browser per facilitare la community alla mappatura del gioco.",
+      "features": {
+        "trials": "Ogni test",
+        "spawns": "Spawn dei nemici",
+        "objectives": "Chiavi & Obiettivi",
+        "editor": "Editor di community"
+      },
+      "cta": "Apri la Mappa",
+      "badge": "Nuovo"
+    },
+    "skinStudio": {
+      "eyebrow": null,
+      "title": "Il tuo Reagente, tutto in 3D",
+      "desc": null,
+      "features": {
+        "outfits": "Più di 1.400 accessori e abiti",
+        "appearance": "Colore dei capelli e corporatura",
+        "emotes": null,
+        "group": null,
+        "scene": null,
+        "export": null
+      },
+      "cta": "Apri Reagent Studio",
+      "badge": "Nuovo"
+    },
+    "monitor": {
+      "eyebrow": "TOTStatsMonitor",
+      "title": "Il tuo test, in diretta su Discord",
+      "desc": "Il compagno per desktop ti mostra il test che stai giocando sul tuo profilo Discord e ci aiuta a trovare nuovi giocatori mentre sei in partita, conferendoti l'encomio collaboratore.",
+      "features": {
+        "presence": "Discord Rich Presence",
+        "discover": "Individua nuovi giocatori",
+        "badge": "Encomio collaboratore"
+      },
+      "cta": "Scopri di più"
+    },
+    "discordBot": {
+      "eyebrow": "Bot Discord",
+      "title": "Porta i tuoi punteggi su Discord",
+      "desc": "Ruoli automatici in base al tuo progresso in gioco e classifiche in tempo reale nei canali del tuo server.",
+      "cta": "Aggiungi il bot"
+    },
+    "statsBand": {
+      "title": "I Test in numeri",
+      "subtitle": "I totali attraverso ogni account tracciato, in diretta."
+    },
+    "community": "Community",
+    "faqHint": "Domande sul monitoraggio, sugli aggiornamenti o sul tuo profilo?",
+    "faqLink": "Leggi le FAQ"
+  },
+  "homePage": {
+    "projects": "I Nostri Progetti",
+    "secretProject": {
+      "comingSoon": "Prossimamente",
+      "placeholderHeadline": "Progetto Classificato",
+      "placeholderDesc": "Qualcosa di nuovo è in arrivo. I dettagli sono confidenziali al momento.",
+      "placeholderButton": "Scopri di più",
+      "placeholderChipOne": null,
+      "placeholderChipTwo": "In Corso",
+      "placeholderChipCaption": "Confidenziale"
+    },
+    "maps": {
+      "title": "Mappe di Outlast Trials",
+      "desc": "Mappe interattive di ogni test — stanze, spawn dei nemici, chiavi, porte e obiettivi. Include un editor gratuito in modo che chiunque possa aiutare a mappare il gioco.",
+      "openMaps": "Apri Mappe",
+      "betaChip": "Beta",
+      "mapsChip": "Mappe Interattive",
+      "mapsChipCaption": "Spawn & stanze",
+      "editorChip": "Editor Mappa",
+      "editorChipCaption": "Community"
+    },
+    "topPlayers": "I Giocatori Migliori",
+    "addAccount": {
+      "title": "Traccia il Tuo Account",
+      "desc": "Inviaci il tuo Codice Amico o Steam ID per iniziare a tracciare le tue statistiche.",
+      "cta": "Aggiungi Account"
+    },
+    "discordBot": {
+      "autoRoles": "Assegnazione automatica dei ruoli",
+      "liveRankings": "In tempo reale nei canali"
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "items": {
+        "addAccount": {
+          "question": "Come posso aggiungere il mio account?",
+          "answer": "Vai su {link} e inviaci il tuo Codice Amico o Steam ID. Una volta processato, il tuo profilo apparirà nelle ricerche e sulle classifiche.",
+          "linkText": "Aggiungi Account"
+        },
+        "updateFrequency": {
+          "question": "Quando verrà aggiornato il mio profilo?",
+          "answer": "I profili tracciati vengono aggiornati in automatico in determinati orari. La maggior parte di essi si aggiorna entro 24 ore dalla tua ultima giocata, in base alla coda di caricamento."
+        },
+        "hideOrDelete": {
+          "question": "Vorrei nascondere il mio profilo, bloccare gli aggiornamenti o rimuoverlo. Cosa devo fare?",
+          "answer": "Una volta collegato e fatto l'accesso al tuo account, vai su {link}: puoi rendere il tuo profilo invisibile, richiedere che non venga più aggiornato, o cancellarlo definitivamente assieme ai dati annessi. In alternativa puoi comunque contattarci attraverso il nostro supporto Discord.",
+          "linkText": "Impostazioni"
+        },
+        "linkAccount": {
+          "question": "Come posso collegare il mio account al mio profilo su Outlast Trials Stats?",
+          "answer": "Accedi con Discord, poi vai su {link} per reclamare il tuo profilo di gioco. Una volta collegato, puoi scegliere quali sezioni mantenere pubbliche e gestire il tuo profilo.",
+          "linkText": "Impostazioni"
+        }
+      }
+    },
+    "errors": {
+      "statsTitle": "Statistiche non disponibili",
+      "statsMessage": "Non siamo riusciti a caricare le statistiche del sito per ora. Per favore riprova tra poco.",
+      "topPlayersTitle": "Giocatori migliori non disponibili",
+      "topPlayersMessage": "Non siamo riusciti a caricare i giocatori migliori per ora. Per favore riprova tra poco."
+    }
+  },
+  "leaderboard": {
+    "general": "Generale",
+    "cosmetics": "Accessori",
+    "trials": "Test",
+    "platform": "Piattaforma",
+    "rank": "Posizione",
+    "reagent": "Reagente",
+    "value": "Valore",
+    "sortMostOwned": "Più Comuni",
+    "sortRarest": "Più Rari",
+    "sortMostEquipped": "Più Equipaggiati",
+    "cosmeticType": "Tipo",
+    "cosmeticTypeAll": "Tutti",
+    "cosmeticGroupCharacter": "Personaggio",
+    "cosmeticGroupProfile": "Profilo",
+    "cosmeticGroupCell": "Cella",
+    "cosmeticExcludedGroup": "Categorie",
+    "cosmeticFilterNone": "Nessuna Categoria",
+    "trialsShowExcluded": "Includi voci escluse",
+    "excludedBadge": "Escluso",
+    "subtitle": "Scopri la tua posizione tra tutti i reagenti",
+    "trialsProgram": "Programma",
+    "trialsTrial": "Test",
+    "trialsDifficulty": "Difficoltà",
+    "trialsBestTime": "Miglior Tempo",
+    "trialsCompletions": "Completamenti",
+    "trialsGroupedMore": "+ altri {count}",
+    "hidden": {
+      "show": "{count} nascosti · Mostra",
+      "hide": "Mostrando nascosti · Nascondi",
+      "none": "Nessun giocatore nascosto",
+      "toggle": "Mostra giocatori nascosti",
+      "toggleHint": "{count} nascosti su questa classifica",
+      "active": "I giocatori nascosti vengono mostrati",
+      "why": "Perché ci sono giocatori nascosti?",
+      "explanation": "Il nostro team nasconde tutti quei giocatori i quali punteggi non sono stati raccolti normalmente o sono sbagliati per un errore di sistema. Le loro statistiche sono visibili sui loro profili, ma non vengono classificati.",
+      "breakdownTitle": "Nascosti in questa classifica",
+      "breakdownItem": null,
+      "mapCount": "{count} nascosti",
+      "faqLink": "Scopri di più nelle FAQ"
+    }
+  },
+  "moderation": {
+    "reasons": {
+      "BOTTING": {
+        "label": "Botting",
+        "description": "I punteggi sono stati ottenuti da automazioni, come bot, macro o script al posto di giocare."
+      },
+      "CHEATING": {
+        "label": "Cheating",
+        "description": "Punteggi ottenuti attraverso l'uso di trucchi, come cheat tools, file di gioco modificati o abuso di exploits e glitches."
+      },
+      "DATA_ERROR": {
+        "label": "Errore nei dati",
+        "description": "I punteggi di questi profili sono sbagliati a causa di un errore coi dati di gioco o del nostro sistema. I giocatori non hanno fatto nulla di sbagliato."
+      }
+    },
+    "excludedResult": {
+      "label": "Risultato escluso",
+      "description": "Questo risultato è stato escluso dalle classifiche da parte del nostro team, per esempio a causa di exploit o tempo buggato."
+    },
+    "notRanked": "Non classificato",
+    "notRankedTooltip": "Questo profilo è stato nascosto dalle classifiche, quindi non ha alcun posizionamento."
+  },
+  "cosmetics": {
+    "ALL": "Tutti",
+    "customization": "Personalizzazione",
+    "badge": "Encomio",
+    "document": "Documenti",
+    "passive_drug": "Ricetta Passiva",
+    "upgrade": "Miglioramento",
+    "excludedHint": {
+      "DATAMINE": "Questo oggetto è stato ottenuto attraverso un glitch e non è più possibile trovarlo.",
+      "WIP_ITEM": "Questo oggetto è ancora in sviluppo e potrebbe essere rilasciato a breve.",
+      "DEFAULT_ITEM": "Questo è un oggetto predefinito concesso a ogni giocatore, perciò possederlo è normale.",
+      "IGNORE": "Questo oggetto è stato volutamente nascosto dalle classifiche normali."
+    },
+    "legacyHint": "Oggetto legacy - Questo accessorio è stato rimosso dal gioco e non è più ottenibile.",
+    "loadingDetails": "Caricamento dettagli accessorio...",
+    "errorTitle": "Errore nel caricamento accessorio",
+    "errorMessage": "Impossibile caricare i dettagli dell'accessorio. Riprova più tardi.",
+    "detail": {
+      "types": {
+        "outfit": "Aspetto",
+        "upperBody": "Parte superiore",
+        "lowerBody": "Parte inferiore",
+        "hair": "Capelli",
+        "headAccessory": "Accessorio testa",
+        "head": "Testa",
+        "esop": "P.O.S.S.",
+        "nightVision": "Visore notturno",
+        "glove": "Guanti",
+        "watch": "Polso",
+        "podiumEmote": "Posa del podio",
+        "terminalEmote": "Posa del terminale"
+      },
+      "rarity": "Rarità",
+      "thumbnailAlt": "Anteprima di {name}",
+      "loadError": "Errore caricamento dettagli accessorio"
+    }
+  },
+  "siteFooter": {
+    "brandDesc": "Il tuo compagno per statistiche, classifiche, eventi e profili giocatori di The Outlast Trials.",
+    "notPartnered": "TOTStats è un progetto di fan non ufficiale e non è affiliato, approvato o sponsorizzato da Red Barrels Inc.",
+    "trademarks": "«The Outlast Trials» e «Outlast» sono marchi di Red Barrels Inc. Tutti gli altri marchi e diritti d’autore appartengono ai rispettivi proprietari.",
+    "ariaDiscord": "Unisciti al Discord",
+    "ariaInstagram": "Seguici su Instagram",
+    "ariaX": "Seguici su X",
+    "columns": {
+      "pages": "Pagine",
+      "community": "Community",
+      "legal": "Note Legali"
+    }
+  },
+  "shopPacks": {
+    "loadFailTitle": "Caricamento Fallito",
+    "loadFailMessage": "Non siamo riusciti a recuperare i dati dei pacchetti del negozio di questo giocatore. Riprova più tardi.",
+    "emptyState": "Nessun pacchetto del negozio ancora acquistato",
+    "purchasedTitle": "Pacchetti del negozio acquistati"
+  },
+  "reagentViewer": {
+    "modelLabel": "Modello 3D del Reagente di {name}",
+    "modelLabelGeneric": "Modello 3D di un Reagente",
+    "modelLabelCosmetic": "Anteprima 3D di {name}",
+    "loading": "Caricamento Reagente…",
+    "toolbar": "Controlli visualizzatore Reagente",
+    "expand": "Mostra corpo intero",
+    "collapse": "Comprimi",
+    "podiumEmote": "Posa del podio",
+    "terminalEmote": "Posa del terminale",
+    "nightVision": null,
+    "pause": "Interrompi l'animazione",
+    "play": "Riproduci l'animazione",
+    "resetView": "Reimposta vista",
+    "openInStudio": "Apri in Reagent Studio",
+    "renderFailed": "Impossibile aggiornare il modello 3D",
+    "bodyType": "Corporatura",
+    "bodyMale": "Corpo maschile",
+    "bodyFemale": "Corpo femminile"
+  },
+  "reagentList": {
+    "title": "Reagenti",
+    "notOwnedCosmetic": "Questo accessorio al momento non è posseduto da nessun utente.",
+    "notOwnedBadge": "Questo encomio al momento non è posseduto da nessun utente.",
+    "showMore": "Mostra di più",
+    "limitReached": "È possibile mostrare solo i primi {count} proprietari."
+  },
+  "badges": {
+    "subtitle": "Colleziona e mostra i tuoi traguardi",
+    "deprecatedTitle": "In Rimozione",
+    "deprecated": "Questo encomio non viene più aggiornato perché il gioco non fornisce più questa informazione. Verrà rimosso a breve.",
+    "retiredTitle": "Non Più Assegnato",
+    "retired": "Questo encomio non viene più assegnato perché il gioco non fornisce più questa informazione."
+  },
+  "addAccount": {
+    "title": "Traccia-Reagenti Murkoff",
+    "subtitle": "Partecipa all'esperimento e traccia i tuoi progressi",
+    "or": "oppure",
+    "friendCode": "Codice Amico",
+    "enterFriendCode": "Inserisci il tuo codice amico...",
+    "errorValidationFriendCode": "Per favore inserisci un Codice Amico valido",
+    "friendCodeTip": "Aggiungi il tuo Codice Amico per tracciare il tuo account",
+    "successMessage": "Richiesta inviata. Per favore attendi almeno 48 ore affinché il tuo account venga tracciato.",
+    "failedMessage": "C'è stato un errore nell'invio della richiesta. Per favore riprova più tardi.",
+    "steamId": null,
+    "enterSteamId": "Inserisci il tuo SteamID64...",
+    "errorValidationSteamId": "Per favore inserisci uno SteamID64 valido (numero a 17 cifre)",
+    "steamIdTip": "Inserisci il tuo SteamID64. Puoi trovarlo su {link} sotto \"steamID64\".",
+    "tabFriendCode": "Codice Amico",
+    "tabSteamId": null,
+    "invasionTitle": "Invasione / Intensificazione",
+    "invasionRecommended": "Consigliato",
+    "invasionStep1": "Gioca almeno una partita a Invasione o Intensificazione in The Outlast Trials",
+    "invasionStep2": "Il tuo profilo verrà rilevato e tracciato automaticamente",
+    "invasionStep3": "Visualizza le tue statistiche, posizionamento e progressi sul tuo profilo",
+    "invasionNoIdNeeded": "Codice amico o Steam ID non necessari",
+    "startTracking": "Avvia tracciamento",
+    "processing": "Elaborazione..."
+  },
+  "maintenance": {
+    "eyebrow": "Murkoff // Stato di Sisetema",
+    "status": "Offline per manutenzione",
+    "title": "In Manutenzione",
+    "reassurance": "Ti ringraziamo per la pazienza mentre aggiorniamo il sito.",
+    "autoCheck": "Verifica automatica dello stato…",
+    "discordPrompt": "Vuoi più info? Entra nel nostro server Discord.",
+    "fallbackMessage": "Stiamo eseguendo una manutenzione al momento. Per favore riprova tra un po'."
+  },
+  "profile": {
+    "notFound": {
+      "title": "Profilo Non Trovato",
+      "desc": "Il profilo che stai cercando non esiste o non è ancora stato tracciato.",
+      "or": "oppure",
+      "addAccount": "Aggiungi un nuovo account per iniziare a tracciare"
+    },
+    "copyId": "Copia ID Profilo",
+    "idCopied": "ID Profilo copiato correttamente",
+    "copyFailed": "Impossibile copiare l'ID del Profilo",
+    "hero": {
+      "lastOnline": "Ultima volta online: {time}",
+      "lastOnlineTooltip": "L'ultima volta che questo giocatore è stato visto online su The Outlast Trials",
+      "lastOnlineExactTooltip": null,
+      "lastOnlineHiddenTooltip": null,
+      "lastOnlineRange": {
+        "RECENT": null,
+        "WEEK": null,
+        "MONTH": null,
+        "OVER_MONTH": null
+      },
+      "statsUpdated": "Statistiche aggiornate il: {time}",
+      "addFavorite": "Aggiungi ai preferiti",
+      "removeFavorite": "Rimuovi dai preferiti",
+      "favorite": "Preferito",
+      "platformProfile": "Apri profilo piattaforma",
+      "sectionsNav": "Sezioni profilo",
+      "profileId": "ID Profilo"
+    },
+    "overview": {
+      "aboutMe": "Su di me",
+      "copyDiscord": "Copia nome Discord",
+      "discordCopied": "Nome Discord copiato",
+      "favoriteTrial": "Test preferito",
+      "favoriteTrialNotCompleted": "Non ancora completato.",
+      "recentTrials": "Test Recenti",
+      "viewAllTrials": "Vedi tutto",
+      "keyFigures": "Figure chiave",
+      "playedTime": "Tempo di gioco",
+      "successRate": "Tasso di successo",
+      "failedCount": "{n} falliti",
+      "escalation": "Intensificazione",
+      "lobbyRatings": null,
+      "invasionSeason": "Invasione · Stagione {season}",
+      "leaderboard": "Classifica",
+      "viewInvasion": "Mostra Invasione"
+    },
+    "navV4": {
+      "reagent": "Reagente",
+      "collection": "Raccolta",
+      "owned": "Posseduto"
+    },
+    "sections": {
+      "statsGeneral": "Generale"
+    },
+    "errors": {
+      "invalidUuidTitle": "ID profilo non valido",
+      "invalidUuidMessage": "L'ID profilo fornito non è un formato UUID valido.",
+      "serverErrorTitle": "Errore del Server",
+      "serverErrorMessage": "Si è verificato un errore del server. Riprova più tardi.",
+      "networkErrorTitle": "Errore di Connessione",
+      "networkErrorMessage": "Errore di connessione. Controlla la tua connessione a internet e riprova.",
+      "unknownErrorTitle": "Errore di Caricamento Profilo",
+      "unknownErrorMessage": "Si è verificato un errore imprevisto. Riprova più tardi.",
+      "unknownErrorStatusMessage": "Si è verificato un errore imprevisto (Stato: {status}). Ritenta di nuovo."
+    },
+    "addedToFavorites": "Aggiunto ai preferiti",
+    "removedFromFavorites": "Rimosso dai preferiti",
+    "viewCount": "Visite profilo",
+    "inactive": "Inattivo",
+    "inactiveTooltip": "Questo giocatore non effettua l'accesso da oltre 3 mesi",
+    "lastUpdated": {
+      "today": "Oggi",
+      "yesterday": "1 giorno fa",
+      "daysAgo": "{count} giorni fa",
+      "weeksAgo": "{count} settimane fa",
+      "tooltip": "Ultimo aggiornamento del profilo"
+    },
+    "update": {
+      "tooltip": "Richiedi aggiornamento profilo",
+      "error": "Richiesta di aggiornamento fallita",
+      "finished": "Aggiornamento profilo completato",
+      "items": {
+        "profile": "Profilo",
+        "stats": "Statistiche",
+        "inventory": "Inventario",
+        "entity": "Entità"
+      },
+      "notification": {
+        "title": "Profilo Aggiornato"
+      }
+    },
+    "tabs": {
+      "overview": "Sommario",
+      "stats": "Statistiche",
+      "invasion": "Invasione",
+      "trials": "Test",
+      "lobbyGames": "Minigiochi",
+      "currency": "Valuta",
+      "lastTrials": "Test Recenti",
+      "inventory": "Inventario"
+    },
+    "moreTabs": {
+      "completedTrials": "Test Completati",
+      "joinedEvents": null,
+      "tasks": "Attività"
+    },
+    "joinedEvents": {
+      "emptyTitle": null,
+      "emptyMessage": null,
+      "loadErrorTitle": null,
+      "loadErrorMessage": null
+    },
+    "completedTrials": {
+      "completions": "Completamenti",
+      "bestTime": "Miglior Tempo",
+      "personalTq": "TQ Personale",
+      "groupTq": "TQ di Gruppo",
+      "noResults": "Nessun Test Corrispondente",
+      "noResultsMessage": "Nessun test completato corrisponde ai filtri selezionati."
+    },
+    "settings": {
+      "showLastTrials": "Mostra Test Recenti",
+      "showShopPacks": "Mostra Pacchetti Negozio",
+      "showCurrency": "Mostra Monete Murkoff",
+      "error": "Errore salvataggio impostazioni"
+    },
+    "moderation": {
+      "title": "Nascosto dalle classifiche",
+      "since": "Dal {date}",
+      "notRankedInfo": "Tutte le statistiche restano visibili su questo profilo, ma non viene inserito in alcuna classifica.",
+      "appeal": "Credi ci sia stato un errore? Contattaci sul {discord} per dircelo.",
+      "appealLink": "nostro server Discord",
+      "learnMore": "Scopri di più"
+    },
+    "visibility": {
+      "hidden": "Profilo nascosto dal proprietario",
+      "profileHiddenTitle": "Profilo Nascosto",
+      "profileHidden": "Questo profilo è stato nascosto dal proprietario.",
+      "profileHiddenNoticeTitle": "Il profilo è nascosto",
+      "profileHiddenNotice": "Questo profilo è nascosto al pubblico. Solo tu e lo staff potete visualizzarlo.",
+      "visibleToYou": "Visibile a te"
+    },
+    "tabErrors": {
+      "statsTitle": "Impossibile caricare le statistiche",
+      "statsMessage": "Non siamo riusciti a caricare le statistiche di questo giocatore. Riprova più tardi.",
+      "invasionTitle": "Impossibile caricare i dati Invasione",
+      "invasionMessage": "Non siamo riusciti a caricare i dati Invasione di questo giocatore. Riprova più tradi."
+    },
+    "trials": {
+      "trialsStatsTitle": "Statistiche Test",
+      "playedTrials": "Test Giocati",
+      "completedTrials": "Test Completati",
+      "failedTrials": "Test Falliti",
+      "deaths": "Morti",
+      "reagentReleases": "Reagenti Liberati",
+      "prestige": "Prestigio",
+      "combatDefenseStatsTitle": "Combattimento & Difesa",
+      "headshots": "Colpi alla Testa",
+      "helpTeammates": "Alleati Soccorsi",
+      "distractEnemies": "Nemici Distratti",
+      "hideInSpot": "Volte Nascosto",
+      "useAntidote": "Antidoti Usati",
+      "survivalDamageStatsTitle": "Sopravvivenza & Danno",
+      "knockedDown": "Numero di volte Atterrato",
+      "lostHealthPoints": "Punti Salute Persi",
+      "nightVisionTime": "Tempo Passato al Visore Notturno",
+      "psychosisTime": "Tempo Passato in Psicosi",
+      "objectivesStatsTitle": "Obiettivi",
+      "collectEvidence": "Prove Raccolte",
+      "unlockContainer": "Contenitori Sbloccati",
+      "collectItem": "Oggetti Raccolti",
+      "disarmDoorTrap": "Trappole alle Porte Disarmate",
+      "breakLockedDoors": "Porte Chiuse Sfondate",
+      "movementRigStatsTitle": "Movimento & Artefatti",
+      "runningTime": "Tempo in Corsa",
+      "slidingTime": "Tempo in Scivolata",
+      "crouchedTime": "Tempo Accovacciato",
+      "useRig": "Attivazioni Artefatti",
+      "performCoopMoves": "Azioni Cooperative Eseguite",
+      "useRigRecharges": "Caricatori Artefatti Usati",
+      "escalationStatsTitle": "Statistiche Intensificazione",
+      "escalationHighestTrialReached": "Picco Intensificazione Raggiunto",
+      "escalationHighestTrialReachedWithTime": "Picco Intensificazione Raggiunto con Tempo",
+      "escalationTrialsRunsCompleted": "Partite Intensificazione Completate",
+      "escalationPlayTime": "Intensificazioni Giocate",
+      "escalationTrialsCompleted": "Test Completati in Intensificazione",
+      "escalationPrevious": "Previous",
+      "escalationV1Peak": null,
+      "escalationV1PlayTime": null,
+      "escalationV1Attempts": null,
+      "escalationV1TrialsCompleted": null,
+      "itemsStatsTitle": "Oggetti Usati",
+      "useAdrenaline": "Adrenaline Usate",
+      "useBatteryBooster": "Potenziamenti Batteria Usati",
+      "useLargeBattery": "Batterie Grandi Usate",
+      "useSmallBattery": "Batterie Piccole Usate",
+      "useLargeMedicine": "Medicine Grandi Usate",
+      "useSmallMedicine": "Medicine Piccole Usate",
+      "distanceTraveled": "Distanza Percorsa",
+      "revivedWithoutDeath": "Volte Rialzato da Terra",
+      "revivedWithDeath": "Volte Rianimato da Morto",
+      "revivedOrHelpFriend": "Rianimazioni o Supporto ad Alleati",
+      "hitEnemiesByThrowable": "Nemici Colpiti da Oggetti Lanciabili",
+      "noDamageDuringTrial": "Nessun Danno nel Test"
+    },
+    "playstyle": {
+      "title": "Stile di Gioco",
+      "survivor": "Sopravvissuto",
+      "teamPlayer": "Cooperazione",
+      "combatant": "Combattente",
+      "explorer": "Esploratore",
+      "veteran": "Veterano",
+      "dedication": "Dedizione",
+      "hoverHint": "Passa sopra a una voce per vederne il calcolo",
+      "tapHint": "Tocca una voce per vederne il calcolo",
+      "influences": {
+        "survivor": [
+          "Basso tasso di decesso · 45%",
+          "Test senza danni · 30%",
+          "Frequenza d'uso nascondigli · 25%"
+        ],
+        "teamPlayer": [
+          "Soccorso alleati · 40%",
+          "Azioni Cooperative Eseguite · 35%",
+          "Scalciato nemici dagli alleati · 25%"
+        ],
+        "combatant": [
+          "Colpi alla testa sui nemici · 40%",
+          "Lanciabili andati a segno · 35%",
+          "Distrazione nemici · 25%"
+        ],
+        "explorer": [
+          "Prove raccolte · 30%",
+          "Distanza percorsa · 25%",
+          "Contenitori sbloccati · 25%",
+          "Oggetti raccolti · 20%"
+        ],
+        "veteran": [
+          "Record Intensificazione · 40%",
+          "Livello prestigio · 35%",
+          "Tasso di completamento test · 25%"
+        ],
+        "dedication": [
+          "Tempo di gioco totale · 50%",
+          "Totale test giocati · 50%"
+        ]
+      }
+    },
+    "lobbyGames": {
+      "noDataAvailable": "Non disponibile, Red Barrels apparentemente non memorizza questa informazione.",
+      "armWrestling": "Braccio di Ferro",
+      "chess": "Scacchi",
+      "tennis": "Tennis",
+      "stroop": "Test di Stroop",
+      "wins": "Vittorie",
+      "loses": "Sconfitte",
+      "rating": "Punteggio"
+    },
+    "currency": {
+      "stamps": "Sigilli",
+      "coins": "Monete Murkoff",
+      "vouchers": "Coupon",
+      "releasetokens": "Gettoni Rinascita",
+      "event": "Gettoni Evento"
+    },
+    "lastTrials": {
+      "noRecentTitle": "Nessun Test Recente",
+      "noRecentMessage": "Questo giocatore non ha ancora completato alcun test.",
+      "playerScore": "Punteggio Giocatore",
+      "deaths": "Morti",
+      "groupInfo": "Info Gruppo",
+      "score": "Punteggio",
+      "clickForDetails": "Vedi Dettagli",
+      "action": "Azione",
+      "count": "Quantità",
+      "points": "Punti",
+      "scoresLoadError": "Caricamento dei dettagli punteggio fallito",
+      "groupMembers": "Giocato insieme a",
+      "loadMore": "Carica test più vecchi",
+      "noDifficulty": null,
+      "imposter": null,
+      "variators": "Variators"
+    },
+    "items": {
+      "loadErrorTitle": "Caricamento Fallito",
+      "loadErrorMessage": "Non siamo riusciti a recuperare i dati sugli oggetti di questo giocatore. Riprova più tardi.",
+      "rig": "Artefatto",
+      "perks": "Stimolanti",
+      "character": "Aspetto Personaggio",
+      "posters": "Posters",
+      "items": "Oggetti",
+      "emotes": "Pose",
+      "cellRoom": "Cella",
+      "allOwned": "Posseduti",
+      "equippedOnly": "Equipaggiati",
+      "shopPacks": "Pacchetti Negozio",
+      "ownedCosmetics": "Accessori Posseduti",
+      "equipped": "Equipaggiato",
+      "missing": "Mancanti",
+      "missingCosmetics": "Accessori Mancanti",
+      "noMissingItems": "Questo giocatore possiede tutti gli accessori!",
+      "noItems": "Nessun accessorio trovato per questo giocatore.",
+      "loadouts": "Equipaggiamento",
+      "reagent": "Reagente",
+      "imposter": "Impostore",
+      "reagentLoadouts": "Equipaggiamento Reagente",
+      "imposterLoadouts": "Equipaggiamento Impostore",
+      "loadoutSlot": "Equipaggiamento {n}",
+      "selectedLoadout": "Selezionato",
+      "emptyLoadoutSlot": "Slot vuoto",
+      "loadoutsNotAvailable": "I dati sugli equipaggiamenti non sono ancora disponibili per questo giocatore.",
+      "characterShort": "Personaggio",
+      "rigAndPerks": "Artefatto & Stimolanti",
+      "cell": "Cella",
+      "emotePodium": "Podio",
+      "emoteTerminal": "Terminale",
+      "slotLabel": null
+    },
+    "invasion": {
+      "alltimeStatsTitle": "Statistiche Invasione Complessive",
+      "inaccurateHint": null,
+      "seasonMatchesPlayed": "Partite Giocate in Stagione",
+      "seasonImposterMatches": "Partite Giocate da Impostore",
+      "seasonImposterWonMatches": "Partite Vinte da Impostore",
+      "seasonImposterLostMatches": "Partite Perse da Impostore",
+      "seasonReagentMatches": "Partite Giocate da Reagente",
+      "seasonReagentWonMatches": "Partite Vinte da Reagente",
+      "seasonReagentLostMatches": "Partite Perse da Reagente",
+      "seasonRank": "Classifica Stagione {season}",
+      "totalPoints": "Punteggio Totale",
+      "noSeasonData": "Nessun dato sulla Stagione {season}"
+    },
+    "tasks": {
+      "title": "Attività",
+      "all": "Tutte",
+      "completed": "Completate",
+      "inProgress": "In Corso",
+      "empty": "Nessuna attività disponibile",
+      "loadErrorTitle": "Caricamento Fallito",
+      "loadErrorMessage": "Non siamo riusciti a recuperare i dati sulle attività di questo giocatore. Riprova più tardi."
+    }
+  },
+  "profileSearch": {
+    "title": "Ricerca Profili",
+    "subtitle": "Trova reagenti su tutte le piattaforme",
+    "searchButton": "Cerca",
+    "resultsCount": "{count} risultati trovati",
+    "showWithoutName": "Mostra profili senza nome",
+    "noName": "Reagente Sconosciuto",
+    "platformFilter": "Filtra per piattaforma"
+  },
+  "profileSearchInput": {
+    "searchText": "Cerca un reagente",
+    "searchTextShort": "Cerca...",
+    "noResultsFound": "Nessun risultato",
+    "clickToTrackAccount": "Clicca qui per tracciare l'account",
+    "enterSearchTerm": "Inserisci un termine di ricerca per trovare reagenti",
+    "searchResults": "Risultati Ricerca",
+    "recentPlayers": "Giocatori Recenti",
+    "favorites": "Preferiti",
+    "noFavorites": "Ancora nessun preferito",
+    "noRecentPlayers": "Nessun giocatore recente",
+    "showAllResults": "Mostra tutti i risultati per \"{query}\"",
+    "openAdvancedSearch": "Apri ricerca avanzata",
+    "keyNavigate": "naviga",
+    "keyOpen": "apri",
+    "keyClose": "chiudi",
+    "clear": "Pulisci ricerca"
+  },
+  "platform": {
+    "STEAM": "Steam",
+    "PSN": "Playstation",
+    "XBOX": "Xbox",
+    "EPIC_GAMES": null,
+    "NINTENDO": "Nintendo",
+    "ALL": "Tutte"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "subtitle": "Roadmap di gioco per The Outlast Trials",
+    "noEntries": "Nessuna voce di roadmap trovata",
+    "showDetails": "Mostra Dettagli",
+    "status": {
+      "inProgress": "In Corso",
+      "planned": "Pianificato"
+    },
+    "labels": {
+      "official": "Ufficiale",
+      "unofficial": "Leak"
+    },
+    "features": "Attivazione Funzionalità:"
+  },
+  "compare": {
+    "title": "Confronta",
+    "pageTitle": "Confronta Profili",
+    "pageSubtitle": "Confronta statistiche tra vari reagenti",
+    "addToCompare": "Aggiungi al confronto",
+    "removeFromCompare": "Rimuovi dal confronto",
+    "clearAll": "Cancella Tutto",
+    "loadingStats": "Caricamento statistiche...",
+    "searchProfile": "Cerca profilo...",
+    "searchHeroTitle": "Inizia un confronto",
+    "searchHeroSubtitle": "Cerca un profilo per aggiungerlo come primo sfidante.",
+    "selectProfilesHint": "Seleziona almeno 2 profili in alto da mettere a confronto",
+    "addedToCompare": "Profilo aggiunto alla lista del confronto",
+    "removedFromCompare": "Profilo rimosso dalla lista del confronto",
+    "v4": {
+      "lineup": null,
+      "level": null,
+      "leading": "Leading",
+      "wins": null,
+      "addPlayer": null,
+      "openProfile": null,
+      "full": null,
+      "loadError": null,
+      "retry": "Retry",
+      "lowerIsBetter": null,
+      "playtime": "Playtime",
+      "teamworkTitle": "Teamwork",
+      "invasionSeasonTitle": null,
+      "matchesPlayed": null,
+      "lobbyWins": null,
+      "lobbyLosses": null,
+      "lobbyRating": null,
+      "badgesTitle": "Badges",
+      "badgeCount": null,
+      "badgeCollection": "Collection"
+    }
+  },
+  "otherPages": {
+    "title": "Altre Pagine",
+    "subtitle": "Esplora altri siti e contenuti della community",
+    "viewButton": "Visita",
+    "deprecated": "Obsoleto",
+    "cards": {
+      "roadmap": {
+        "description": "Visualizza la roadmap di sviluppo e gli eventi in arrivo"
+      },
+      "gameassets": {
+        "title": "Asset di Gioco",
+        "description": "Esplora gli asset di gioco di The Outlast Trials"
+      },
+      "translate": {
+        "title": "Aiuta a tradurre",
+        "description": "Aiutaci a tradurre OutlastTrialsStats nella tua lingua su GitHub"
+      },
+      "contribute": {
+        "description": "App Companion con Discord Rich Presence che ci aiuta a trovare nuovi giocatori"
+      },
+      "discordBot": {
+        "title": "Radio Futterman",
+        "description": "Assegna automaticamente ruoli, sincronizza nicknames e mostra classifiche"
+      }
+    }
+  },
+  "auth": {
+    "login": "Accedi",
+    "logout": "Esci",
+    "login_benefit": "Collega il tuo account Discord per reclamare il tuo profilo di gioco e accedere a funzionalità personali.",
+    "login_with_discord": "Accedi con Discord",
+    "login_notice": null,
+    "login_notice_terms": null,
+    "login_notice_privacy": null,
+    "login_failed": "Accesso Fallito",
+    "try_again": "Riprova",
+    "discord_denied": "Autorizzazione a Discord rifiutata",
+    "invalid_state": "Stato OAuth invalido. Per favore riprova.",
+    "missing_code": "Codice di autorizzazione mancante",
+    "error_getting_url": "URL di autorizzazione Discord non recuperato",
+    "my_profile": "Il Mio Profilo",
+    "view_profile": "Mostra Profilo",
+    "discord_account": "Account Discord",
+    "claim_profile": "Reclama Profilo",
+    "claim_profile_description": "Seleziona il tuo profilo di gioco dalle piattaforme collegate al tuo Discord.",
+    "claim": "Reclama",
+    "claim_success": "Profilo collegato con successo!",
+    "claim_failed": "Reclamo profilo fallito",
+    "loading_connections": "Caricamento piattaforme collegate...",
+    "failed_load_connections": "Caricamento piattaforme fallito",
+    "no_connections": "Non hai piattaforme collegate al tuo Discord. Connetti Steam, PlayStation o Xbox dalle tue impostazioni su Discord. Oppure crea un ticket di supporto sul nostro server Discord per collegare il tuo account manualmente.",
+    "no_profile_found": "Nessun profilo trovato",
+    "already_claimed": "Già reclamato",
+    "profile_pending": "Ricerca in corso...",
+    "claim_pending": "Pre-seleziona",
+    "claim_pending_success": "Stiamo cercando il tuo profilo. Verrà collegato automaticamente una volta trovato.",
+    "claim_pending_info": "Il tuo profilo non è ancora stato trovato. Puoi pre-selezionarlo e verrà collegato automaticamente entro 15 minuti una volta individuato.",
+    "unclaim_profile": "Scollega Profilo",
+    "unclaim": "Scollega",
+    "unclaim_confirm": "Sei sicuro di voler scollegare il tuo profilo di gioco? Puoi comunque ricollegarlo in un altro momento.",
+    "unclaim_success": "Profilo scollegato con successo!",
+    "unclaim_failed": "Scollegamento profilo fallito",
+    "settings": "Impostazioni",
+    "account": "Account",
+    "claim_success_title": "Profilo collegato con successo!",
+    "claim_success_description": "Il tuo profilo di gioco è ora collegato al tuo account Discord.",
+    "already_linked_title": "Già Collegato",
+    "already_linked_description": "Il tuo account Discord è già collegato a un profilo di gioco.",
+    "go_to_profile": "Vai al mio profilo",
+    "continue": "Continua",
+    "continue_to_maps": null,
+    "link_support_hint": "Hai problemi a collegare il tuo account? Contatta il nostro supporto sul",
+    "page_title": "Collega Account",
+    "page_subtitle": "Collega il tuo profilo di gioco al tuo account Discord",
+    "step_1_title": "Collega piattaforma a Discord",
+    "step_1_desc": "Nelle Impostazioni Discord → {connections}, collega il tuo account Steam, PlayStation, Xbox o Epic.",
+    "verification": {
+      "method_title": "Come vuoi collegare il tuo profilo?",
+      "method_discord_title": "Connessioni Discord",
+      "method_discord_desc": "Scegli il tuo profilo dall'account Steam, PlayStation o Xbox collegato al tuo account Discord.",
+      "method_friend_code_title": "Codice amico",
+      "method_friend_code_badge": "Tutte le piattaforme",
+      "method_friend_code_presence_desc": "Dimostra che il profilo è tuo cambiando qualche impostazione in gioco. Funziona anche per Epic Games e Nintendo.",
+      "change_method": "Scegli un altro metodo",
+      "claim_fallback_title": "La rivendicazione non funziona?",
+      "claim_fallback_desc": "Verifica il tuo profilo col tuo codice amico. Funziona per ogni piattaforma, anche se una connessione è elencata qui.",
+      "claim_fallback_action": "Usa codice amico",
+      "step_label": "Verifica profilo",
+      "intro_title": "Verifica col tuo codice amico",
+      "intro_presence": "Noi cerchiamo il tuo profilo e ti chiediamo di cambiare la tua regione e impostazione per il multipiattaforma in gioco. Una volta che vediamo la modifica, il tuo profilo viene collegato al tuo account Discord.",
+      "friend_code_label": "Codice amico",
+      "friend_code_hint": "Puoi trovare il tuo codice amico in gioco nel menu social.",
+      "friend_code_invalid": "Per favore inserisci un codice amico valido (XXXX-XXXX)",
+      "start": "Avvia la verifica",
+      "challenges_left": "{remaining} di {max} tentativi giornalieri rimasti",
+      "no_challenges_left": "Hai usato tutti i tentativi di verifica disponibili per oggi. Per favore riprova domani.",
+      "resolving_title": "Cercando il tuo profilo",
+      "resolving_presence_desc": "Stiamo verificando lo stato online del tuo profilo. Assicurati di essere online nel gioco. Di solito ci vogliono pochi secondi.",
+      "waiting_for_source": "La nostra fonte dati si sta avviando. L'operazione può richiedere alcuni minuti, si prega di tenere questa pagina aperta.",
+      "presence_title": "Modifica le tue impostazioni di gioco",
+      "presence_desc": "Modifica queste due impostazioni nel gioco, poi conferma qui.",
+      "presence_desc_named": "Modifica queste due impostazioni su {name} nel gioco, poi conferma qui.",
+      "requirement_region": "Regione",
+      "requirement_crossplay": "Multipiattaforma",
+      "requirement_now": "Ora: {value}",
+      "crossplay_on": "Sì",
+      "crossplay_off": "No",
+      "status_pending": "Non verificato",
+      "status_set": "Imposta",
+      "status_not_set": "Non impostato",
+      "time_left": "Tempo residuo",
+      "attempts": "Tentativi",
+      "attempts_left": "{left} di {max} rimasti",
+      "instructions_title": "Come funziona",
+      "presence_instruction_1": "Avvia The Outlast Trials e vai nel dormitorio.",
+      "presence_instruction_2": "Apri Impostazioni, vai su Rete e seleziona solo la regione {region}.",
+      "presence_instruction_3": "Cambia Multipiattaforma a {state}.",
+      "presence_instruction_4": "Rimani in lobby e clicca Conferma. Controlliamo quindi il tuo stato online.",
+      "presence_warning": "Non cambiare mai queste impostazioni perché te lo chiede qualcun'altro. Fallo solo per una verifica che tu stesso hai avviato su questa pagina. Il nostro staff non ti chiederà mai di farlo.",
+      "not_in_lobby": "Non ti abbiamo visto online nella lobby. Avvia il gioco, vai al dormitorio e riconferma. Questo tentativo non è stato conteggiato.",
+      "checking_presence": "Controllando il tuo stato online...",
+      "confirm": "Conferma",
+      "cancel": "Annulla",
+      "verified_linking": "Verificato! Collegando il tuo profilo...",
+      "try_again": "Riprova",
+      "error_title": "Errore di verifica",
+      "dialog_hint": "Piattaforma mancante o la richiesta non funziona?",
+      "dialog_hint_link": "Verifica col tuo codice amico",
+      "result_title": {
+        "FAILED": "Verifica fallita",
+        "EXPIRED": "Verifica scaduta",
+        "CANCELLED": "Verifica annullata"
+      },
+      "result_desc": {
+        "FAILED": "Non è stato possibile completare la verifica.",
+        "EXPIRED": "Il tempo per la richiesta è scaduta prima che il tuo cambiamento fosse confermato.",
+        "CANCELLED": "La verifica è stata annullata."
+      },
+      "errors": {
+        "INVALID_FRIEND_CODE": "Nessun giocatore trovato con questo codice amico. Si prega di controllarlo e riprovare.",
+        "INVALID_FRIEND_CODE_FORMAT": "Per favore inserisci un codice amico valido nel formato XXXX-XXXX.",
+        "PROFILE_NOT_VERIFIABLE": "Questo profilo non può essere verificato. Contatta il supporto se pensi che sia un errore.",
+        "USER_ALREADY_LINKED": "Il tuo account è già collegato ad un profilo di gioco.",
+        "NO_PROGRESSION_DATA": "Non abbiamo potuto recuperare gli accessori di questo profilo. Riavvia il gioco e riprova.",
+        "NO_ALTERNATIVE_COSMETICS": "Questo profilo non possiede abbastanza icone o cornici per avviare una richiesta. Contatta il supporto per collegarlo manualmente.",
+        "PLAYER_OFFLINE": "Devi essere online su The Outlast Trials per lanciare la verifica. Avvia il gioco e riprova.",
+        "MAX_ATTEMPTS_REACHED": "Tutti i tentativi per questa verifica sono stati usati senza successo.",
+        "SOURCE_UNAVAILABLE": "La nostra fonte dati di gioco non è attualmente disponibile. Riprova più tardi.",
+        "SOURCE_ERROR": "I server di gioco hanno ritornato un errore. Riprova più tardi.",
+        "STAFF_OVERRIDE": "La verifica è stata interrotta perché un membro dello staff ha cambiato il profilo collegato.",
+        "LINKED_OTHERWISE": "La verifica è stata interrotta perché il tuo account è stato collegato in un altro modo.",
+        "VERIFICATION_ALREADY_ACTIVE": "Hai già una verifica in corso.",
+        "DAILY_LIMIT_REACHED": "Hai raggiunto il limite giornaliero di richieste per la verifica. Riprova domani.",
+        "VERIFICATION_NOT_ACTIVE": "Questa verifica non è più attiva.",
+        "VERIFICATION_EXPIRED": "Questa verifica è scaduta.",
+        "GENERIC": "Si è verificato un errore. Riprova."
+      }
+    }
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "subtitle": "Gestisci il tuo profilo e le preferenze sulla privacy",
+    "tabs": {
+      "appearance": "Aspetto",
+      "privacy": "Privacy",
+      "account": "Account"
+    },
+    "saving": "Salvataggio…",
+    "saved": "Salvato",
+    "saveError": "Salvataggio fallito",
+    "visibleTabs": "Schede visibili",
+    "visibleTabsHint": "Si applica solo quando il tuo profilo è visibile.",
+    "visibleTabItems": {
+      "lastTrials": "Test Recenti",
+      "lastTrialsHint": "I test giocati da te recentemente.",
+      "shopPacks": "Pacchetti Negozio",
+      "shopPacksHint": "I pacchetti che hai acquistato al negozio.",
+      "currency": "Monete Murkoff",
+      "currencyHint": "Le tue Monete Murkoff e la cronologia."
+    },
+    "visibility_description": "Scegli quali finestre del tuo profilo sono visibili agli altri.",
+    "processing": {
+      "title": "Elaborazione dati",
+      "hint": "Disponibile mentre il tuo profilo è nascosto."
+    },
+    "linked_profile": "Profilo Collegato",
+    "linked_profile_description": "Il tuo profilo di gioco è collegato al tuo account Discord. Puoi scollegarlo qui.",
+    "profileDetails": {
+      "title": "Cosa vedono gli altri",
+      "description": "Scegli quali parti del tuo profilo sono visibili ad altri giocatori.",
+      "platformLink": "Link piattaforma",
+      "platformLinkHint": "Link alla tua pagina Steam, PlayStation o Xbox.",
+      "badges": "Encomi",
+      "badgesHint": "Gli encomi che hai collezionato sotto il tuo nome.",
+      "lastLogin": "Ultimo accesso",
+      "lastLoginHint": null
+    },
+    "lastLoginToggle": {
+      "exact": "Exact",
+      "range": "Range"
+    },
+    "toggle": {
+      "visible": "Visibile",
+      "hidden": "Nascosto",
+      "on": "Attivo",
+      "off": "Disattivo"
+    },
+    "account": {
+      "discord": {
+        "title": "Account Discord",
+        "description": "Accedi ad Outlast Trials Stats col tuo account Discord.",
+        "signedIn": "Accesso effettuato con Discord"
+      },
+      "profile": {
+        "viewTitle": "Pagina del profilo",
+        "viewHint": "Visualizza il tuo profilo come viene visto da altri giocatori.",
+        "unlinkHint": null
+      }
+    },
+    "no_linked_profile": "Nessun profilo di gioco collegato. Collegane uno dal menu utente per configurarne le varie visibilità.",
+    "privacy": {
+      "title": "Privacy",
+      "description": "Gestisci chi può visualizzare il tuo profilo e se i dati possono continuare ad aggiornarsi."
+    },
+    "hideProfile": {
+      "title": "Nascondi Profilo",
+      "description": "Nascondi il tuo profilo completamente. Il tuo profilo non verrà più tracciato, non comparirà tra le ricerche o sulla classifica e sarà invisibile agli altri giocatori. Puoi cambiare idea in qualsiasi momento."
+    },
+    "processProfile": {
+      "description": "Mentre il tuo profilo è nascosto, puoi fermarne la raccolta e l'aggiornamento dei dati. Le statistiche rimarranno congelate finché non ne riattiverai l'elaborazione.",
+      "statusEnabled": "Il profilo verrà elaborato",
+      "statusDisabled": "Il profilo non verrà elaborato"
+    },
+    "appearance": {
+      "description": "Personalizza come il tuo profilo appare agli altri."
+    },
+    "background": {
+      "title": "Sfondo Profilo",
+      "description": "Scegli un'immagine di sfondo che verrà mostrata sulla pagina del tuo profilo.",
+      "tileLabel": "Sfondo {n}"
+    },
+    "nightVision": {
+      "title": null,
+      "description": null,
+      "up": null,
+      "down": null
+    },
+    "profileAccent": {
+      "title": "Colore Principale",
+      "description": "Scegli uno dei nostri suggerimenti oppure un colore qualsiasi per decorare il tuo profilo.",
+      "custom": "Colore personalizzato",
+      "colors": {
+        "steel": "Acciaio",
+        "crimson": "Cremisi",
+        "amber": "Ambra",
+        "emerald": "Smeraldo",
+        "teal": "Verde acqua",
+        "violet": "Violetto",
+        "rose": "Rosato",
+        "silver": "Argento",
+        "orange": "Arancione",
+        "lime": "Lime",
+        "cyan": "Ciano",
+        "indigo": "Indaco"
+      },
+      "presets": "Presets",
+      "preview": "Anteprima",
+      "reset": "Reimposta",
+      "hex": "Colore esadecimale"
+    },
+    "aboutMe": {
+      "title": "Su di me",
+      "description": null,
+      "placeholder": "Racconta agli altri giocatori qualcosa di te…"
+    },
+    "favoriteTrial": {
+      "title": "Test preferito",
+      "description": null,
+      "none": "Nessun test preferito"
+    },
+    "socialLinks": {
+      "title": "Collegamenti ai social",
+      "description": "Vengono mostrate come icone sul tuo profilo. Inserisci solo il nome utente, non un link.",
+      "placeholder": "nome utente",
+      "discordPlaceholder": "Nome utente Discord",
+      "invalid": "Nome {platform} non valido"
+    },
+    "country": {
+      "title": "Nazione",
+      "description": null,
+      "none": "Nessuna nazione"
+    },
+    "deleteProfile": {
+      "sectionTitle": "Zona Pericolosa",
+      "sectionHint": null,
+      "title": "Elimina Dati Profilo",
+      "hint": null,
+      "whatHeader": "Verranno eliminati i seguenti:",
+      "whatItems": [
+        "Statistiche e storico dei test (Test Recenti)",
+        "Inventario, accessori e oggetti posseduti",
+        "Pacchetti negozio e storico valute",
+        "Encomi, attività e storico degli username",
+        "Progressi Invasione (tutte le stagioni)",
+        "Il tuo nome, codice amico e i dati di gioco che abbiamo raccolto",
+        "La tua sezione \"Su di me\", nazione, test preferito e collegamenti ai social"
+      ],
+      "button": "Elimina tutti i dati del profilo",
+      "confirmTitle": "Eliminare tutti i dati del profilo?",
+      "confirmText": null,
+      "gracePeriod": null,
+      "understand": null,
+      "scheduled": null,
+      "scheduledTitle": null,
+      "scheduledHint": null,
+      "cancelButton": null,
+      "cancelled": null,
+      "cancelError": null,
+      "reauthFailed": null,
+      "reauthMismatch": null,
+      "reauthCancelled": null,
+      "noProfile": null,
+      "error": "Impossibile eliminare i dati del profilo"
+    },
+    "reauth": {
+      "hint": null,
+      "continueWithDiscord": null
+    },
+    "accountData": {
+      "sectionTitle": null,
+      "sectionDescription": null,
+      "exportTitle": null,
+      "exportDescription": null,
+      "exportButton": null,
+      "exportFirst": null,
+      "exportFile": {
+        "title": null,
+        "intro": null,
+        "created": null,
+        "contents": "Contents",
+        "downloadJson": null,
+        "print": "Print",
+        "expandAll": null,
+        "collapseAll": null,
+        "entries": null,
+        "empty": "None",
+        "yes": "Yes",
+        "no": "No",
+        "sections": {
+          "account": "Account",
+          "linkedProfile": null,
+          "profileSettings": null,
+          "processingBlock": null,
+          "leaderboardModeration": null,
+          "profileStats": null,
+          "completedTrials": null,
+          "invasion": "Invasion",
+          "tasks": "Tasks",
+          "badges": "Badges",
+          "ownedCosmeticItemIds": null,
+          "recentTrials": null,
+          "joinedEvents": null,
+          "verifications": "Verifications",
+          "pendingClaims": null,
+          "auditEntries": null
+        }
+      },
+      "exportError": null,
+      "exportRateLimited": null,
+      "deleteTitle": null,
+      "deleteHint": null,
+      "deleteWhatItems": [
+        "Your Discord ID, name, avatar and email address",
+        "The Discord access tokens we stored (right away when you confirm; we also revoke them at Discord)",
+        "Your profile link, pending claims and verification history"
+      ],
+      "profileChoiceTitle": null,
+      "profileKeep": null,
+      "profileKeepHint": null,
+      "profileKeepCancelsWipe": null,
+      "profileWipe": null,
+      "profileWipeHint": null,
+      "profileChoiceRequired": null,
+      "button": null,
+      "confirmTitle": null,
+      "confirmWarning": null,
+      "understand": null,
+      "scheduled": null,
+      "deletionCancelled": null,
+      "reauthFailed": null,
+      "reauthMismatch": null,
+      "reauthCancelled": null,
+      "error": null,
+      "loadError": null,
+      "staffBlocked": null
+    }
+  },
+  "profileDeletionRequest": {
+    "footerLink": "Cancella il tuo Profilo",
+    "hero": {
+      "title": "Cancella il tuo Profilo",
+      "subline": "Vuoi che i tuoi dati siano eliminati? Cancelliamo tutto ciò che abbiamo raccolto sul tuo profilo e smettiamo di monitorarlo."
+    },
+    "fastPath": {
+      "signedOut": {
+        "title": "Eliminali tu stesso con Discord",
+        "desc": null,
+        "descClaim": null,
+        "button": "Continua con Discord"
+      },
+      "unverified": {
+        "title": "Prima verifica il tuo profilo",
+        "desc": "Il tuo Discord non è ancora collegato a nessun profilo di gioco. Verifica quest'ultimo utilizzando il tuo codice amico, poi cancellalo dalle impostazioni.",
+        "descClaim": "Il tuo Discord non è ancora collegato a nessun profilo di gioco. Collega l'account Steam, PlayStation o Xbox su Discord, poi cancella il profilo di gioco dalle impostazioni.",
+        "fallback": "Non riesci a verificare? Invia una richiesta al nostro staff.",
+        "button": "Verifica il mio profilo"
+      },
+      "verified": {
+        "title": "Cancella il tuo profilo dalle impostazioni",
+        "desc": "Il tuo profilo è collegato, perciò puoi cancellarlo tu stesso. In Impostazioni → Account, scegli Elimina tutti i dati del profilo.",
+        "button": "Apri impostazioni account"
+      }
+    },
+    "form": {
+      "title": "Invia invece una richiesta",
+      "desc": "Lo staff si assicura che il profilo sia il tuo prima di cancellarlo. Potrebbe richiedere alcuni giorni.",
+      "profileLabel": "Profilo",
+      "searchPlaceholder": "Nome, link profilo o ID",
+      "searching": "Ricerca in corso…",
+      "noResults": "Nessun profilo trovato. I profili nascosti non appaiono nella ricerca, perciò incolla il tuo link profilo.",
+      "resultsLabel": "Profili corrispondenti",
+      "change": "Cambia",
+      "idNotFound": "Nessun profilo trovato con questo ID. Controllalo e riprova.",
+      "lookupNotFound": "Nessun profilo trovato con questo link. Controllalo o incolla l'ID profilo al suo posto.",
+      "lookupFailed": "Impossibile controllare questo link. Riprova o incolla l'ID profilo.",
+      "profileRequired": "Scegli il profilo che vuoi eliminare.",
+      "contactLabel": "Email o nome utente Discord",
+      "contactRequired": "Dicci come possiamo contattarti.",
+      "contactLength": "Usa tra i {min} e {max} caratteri.",
+      "messageLabel": "Messaggio (facoltativo)",
+      "messageHint": "Qualsiasi cosa che dimostri che il profilo sia tuo, come il tuo codice amico o account piattaforma.",
+      "confirm": "Sono il proprietario del profilo e comprendo che la sua eliminazione sia permanente.",
+      "confirmRequired": "Si prega di confermare prima di inviare la richiesta.",
+      "submit": "Invia richiesta di eliminazione",
+      "privacyNote": "Utilizziamo i tuoi dati solo per gestire questa domanda e cancellarli 30 giorni dopo la sua chiusura. Solo lo staff vedrà i tuoi screenshots, che saranno eliminati a fine richiesta.",
+      "privacyLink": "Informativa sulla privacy"
+    },
+    "screenshots": {
+      "label": "Screenshots (facoltativo)",
+      "count": null,
+      "drop": "Scegli immagini, rilasciale o incollale",
+      "hint": "Uno screenshot del tuo profilo all'interno del gioco (nome e codice amico visibili) aiuta di più.",
+      "thumbAlt": null,
+      "remove": "Rimuovi screenshot {n}",
+      "processing": "Preparazione…",
+      "errors": {
+        "type": "Sono supportati solo i formati PNG, JPEG o WebP.",
+        "tooLarge": "L'immagine è troppo grande, anche dopo la compressione. Ritagliala o usa uno screenshot più piccolo.",
+        "unreadable": "L'immagine non può essere letta. Prova con un altro file.",
+        "limit": "Puoi allegare fino a {max} screenshots."
+      }
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": "Questo profilo non esiste. Controlla il link o l'ID e riprova.",
+      "PROFILE_ALREADY_DELETED": "I dati di questo profilo sono già stati eliminati.",
+      "REQUEST_ALREADY_PENDING": "Hai già inviato una richiesta per questo profilo con questo contatto. Lo staff ti risponderà.",
+      "SIGNED_IN": "Hai già effettuato l'accesso, perciò il modulo per la richiesta non è disponibile. Cancella il tuo profilo tu stesso nelle impostazioni, altrimenti esci per inviare una richiesta.",
+      "INVALID_SCREENSHOT": "Uno degli screenshots non può essere elaborato. Rimuovilo o prova con un'immagine diversa.",
+      "rateLimited": "Troppe richieste. Attendi un momento e riprova.",
+      "generic": "La richiesta non può essere inviata. Riprova più tardi."
+    },
+    "success": {
+      "title": "Richiesta ricevuta",
+      "desc": "Controlleremo che il profilo sia tuo e potremmo ricontattarti. Una volta confermato, le statistiche verranno cancellate e il profilo nascosto.",
+      "reference": "Riferimento",
+      "home": "Torna alla home",
+      "another": "Invia un'altra richiesta"
+    }
+  },
+  "consent": {
+    "title": "Impostazioni Cookies",
+    "description": "Utilizziamo cookie e tecnologie simili. Quelli necessari servono al funzionamento del sito. Con il tuo consenso usiamo anche PostHog (PostHog Inc., ospitato nell’UE) per contare visualizzazioni di pagina e clic, registrare le sessioni con i campi dei moduli oscurati e segnalare errori. Puoi cambiare la tua scelta in qualsiasi momento tramite «Impostazioni Cookies» nel piè di pagina.",
+    "essential": "Essenziali",
+    "alwaysActive": "Sempre attivi",
+    "essentialDescription": "Necessari al funzionamento base del sito come login e lingua scelta.",
+    "analytics": "Statistici",
+    "analyticsDescription": "Visualizzazioni di pagina, clic, registrazioni delle sessioni con input oscurati e segnalazioni di errori tramite PostHog. Attivo solo se acconsenti.",
+    "acceptAll": "Accetta tutti",
+    "essentialOnly": "Rifiuta",
+    "showDetails": "Mostra dettagli",
+    "hideDetails": "Nascondi dettagli",
+    "savePreferences": "Salva preferenze",
+    "cookieSettings": "Impostazioni Cookies",
+    "privacyPolicy": "Informativa sulla privacy"
+  },
+  "contribute": {
+    "title": "TOTStatsMonitor",
+    "hero": {
+      "eyebrow": "App desktop per Windows"
+    },
+    "flow": {
+      "eyebrow": "Community",
+      "meet": "Incontra altri giocatori in un match",
+      "send": "I loro ID profilo ci vengono inviati",
+      "track": "Nuovi giocatori appariranno sul sito",
+      "total": "Profili tracciati finora"
+    },
+    "banner": {
+      "title": "TOTStatsMonitor",
+      "desc": "Mostra il test che stai giocando sul tuo profilo Discord e ci aiuta a trovare nuovi giocatori mentre giochi",
+      "learnMore": "Scopri di più",
+      "contributorBadge": "Encomio Collaboratore",
+      "presenceChip": null
+    },
+    "howTo": {
+      "title": "Per iniziare",
+      "step1Title": "Scaricalo ed eseguilo",
+      "step1Desc": "L'app si installa in autonomia e si avvia con Windows. Puoi disattivarlo nella barra delle applicazioni in ogni momento.",
+      "step2Title": "Gioca",
+      "step2Desc": "E' presente nella barra delle applicazioni e legge i log che il gioco già scrive. Non tocca nulla, memoria o dati che siano, e non necessita di opzioni d'avvio.",
+      "step3Title": "Ottieni il tuo encomio",
+      "step3Desc": "Ogni collaboratore riceverà automaticamente un encomio Collaboratore esclusivo sul proprio profilo.",
+      "download": "Scarica per Windows",
+      "viewSource": "Vedi su GitHub",
+      "smartScreenNote": "L'eseguibile non ha firma digitale, perciò Windows SmartScreen ti avviserà al primo avvio. Clicca su \"Ulteriori informazioni\", poi \"Esegui comunque\"."
+    },
+    "features": {
+      "presence": {
+        "title": null,
+        "newTag": "Nuovo",
+        "desc": "Il tuo profilo Discord mostra il test attualmente in corso, letto direttamente dai log di gioco.",
+        "statusTitle": "Stato del test in diretta",
+        "statusDesc": "Quale test, in quale mappa, a che difficoltà, la capienza del party e da quanto tempo sei lì dentro.",
+        "artworkTitle": "Anteprima e collegamento statistiche",
+        "artworkDesc": "L'anteprima grafica del test è inclusa, in aggiunta a un bottone che è collegato alla pagina con tue statistiche."
+      },
+      "data": {
+        "title": "Collabora coi dati giocatore",
+        "desc": "Il sito può solo tracciare i giocatori che già conosce. E' così che troviamo quelli nuovi.",
+        "discoverTitle": "Individua nuovi giocatori",
+        "discoverDesc": "Mentre sei in una partita, l'app raccoglie gli ID profilo dei giocatori che incontri e li invia ad outlasttrialsstats.com.",
+        "privacyTitle": "Solo ID profilo",
+        "privacyDesc": "Soltanto gli ID, il loro e il tuo da collaboratore. Niente nomi, niente chat, nulla che riguardi le tue prestazioni."
+      }
+    },
+    "reward": {
+      "title": "Ricompensa Collaboratore",
+      "desc": "Ogni contributo aiuta la community a crescere. I collaboratori attivi vengono riconosciuti con un encomio esclusivo sul profilo."
+    },
+    "personal": {
+      "title": "I Tuoi Contributi",
+      "successful": "Contributi Riusciti",
+      "noProfile": "Collega un profilo per vedere le statistiche a cui hai contribuito."
+    },
+    "leaderboard": {
+      "title": "Top Collaboratori",
+      "totalProfiles": "{count} profili tracciati in totale",
+      "profiles": "Profili",
+      "errorTitle": "Caricamento Fallito",
+      "errorMessage": "Impossibile caricare i top collaboratori. Riprova più tardi."
+    }
+  },
+  "discordBot": {
+    "title": "Radio Futterman",
+    "hero": {
+      "eyebrow": "Bot Discord",
+      "rolesEyebrow": "Ruoli",
+      "leaderboardEyebrow": "Punteggi"
+    },
+    "commands": {
+      "title": "Comandi",
+      "subtitle": "Basta solo qualche comando slash e sei pronto a partire.",
+      "admin": "Solo amministratori",
+      "setupStart": "Ti guida attraverso il setup dei ruoli per il tuo server.",
+      "syncProfile": "Aggiorna i tuoi stessi ruoli in base alle tue più recenti statistiche.",
+      "leaderboard": "Mostra la classifica per ogni categoria, pagina per pagina.",
+      "setupLeaderboard": "Posta la classifica in un canale che si aggiorna ogni ora."
+    },
+    "invite": {
+      "title": "Radio Futterman",
+      "desc": "Un bot Discord che assegna automaticamente ruoli, sincronizza i nicknames e mostra le classifiche basate sulle statistiche dei giocatori di The Outlast Trials.",
+      "addBot": "Aggiungi al Server",
+      "learnMore": "Scopri di più",
+      "viewSource": "Vedi su GitHub"
+    },
+    "features": {
+      "roles": {
+        "title": "Assegnazione Ruoli",
+        "desc": "Il bot assegna automaticamente ruoli Discord ai membri del tuo server in base alle loro statistiche su The Outlast Trials. I giocatori ottengono ruoli in base al loro prestigio, livello, artefatto, classifica Invasione e altro — aggiornati in tempo reale durante la sincronizzazione o quando entrano nel server.",
+        "categoriesTitle": "Categorie Supportate",
+        "autoTitle": "Automatico all'ingresso",
+        "autoDesc": "I membri verificati ricevono i loro ruoli automaticamente quando entrano nel tuo server.",
+        "syncTitle": "Sincronizza su richiesta",
+        "syncDesc": "I giocatori possono aggiornare i loro ruoli in qualsiasi momento, oppure gli admin possono sincronizzare tutti i membri in una volta sola.",
+        "customTitle": "Completamente personalizzabile",
+        "customDesc": "Assegna i tuoi ruoli alle categorie, o lascia che il bot li crei per te. Personalizza i messaggi del bot con le tue traduzioni."
+      },
+      "leaderboard": {
+        "title": "Classifica",
+        "desc": "Mostra classifiche live direttamente nei canali del tuo Discord. Imposta una classifica permanente che si aggiorna automaticamente ogni ora, oppure lascia che i giocatori controllino i ranking su richiesta con uno slash command.",
+        "autoTitle": "Canali ad aggiornamento automatico",
+        "autoDesc": "Fissa una classifica in un canale — si aggiorna ogni ora con i dati più recenti.",
+        "onDemandTitle": "Classifiche su richiesta",
+        "onDemandDesc": "I giocatori possono consultare qualsiasi categoria di classifica con uno slash command, con supporto alla paginazione."
+      },
+      "nameSync": {
+        "autoTitle": "Sincronizzazione nome",
+        "autoDesc": "Sincronizza automaticamente il nome del tuo profilo di The Outlast Trials con il tuo nickname Discord."
+      }
+    },
+    "selfHost": {
+      "title": null,
+      "desc": "Il bot è completamente open-source e può essere installato autonomamente con Docker e PostgreSQL. Consulta la repository GitHub per le istruzioni di configurazione.",
+      "openSource": null,
+      "viewDocs": "Vedi la documentazione"
+    }
+  },
+  "common": {
+    "cancel": "Annulla",
+    "save": "Salva",
+    "loading": "Caricamento...",
+    "retry": "Riprova",
+    "scrollToTop": "Torna in cima"
+  },
+  "trials": {
+    "familyOther": "Altro",
+    "programs": {
+      "programcore": "Genesi",
+      "programchain": "Intensificazione",
+      "programinvasion": "Invasione",
+      "programcreator": "Macchina dei Test",
+      "programweekly": "Settimanale",
+      "programevent": "Evento"
+    },
+    "difficulties": {
+      "Easy": "Introduttiva",
+      "Normal": "Standard",
+      "Hard": "Intensiva",
+      "Insane": "Neurochirurgia",
+      "Undefined": "Indefinito"
+    },
+    "variators": {
+      "BadTrip1": null,
+      "BadTrip2": null,
+      "BarricadedDoors": null,
+      "Bleeding": "Bleeding",
+      "BlockedDoors": null,
+      "BombStrapped": null,
+      "BreakTVs": null,
+      "Bundle_NPC": null,
+      "Bundle_Traps": null,
+      "Bundle_Traps2": null,
+      "ColdMines": null,
+      "ColdSnap": null,
+      "ColdTrial": null,
+      "CollectFromCorpses": null,
+      "CollectGenericSchematics": null,
+      "CollectGifts": null,
+      "CollectRats": null,
+      "DamageDisableRigs": null,
+      "DeadlyPrimeAsset": null,
+      "DeadlyTraps": null,
+      "DeepBurn": null,
+      "EnragedEnemies": null,
+      "ExitRush": null,
+      "FindTheRadio": null,
+      "FindTheTelevision": null,
+      "FireMines": null,
+      "FlameThrowerTraps": null,
+      "FrancoTime": null,
+      "GenericCollectBoxesSecondaryObjective": null,
+      "GenericFrequencyMatchSecondaryObjective": null,
+      "GlassDamage": null,
+      "HealthSickness": null,
+      "HighDoorVariators": null,
+      "HighEnemyDensity": null,
+      "HudImmersion": "Immersion",
+      "Insane_TrialMaker": "Psychosurgery",
+      "Inventory_Minus1": null,
+      "Inventory_Minus2": null,
+      "Jaeger": "Jaeger",
+      "KressTime": null,
+      "LevelOne": null,
+      "LiliyaTime": null,
+      "LimitedItems": null,
+      "LockedItems": null,
+      "LowEnemyDensity": null,
+      "MandatorySecondaryObjective": null,
+      "MorePushers": null,
+      "MoreTraps2": null,
+      "NauseaTraps": null,
+      "NoIntel": null,
+      "NoItems": null,
+      "NoPlaceToHide": null,
+      "NoPlaceToHide2": null,
+      "NoPlayerUpgrades": null,
+      "NoRadio": null,
+      "NoRunning": null,
+      "NoTechItems": null,
+      "PadLockedDoors": null,
+      "PermanentDamage": null,
+      "PermanentHallucinations": null,
+      "PrimeTime": null,
+      "PsychosisDamage": null,
+      "Psychosis_Hard": null,
+      "Rigs_InfiniteCooldown": null,
+      "RollingGates_CloseAfterPassage": null,
+      "RollingGates_Unlockable": null,
+      "SanitizationProcess": null,
+      "SoundTraps": null,
+      "StrongerEnemies2": null,
+      "TogetherWeAreStronger": null,
+      "TrappedDoors": null,
+      "VoiceDisturbance": null
+    },
+    "events": {
+      "amelia": "Amelia",
+      "badtrip_2026": null,
+      "bambino_2024": null,
+      "be_quiet_08_2026": null,
+      "bequiet_2025": null,
+      "blood_donation": null,
+      "bomb_2024": null,
+      "burnout_march_2026": "Burnout",
+      "chemical": null,
+      "classified_2026": "Classified",
+      "deadlock_march_2026": "Deadlock",
+      "deadly_prime_2026": null,
+      "deepburn": null,
+      "exitrush_may2025": null,
+      "flashback_2024": null,
+      "flashback_2025": null,
+      "halloween_2024": null,
+      "halloween_2025": null,
+      "jaeger": "Jaeger",
+      "kress": null,
+      "liliyatime": null,
+      "limitedrigs_may2025": null,
+      "lockedcontainers_2024": null,
+      "mirror_2026": "Mirror",
+      "noradio_december_2025": null,
+      "nostophobia": "Nostophobia",
+      "nostophobia_2026": "Nostophobia",
+      "onechance_2024": null,
+      "prime": null,
+      "prime_time_2026": null,
+      "scarred_2025": "Scarred",
+      "scavenger": "Scavenger",
+      "sharp_glass_november_2025": null,
+      "sharpglass_2024": null,
+      "stamps_2025": null,
+      "stamps_feb_2024": null,
+      "stamps_november_2025": null,
+      "stamps_weekend_october_2024": null,
+      "stay_together_09_2026": null,
+      "toxic_2024": null,
+      "wbadtrip_2024": null,
+      "wbleeding_2024": "Bleeding",
+      "wdualobjectives_2025": null,
+      "whard_2024": "Hard",
+      "wimposters_2024": "Imposters",
+      "winter_kills_2024": null,
+      "winterkills_2025": null,
+      "wlockedcontainers_2024": null,
+      "wnaked_2024": "Naked",
+      "wnomeds_2024": null,
+      "wnoradio_2024": null,
+      "wnorigs_2024": null,
+      "wnorunning_2025": null,
+      "wnotech_2024": null,
+      "wpadlockeddoors_2025": null,
+      "wsurvivor_2024": "Survivor"
+    },
+    "metrics": {
+      "BEST_TIME": "Miglior Tempo",
+      "COMPLETIONS": "Completamenti"
+    },
+    "families": {
+      "fp": "Parco Divertimenti",
+      "ch": "Tribunale",
+      "ps": "Stazione di Polizia",
+      "or": "Orfanotrofio",
+      "mh": "Il Molo",
+      "sr": "La Periferia",
+      "tf": "Fabbrica di Giocattoli",
+      "dt": "Centro",
+      "sm": "Centro Commerciale",
+      "re": "Resort",
+      "ts": "Studio Televisivo",
+      "ae": "Fuga"
+    },
+    "maps": {
+      "fp_trial": "Tritura le Mele Marce",
+      "fpb_mt01": "Punisci i Miscredenti",
+      "fpb_mt02": "Apri le Porte",
+      "fpb_mt03": "Deturpa i Futterman",
+      "fpc_mt01": "Ferisci Futterman col Trapano",
+      "fpc_mt02": "Riscatta la tua Libertà",
+      "fpi_mt01": "Ammalia i Bambini",
+      "fpi_mt02": "Vinci la Verità",
+      "ch_trial": "Scagiona i Colpevoli",
+      "cha_mt01": "Fuggi dal Tribunale",
+      "cha_mt02": "Distruggi le Prove",
+      "cha_mt03": "Alimenta la Libertà",
+      "chj_mt01": "Fai Pendere la Bilancia della Giustizia",
+      "chj_mt02": "Condanna l'Imputato",
+      "ps_trial": "Uccidi la Spia",
+      "psa_mt01": "Insegna agli Agenti di Polizia",
+      "psb_mt01": "Annulla l'Autopsia",
+      "psb_mt02": "Sabota l'Isolamento",
+      "psb_mt03": "Distruggi il Passato",
+      "pso_mt01": "Libera i Prigionieri",
+      "pso_mt02": "Prendi le Droghe",
+      "or_trial": "Purifica gli Orfani",
+      "ors_mt01": "Nutri i Bambini",
+      "ors_mt02": "Salva gli Orfani",
+      "ors_mt03": "Riunisci la Famiglia",
+      "ori_mt01": "Raduna i Figli di Dio",
+      "mh_trial": "Avvelena il Farmaco",
+      "mhs_mt01": "Svuota il Caveau",
+      "mhs_mt02": "Avvelena il Bestiame",
+      "mhs_mt03": "Nascondi le Droghe di Contrabbando",
+      "mhs_mt04": "Cuoci l'Informatore",
+      "sr_trial": "Sciogli il Sindacato",
+      "srr_mt01": "Tira Fuori il Voto",
+      "srr_mt02": "Disturba il Quartiere",
+      "srr_mt03": "Eliminare il Retaggio",
+      "tf_trial": "Rendi Immorale Futterman",
+      "tfs_mt01": "Distruggi i Sex Toy",
+      "tfs_mt02": "Incenerisci i Sex Toy",
+      "tfs_mt03": "Fumiga la Fabbrica",
+      "tfw_mt01": "Arresta la Fabbrica",
+      "tfw_mt02": "Schiaccia il Caposquadra",
+      "dt_trial": "Soddisfa il Procuratore",
+      "dts_mt01": "Rapisci la Dominatrice",
+      "dts_mt02": "Diffondi la Malattia",
+      "dts_mt03": "Spaccia il Prodotto",
+      "sm_trial": "A Morte il Politico",
+      "smc_mt01": "Indaga sul Minotauro",
+      "smc_mt02": "Architetta lo Scandalo",
+      "re_trial": "Depreda l'Asta",
+      "res_mt01": "Risolvi l'Omicidio",
+      "res_mt02": "Incenerisci la Reliquia",
+      "ts_trial": "Zittisci l'Idolo",
+      "aet_mt01": "Scappa dalle Menzogne"
+    }
+  }
+}

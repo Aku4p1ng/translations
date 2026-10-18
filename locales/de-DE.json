@@ -1,0 +1,2045 @@
+{
+  "stats": {
+    "COMPLETED_TRIALS": "Abgeschlossene Trials",
+    "DEATHS": "Todesfälle",
+    "PRESTIGE": "Prestige",
+    "REAGENTS_RELEASED": "Freigelassene Reagents",
+    "FAILED_TRIALS": "Fehlgeschlagene Trials",
+    "TRIALS_IN_HOURS": "Spielzeit in Trials",
+    "TRACKED_ACCOUNTS": "Accounts analysiert",
+    "TOTAL_DEATHS": "Gesamte Todesfälle",
+    "TOTAL_RELEASES": "Gesamte Reagent-Releases",
+    "TOTAL_PRESTIGES": "Gesamte Prestige",
+    "TOTAL_LOBBY_GAMES": "Gesamte Lobby-Spiele",
+    "TOTAL_STAMPS": "Gesamte Briefmarken",
+    "TOTAL_MURKOFF_COINS": "Gesamte Murkoff-Münzen",
+    "TOTAL_DAMAGED": "Gesamter Schaden erlitten",
+    "TOTAL_TIMES_HIDDEN": "Gesamt versteckt",
+    "TOTAL_PSYCHOSIS_TIME": "Gesamte Psychose-Zeit",
+    "ESCALATION_HIGHEST_TRIAL_REACHED": "Höchster Eskalations-Trial",
+    "ESCALATION_HIGHEST_TRIAL_REACHED_WITH_TIME": "Höchster Eskalations-Trial mit Zeit",
+    "ESCALATION_RUNS_COMPLETED": "Abgeschlossene Eskalations-Runs",
+    "ESCALATION_TRIALS_COMPLETED": "Abgeschlossene Eskalations-Trials",
+    "ESCALATION_TIME_PLAYED": "Spielzeit in Eskalation",
+    "ARMWRESTLING_WINS": "Armdrücken Siege",
+    "ARMWRESTLING_LOSES": "Armdrücken Niederlagen",
+    "ARMWRESTLING_RATING": "Armdrücken Punkte",
+    "CHESS_WINS": "Schach Siege",
+    "CHESS_RATING": "Schach Punkte",
+    "TENNIS_WINS": "Tennis Siege",
+    "TENNIS_LOSES": "Tennis Niederlagen",
+    "TENNIS_RATING": "Tennis Punkte",
+    "STROOP_RATING": "Stroop Punkte",
+    "INVASION_POINTS": "Invasionspunkte",
+    "INVASION_IMPOSTER_WON_MATCHES": "Imposter Gewonnen",
+    "INVASION_IMPOSTER_LOST_MATCHES": "Imposter Verloren",
+    "INVASION_REAGENT_WON_MATCHES": "Reagent Gewonnen",
+    "INVASION_REAGENT_LOST_MATCHES": "Reagent Verloren",
+    "STAMPS": "Briefmarken",
+    "EVENT_TOKENS": "Event-Token"
+  },
+  "sitebar": {
+    "home": "Startseite",
+    "leaderboard": "Rangliste",
+    "badges": "Abzeichen",
+    "roadmap": "Roadmap",
+    "addAccount": "Account hinzufügen",
+    "discord": null,
+    "contribute": "Unterstütze uns kostenlos",
+    "dataLegal": "Datenschutz",
+    "imprint": "Impressum",
+    "terms": "Nutzungsbedingungen",
+    "reporting": "Reporting",
+    "more": "Mehr",
+    "explore": "Explore",
+    "menu": {
+      "getInvolved": null,
+      "community": "Community",
+      "siteInfo": null,
+      "reportingDescription": null,
+      "newOn": null,
+      "mapsDescription": null,
+      "studioDescription": null
+    }
+  },
+  "faqPage": {
+    "title": null,
+    "subtitle": null,
+    "menuDescription": null,
+    "searchPlaceholder": null,
+    "topics": "Topics",
+    "popular": null,
+    "noResultsTitle": null,
+    "noResultsDesc": null,
+    "clearSearch": null,
+    "copyLink": null,
+    "linkCopied": null,
+    "contact": {
+      "title": null,
+      "desc": null,
+      "discord": null
+    },
+    "categories": {
+      "general": "General",
+      "tracking": null,
+      "account": null,
+      "privacy": null,
+      "leaderboards": null,
+      "tools": null
+    },
+    "categoryDescriptions": {
+      "general": null,
+      "tracking": null,
+      "account": null,
+      "privacy": null,
+      "leaderboards": null,
+      "tools": null
+    },
+    "links": {
+      "discord": null,
+      "settings": "Settings",
+      "linkPage": null,
+      "addAccount": null,
+      "monitor": "TOTStatsMonitor",
+      "privacyPolicy": null,
+      "github": "GitHub",
+      "linkAccountFaq": null,
+      "hideProfileFaq": null,
+      "deleteAccountFaq": null,
+      "leaderboards": "leaderboards",
+      "badges": "Badges",
+      "discordBot": null,
+      "compare": "Compare",
+      "maps": null,
+      "skinStudio": null
+    },
+    "items": {
+      "what-is-totstats": {
+        "q": null,
+        "a": [
+          "Outlast Trials Stats is a free community project for The Outlast Trials. It tracks player profiles and turns them into stats, leaderboards, badges and a trial history, so you can see how you and your friends are doing.",
+          "Next to the stats site we also run an interactive map of every trial, a 3D Reagent Studio, a Discord bot and the TOTStatsMonitor desktop app."
+        ],
+        "keywords": null
+      },
+      "affiliation": {
+        "q": null,
+        "a": [
+          "No. TOTStats is an unofficial, independent fan project. It is not affiliated with, endorsed or sponsored by Red Barrels Inc. “The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc."
+        ],
+        "keywords": null
+      },
+      "is-it-free": {
+        "q": null,
+        "a": [
+          "No. The site is a non-commercial community project. You can browse profiles, leaderboards and badges without an account. You only need to sign in with Discord if you want to link and manage your own profile."
+        ],
+        "keywords": null
+      },
+      "data-source": {
+        "q": null,
+        "a": [
+          "Stats come from the game services of The Outlast Trials, the same data the game shows you. To find accounts we also use public Steam Community information and profile IDs that players submit.",
+          "We never need your game login or password. All details are in our {privacy}."
+        ],
+        "keywords": null
+      },
+      "languages": {
+        "q": null,
+        "a": [
+          "The site is available in 9 languages and picks one based on your browser. You can switch at any time with the language selector in the footer.",
+          "Translations are made by the community. If your language is missing or something reads odd, you can help out on {github}."
+        ],
+        "keywords": null
+      },
+      "report-bug": {
+        "q": null,
+        "a": [
+          "Join our {discord} and post it in the support or feedback channel. A screenshot and the link to the affected profile or page help us a lot."
+        ],
+        "keywords": null
+      },
+      "add-account": {
+        "q": null,
+        "a": [
+          "There are three ways, and you only need one of them:",
+          "As soon as your profile has been picked up, it shows up in the search and on the leaderboards."
+        ],
+        "steps": [
+          "Play an Invasion or Escalation match. We regularly scan those leaderboards and add new players automatically, no ID needed. This is the easiest way.",
+          "Enter your Friend Code (format XXXX-XXXX, shown in-game) on the {addAccount} page.",
+          "Or enter your SteamID64 there, a 17-digit number starting with 7656. Sites like steamid.io help you find it."
+        ],
+        "keywords": null
+      },
+      "platforms": {
+        "q": null,
+        "a": [
+          "Steam, Epic Games, PlayStation and Xbox profiles are all tracked, and every leaderboard can be filtered by platform.",
+          "Friend Codes work for every platform. PlayStation and Xbox profiles are also added automatically when you {linkAccount} through Discord."
+        ],
+        "keywords": null
+      },
+      "how-long-until-visible": {
+        "q": null,
+        "a": [
+          "Usually within minutes, sometimes a few hours. Submissions go into a queue that our collector works through, and the collector depends on an external login service that isn't running around the clock.",
+          "If your profile still isn't there after a day, double-check your Friend Code or SteamID64 and submit it again. Submitting twice doesn't hurt, duplicates are ignored."
+        ],
+        "keywords": null
+      },
+      "update-frequency": {
+        "q": null,
+        "a": [
+          "Every tracked profile gets a basic check (name, platform, last login) about every 12 hours.",
+          "Stats, inventory and recent trials are only fetched again if you have logged into the game since the last update. After a session, expect your new numbers within roughly 12 hours, depending on how busy the queue is. If you haven't played, there is nothing new to fetch.",
+          "Trial and cosmetic leaderboards are rebuilt every 2 hours. The general leaderboards change as soon as a profile is updated."
+        ],
+        "keywords": null
+      },
+      "request-update": {
+        "q": null,
+        "a": [
+          "Yes. Open the profile and click the refresh icon (\"Request a profile update\") next to the name. A popup shows the progress of each step.",
+          "To keep the queue fair there is a cooldown per profile: 24 hours if you are not signed in, 6 hours when you are signed in, and 1 hour for your own linked profile. The button is hidden while the cooldown is active."
+        ],
+        "keywords": null
+      },
+      "stats-outdated": {
+        "q": null,
+        "a": [
+          "Most of the time the update simply hasn't happened yet: stats are only refreshed after you log in again and your profile has gone through the queue. You can also request an update on your profile.",
+          "Some values, especially from lobby games, are not provided by the game services at all, so we can't show them. If a number stays clearly wrong, let us know on our {discord}."
+        ],
+        "keywords": null
+      },
+      "inactive-label": {
+        "q": null,
+        "a": [
+          "The player hasn't logged into The Outlast Trials for more than 3 months. The label disappears after their next login and profile update."
+        ],
+        "keywords": null
+      },
+      "profile-url": {
+        "q": null,
+        "a": [
+          "Every profile can be opened with a short link based on the in-game name, like {example}. If several players share a name, they get a number, like {duplicate}. The player with the higher prestige gets the lower number.",
+          "Because the short link follows your in-game name, it changes when you rename yourself. The link with your profile ID always stays the same."
+        ],
+        "keywords": null
+      },
+      "link-account": {
+        "q": null,
+        "a": [
+          "Linking proves that a profile is yours. Afterwards you can hide it, choose which tabs are public, pick a background, get roles from our Discord bot and request updates more often.",
+          "We verify ownership by matching the platform ID of your Discord connection with the game profile, so the connection has to be the account you play on."
+        ],
+        "steps": [
+          "In Discord, open User Settings → Connections and connect your Steam, PlayStation or Xbox account.",
+          "Open the {linkPage} page and sign in with Discord.",
+          "Select your game profile. It is linked right away."
+        ],
+        "keywords": null
+      },
+      "link-epic": {
+        "q": null,
+        "a": [
+          "Not automatically, because Discord doesn't offer an Epic Games connection we can use to verify your account. Open a support ticket on our {discord} and we'll link your profile manually."
+        ],
+        "keywords": null
+      },
+      "link-not-tracked": {
+        "q": null,
+        "a": [
+          "If we don't know your profile yet, it is queued automatically when you sign in on the {linkPage} page. Click \"Pre-select\" and it will be linked on its own as soon as it has been found, usually within 15 minutes.",
+          "If that doesn't work, add it on the {addAccount} page first and try again later."
+        ],
+        "keywords": null
+      },
+      "link-rules": {
+        "q": null,
+        "a": [
+          "Each Discord account can link one game profile, and each game profile can only be linked to one Discord account.",
+          "To switch, unlink the current profile in your {settings} under Account and link the other one. If someone else has already linked your profile, contact us on our {discord}."
+        ],
+        "keywords": null
+      },
+      "customize-profile": {
+        "q": null,
+        "a": [
+          "Yes. Once your profile is linked, you can pick one of 16 profile backgrounds in your {settings} under Appearance and choose which tabs are public under Privacy.",
+          "The title shown on a profile is picked at random and can't be chosen."
+        ],
+        "keywords": null
+      },
+      "hide-profile": {
+        "q": null,
+        "a": [
+          "Link your profile, open your {settings} and turn on \"Hide Profile\" under Privacy. Hidden profiles disappear from search and leaderboards, and other players can't open them. You can still see your own profile.",
+          "You can make it visible again at any time."
+        ],
+        "keywords": null
+      },
+      "hide-sections": {
+        "q": null,
+        "a": [
+          "Yes. In your {settings} under Privacy you can hide your Last Trials, Shop Packs and Murkoff-Coins one by one while the rest of your profile stays public. On your own profile you always see everything."
+        ],
+        "keywords": null
+      },
+      "stop-updates": {
+        "q": null,
+        "a": [
+          "Yes, while your profile is hidden. In your {settings} under Privacy, turn off data processing. Your stats stay frozen until you turn it back on."
+        ],
+        "keywords": null
+      },
+      "delete-data": {
+        "q": null,
+        "a": [
+          "Open your {settings}, go to Account and choose \"Delete Profile Data\". You confirm the deletion by signing in with the same Discord account once more. The deletion is then scheduled and runs 7 days later. Then we remove:",
+          "Until then you can cancel the deletion in your settings. Once it has run, it can't be undone: your profile is hidden and excluded from further collection until you turn processing back on yourself. Your Discord login and the profile link stay, so you keep control over it.",
+          "If you want your website account gone as well, see {deleteAccount}."
+        ],
+        "bullets": [
+          "your trial statistics and trial history",
+          "your inventory, cosmetics and shop packs",
+          "your badges, tasks and name history",
+          "your Invasion progress of all seasons",
+          "your display name, Friend Code and the raw game data we stored"
+        ],
+        "keywords": null
+      },
+      "delete-account": {
+        "q": null,
+        "a": [
+          "Sign in, open your {settings}, go to Account and choose \"Delete account\" in the Danger Zone. You confirm the deletion by signing in with the same Discord account once more. Your Discord access tokens are deleted right away; everything else follows after a 7-day grace period. We remove:",
+          "If a game profile is linked, you choose what happens to it; nothing is preselected. \"Keep\" leaves it on the site like the profile of any player without an account, with your current visibility settings; to change them later, you have to link the profile again. \"Delete\" also wipes its data and keeps it hidden and blocked from further collection. If you already requested \"Delete Profile Data\", \"Keep\" cancels that request and \"Delete\" carries it out.",
+          "You are signed out right away. Signing in again within the 7 days cancels the deletion. After that it can't be undone, and signing in with Discord again creates a new, empty account. Staff accounts can't be deleted this way; an admin has to remove the staff role first."
+        ],
+        "bullets": [
+          "your Discord ID, name, avatar and email address",
+          "the Discord access tokens we stored, right away when you confirm; we also revoke them at Discord",
+          "your profile link, pending claims and verification history"
+        ],
+        "keywords": null
+      },
+      "export-data": {
+        "q": null,
+        "a": [
+          "Yes. Sign in, open your {settings}, go to Account and choose \"Download my data\". You get an HTML page that you can open in any browser, with what our database stores about your account and your linked profile, such as your account details, profile settings, stats, trials, badges and verification history. The page can also save the same data as a JSON file.",
+          "Stored login tokens are never included."
+        ],
+        "keywords": null
+      },
+      "opt-out-without-account": {
+        "q": null,
+        "a": [
+          "Send an email to {email} or open a ticket on our {discord} and tell us which profile it is about. We'll hide it and stop collecting its data."
+        ],
+        "keywords": null
+      },
+      "cookies": {
+        "q": null,
+        "a": [
+          "Only what the site needs to work, such as your login and language. Usage statistics, session recordings with masked inputs and error reports (PostHog, hosted in the EU) are only collected if you agree to them. You can reject them and change your choice any time via \"Cookie Settings\" in the footer.",
+          "Everything else is explained in our {privacy}."
+        ],
+        "keywords": null
+      },
+      "leaderboard-ranking": {
+        "q": null,
+        "a": [
+          "Each category ranks players by that value, highest first. You can filter by platform, and the top 1,000 players of every category are listed.",
+          "The {leaderboards} are split into General (trials, progress, Invasion, minigames), Trials (best times and completions per trial and difficulty) and Cosmetics (most owned, rarest and most equipped items)."
+        ],
+        "keywords": null
+      },
+      "not-on-leaderboard": {
+        "q": null,
+        "a": [
+          "The most common reasons are:"
+        ],
+        "bullets": [
+          "your profile is hidden ({hideProfile})",
+          "you are outside the top 1,000 of that category",
+          "your profile was added recently and hasn't been fully processed yet",
+          "trial and cosmetic leaderboards are only rebuilt every 2 hours",
+          "the entry was removed by our team, for example because of an exploit or a glitched time"
+        ],
+        "keywords": null
+      },
+      "badges": {
+        "q": null,
+        "a": [
+          "Most badges are awarded automatically when your profile is updated, for example for playing in the Closed Beta or Early Access, releasing 100, 250 or 500 Reagents, holding the fastest time on a trial, reaching A+ on every Psychosurgery map or owning every item.",
+          "Speed Runner, Perfect Subject and All Items Collected are checked every hour and can be lost again, for example when someone beats your time or new items come out. A few special badges are handed out by our team. All badges are listed on the {badges} page."
+        ],
+        "keywords": null
+      },
+      "contributor-badge": {
+        "q": null,
+        "a": [
+          "Run the {monitor} while you play. It reports the profile IDs of the players you meet, and as soon as one of them is a player we didn't know yet, you get the badge."
+        ],
+        "keywords": null
+      },
+      "invasion-rank": {
+        "q": null,
+        "a": [
+          "Your rank is based on the Invasion points you earn in the current season. It goes from Unranked through Initiate, Bronze and Silver up to Gold, each with three tiers. Every new season starts from zero."
+        ],
+        "keywords": null
+      },
+      "leaderboard-moderation": {
+        "q": null,
+        "a": [
+          "Our team hides players from all leaderboards when their stats were not earned by normal play or are simply wrong. Every hidden player has one of these reasons:",
+          "Hidden players keep their profile and all their stats. Their profile shows the reason and the date, but they don't get a rank.",
+          "To see them, turn on \"Show hidden players\" under \"Rank by\" on the general leaderboard or under \"Filter\" on the trial leaderboards. It also tells you how many players are hidden. They are listed dimmed and marked with their reason.",
+          "If your own profile was hidden and you think this is a mistake, contact us on our {discord}. We review every appeal."
+        ],
+        "bullets": [
+          "Botting: stats were gained with automated play, such as bots, macros or scripts.",
+          "Cheating: stats were gained by cheating, for example with cheat tools, a modified game or by abusing exploits and glitches.",
+          "Data error: the stats are wrong because of an error in the game data or on our side. The player did nothing wrong."
+        ],
+        "keywords": null
+      },
+      "monitor": {
+        "q": null,
+        "a": [
+          "The TOTStatsMonitor is a small Windows app that runs in the background while you play. It shows your current trial as Discord Rich Presence and helps us find new players by reporting the profile IDs of the people you meet.",
+          "It only reads the log file the game already writes. It doesn't touch the game, its memory or its files, and it sends nothing but profile IDs. The source code is public on GitHub.",
+          "Because the app isn't code-signed, Windows SmartScreen may warn you on the first start. Click \"More info\" and then \"Run anyway\". Download and setup are on the {monitor} page."
+        ],
+        "keywords": null
+      },
+      "discord-bot": {
+        "q": null,
+        "a": [
+          "Futterman's Radio brings your stats to Discord servers. It assigns roles based on prestige, level, rig, Invasion rank, platform and more, syncs nicknames and keeps leaderboard channels up to date.",
+          "Members need a linked profile so the bot can find them. The invite link and setup are on the {discordBot} page. The bot is open source and can be self-hosted."
+        ],
+        "keywords": null
+      },
+      "compare-favorites": {
+        "q": null,
+        "a": [
+          "With {compare} you can put up to 4 profiles side by side. Favorites are added with the favorite button on a profile. Both are only saved in your browser, so you don't need an account, but they also don't carry over to other devices."
+        ],
+        "keywords": null
+      },
+      "map-skin-studio": {
+        "q": null,
+        "a": [
+          "Two companion projects: the {maps} shows every trial with rooms, enemy spawns, keys and objectives, and anyone can help map it with the browser editor. The {skinStudio} renders your Reagent in real-time 3D with every outfit and cosmetic, emotes, poses and hand shapes, up to five Reagents per scene in the studio, game rooms or menu backdrops, and exports wallpapers up to 4K, GIFs and share links."
+        ],
+        "keywords": null
+      }
+    }
+  },
+  "homePageV4": {
+    "announcement": null,
+    "newTag": null,
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "quickLinks": {
+      "leaderboard": "Leaderboards",
+      "badges": "Badges",
+      "compare": "Compare",
+      "map": "Map",
+      "skinStudio": null
+    },
+    "featuredUsers": {
+      "title": null
+    },
+    "popularOutfits": {
+      "title": null,
+      "subtitle": null,
+      "equipped": "Reagents",
+      "viewAll": null
+    },
+    "map": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "features": {
+        "trials": null,
+        "spawns": null,
+        "objectives": null,
+        "editor": null
+      },
+      "cta": null,
+      "badge": "New"
+    },
+    "skinStudio": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "features": {
+        "outfits": null,
+        "appearance": null,
+        "emotes": null,
+        "group": null,
+        "scene": null,
+        "export": null
+      },
+      "cta": null,
+      "badge": "New"
+    },
+    "monitor": {
+      "eyebrow": "TOTStatsMonitor",
+      "title": null,
+      "desc": null,
+      "features": {
+        "presence": null,
+        "discover": null,
+        "badge": null
+      },
+      "cta": null
+    },
+    "discordBot": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "cta": null
+    },
+    "statsBand": {
+      "title": null,
+      "subtitle": null
+    },
+    "community": "Community",
+    "faqHint": null,
+    "faqLink": null
+  },
+  "homePage": {
+    "projects": "Unsere Projekte",
+    "secretProject": {
+      "comingSoon": null,
+      "placeholderHeadline": null,
+      "placeholderDesc": null,
+      "placeholderButton": null,
+      "placeholderChipOne": null,
+      "placeholderChipTwo": null,
+      "placeholderChipCaption": "Classified"
+    },
+    "maps": {
+      "title": null,
+      "desc": null,
+      "openMaps": null,
+      "betaChip": "Beta",
+      "mapsChip": null,
+      "mapsChipCaption": null,
+      "editorChip": null,
+      "editorChipCaption": "Community"
+    },
+    "topPlayers": null,
+    "addAccount": {
+      "title": "Account tracken",
+      "desc": "Gib deinen Friend Code oder deine Steam ID ein, um deine Statistiken zu verfolgen.",
+      "cta": "Account hinzufügen"
+    },
+    "discordBot": {
+      "autoRoles": "Automatische Rollen",
+      "liveRankings": "Live in Kanälen"
+    },
+    "faq": {
+      "title": null,
+      "items": {
+        "addAccount": {
+          "question": null,
+          "answer": null,
+          "linkText": null
+        },
+        "updateFrequency": {
+          "question": null,
+          "answer": null
+        },
+        "hideOrDelete": {
+          "question": null,
+          "answer": "Once you've linked and logged into your account, head to your {link}: you can make your profile invisible, request that it's no longer updated, or delete your account and all of its data outright. Alternatively, you can still reach out to us via our Discord support.",
+          "linkText": "Settings"
+        },
+        "linkAccount": {
+          "question": null,
+          "answer": null,
+          "linkText": "Settings"
+        }
+      }
+    },
+    "errors": {
+      "statsTitle": null,
+      "statsMessage": null,
+      "topPlayersTitle": null,
+      "topPlayersMessage": null
+    }
+  },
+  "leaderboard": {
+    "general": "Allgemein",
+    "cosmetics": "Kosmetik",
+    "trials": "Trials",
+    "platform": "Plattform",
+    "rank": "Rang",
+    "reagent": "Reagent",
+    "value": "Wert",
+    "sortMostOwned": "Häufigste",
+    "sortRarest": "Seltenste",
+    "sortMostEquipped": "Am häufigsten ausgerüstet",
+    "cosmeticType": "Typ",
+    "cosmeticTypeAll": "Alle",
+    "cosmeticGroupCharacter": "Charakter",
+    "cosmeticGroupProfile": "Profil",
+    "cosmeticGroupCell": "Zelle",
+    "cosmeticExcludedGroup": "Categories",
+    "cosmeticFilterNone": null,
+    "trialsShowExcluded": null,
+    "excludedBadge": "Excluded",
+    "subtitle": null,
+    "trialsProgram": "Programm",
+    "trialsTrial": "Trial",
+    "trialsDifficulty": "Schwierigkeit",
+    "trialsBestTime": "Bestzeit",
+    "trialsCompletions": "Abschlüsse",
+    "trialsGroupedMore": "+{count} weitere",
+    "hidden": {
+      "show": null,
+      "hide": null,
+      "none": null,
+      "toggle": null,
+      "toggleHint": null,
+      "active": null,
+      "why": null,
+      "explanation": null,
+      "breakdownTitle": null,
+      "breakdownItem": null,
+      "mapCount": null,
+      "faqLink": null
+    }
+  },
+  "moderation": {
+    "reasons": {
+      "BOTTING": {
+        "label": "Botting",
+        "description": null
+      },
+      "CHEATING": {
+        "label": "Cheating",
+        "description": null
+      },
+      "DATA_ERROR": {
+        "label": null,
+        "description": null
+      }
+    },
+    "excludedResult": {
+      "label": null,
+      "description": null
+    },
+    "notRanked": null,
+    "notRankedTooltip": null
+  },
+  "cosmetics": {
+    "ALL": "Alle",
+    "customization": "Anpassung",
+    "badge": "Abzeichen",
+    "document": "Dokument",
+    "passive_drug": "Passives Medikament",
+    "upgrade": "Upgrade",
+    "excludedHint": {
+      "DATAMINE": null,
+      "WIP_ITEM": null,
+      "DEFAULT_ITEM": null,
+      "IGNORE": null
+    },
+    "legacyHint": "Legacy-Gegenstand — dieser Kosmetik-Gegenstand wurde aus dem Spiel entfernt und ist nicht mehr erhältlich.",
+    "loadingDetails": "Lade Kosmetik-Details...",
+    "errorTitle": "Fehler beim Laden des Kosmetik-Gegenstands",
+    "errorMessage": "Die Kosmetik-Details konnten nicht geladen werden. Bitte versuche es später erneut.",
+    "detail": {
+      "types": {
+        "outfit": "Outfit",
+        "upperBody": null,
+        "lowerBody": null,
+        "hair": "Hair",
+        "headAccessory": null,
+        "head": "Head",
+        "esop": "E.S.O.P.",
+        "nightVision": null,
+        "glove": "Glove",
+        "watch": "Watch",
+        "podiumEmote": null,
+        "terminalEmote": null
+      },
+      "rarity": "Rarity",
+      "thumbnailAlt": null,
+      "loadError": null
+    }
+  },
+  "siteFooter": {
+    "brandDesc": "Dein Begleiter für The Outlast Trials Statistiken, Ranglisten, Events und Spielerprofile.",
+    "notPartnered": "TOTStats ist ein inoffizielles Fanprojekt und steht in keiner Verbindung zu Red Barrels Inc.; es wird von Red Barrels weder unterstützt noch gesponsert.",
+    "trademarks": "„The Outlast Trials“ und „Outlast“ sind Marken der Red Barrels Inc. Alle anderen Marken und Urheberrechte gehören ihren jeweiligen Inhabern.",
+    "ariaDiscord": "Discord beitreten",
+    "ariaInstagram": "Auf Instagram folgen",
+    "ariaX": "Auf X folgen",
+    "columns": {
+      "pages": "Seiten",
+      "community": "Community",
+      "legal": "Rechtliches"
+    }
+  },
+  "shopPacks": {
+    "loadFailTitle": "Laden fehlgeschlagen",
+    "loadFailMessage": "Die Shop-Paket-Daten dieses Spielers konnten nicht abgerufen werden. Bitte versuche es später erneut.",
+    "emptyState": "Noch keine Shop-Pakete gekauft",
+    "purchasedTitle": "Gekaufte Shop-Pakete"
+  },
+  "reagentViewer": {
+    "modelLabel": null,
+    "modelLabelGeneric": null,
+    "modelLabelCosmetic": null,
+    "loading": null,
+    "toolbar": null,
+    "expand": null,
+    "collapse": "Collapse",
+    "podiumEmote": null,
+    "terminalEmote": null,
+    "nightVision": null,
+    "pause": null,
+    "play": null,
+    "resetView": null,
+    "openInStudio": null,
+    "renderFailed": null,
+    "bodyType": null,
+    "bodyMale": null,
+    "bodyFemale": null
+  },
+  "reagentList": {
+    "title": "Reagents",
+    "notOwnedCosmetic": "Dieses Kostüm wird aktuell von keinem Spieler besessen.",
+    "notOwnedBadge": "Dieses Abzeichen wird aktuell von keinem Spieler besessen.",
+    "showMore": "Mehr anzeigen",
+    "limitReached": "Es können nur die ersten {count} Besitzer angezeigt werden."
+  },
+  "badges": {
+    "subtitle": null,
+    "deprecatedTitle": "Wird entfernt",
+    "deprecated": "Dieses Badge wird nicht mehr aktualisiert, da das Spiel diese Information nicht mehr bereitstellt. Es wird bald entfernt.",
+    "retiredTitle": "Wird nicht mehr vergeben",
+    "retired": "Dieses Badge wird nicht mehr vergeben, da das Spiel diese Information nicht mehr bereitstellt."
+  },
+  "addAccount": {
+    "title": null,
+    "subtitle": "Nimm am Experiment teil und verfolge deinen Fortschritt",
+    "or": "oder",
+    "friendCode": "Freundescode",
+    "enterFriendCode": "Gib deinen Freundescode ein...",
+    "errorValidationFriendCode": "Bitte gib einen gültigen Freundescode ein",
+    "friendCodeTip": "Füge deinen Freundescode hinzu, um dein Konto zu verfolgen",
+    "successMessage": "Anfrage erfolgreich gesendet. Bitte warte bis zu 48 Stunden.",
+    "failedMessage": "Ein Fehler ist beim Senden der Anfrage aufgetreten. Bitte versuche es später erneut.",
+    "steamId": null,
+    "enterSteamId": "Gib deine SteamID64 ein...",
+    "errorValidationSteamId": "Bitte gib eine gültige SteamID64 ein (17-stellige Zahl)",
+    "steamIdTip": "Gib deine SteamID64 ein. Du findest sie auf {link} unter \"steamID64\".",
+    "tabFriendCode": "Freundescode",
+    "tabSteamId": null,
+    "invasionTitle": null,
+    "invasionRecommended": "Empfohlen",
+    "invasionStep1": "Spiele mindestens ein Invasion- oder Escalation-Match in The Outlast Trials",
+    "invasionStep2": "Dein Profil wird automatisch erkannt und getrackt",
+    "invasionStep3": "Sieh dir deine Stats, dein Ranking und deinen Fortschritt auf deinem Profil an",
+    "invasionNoIdNeeded": "Kein Freundescode oder Steam-ID erforderlich",
+    "startTracking": "Tracking starten",
+    "processing": "Wird verarbeitet..."
+  },
+  "maintenance": {
+    "eyebrow": "Murkoff // Systemstatus",
+    "status": "Wegen Wartung offline",
+    "title": "Wartungsarbeiten",
+    "reassurance": "Danke für deine Geduld, während wir das Tool verbessern.",
+    "autoCheck": "Status wird automatisch geprüft…",
+    "discordPrompt": "Mehr Infos? Komm auf unseren Discord-Server.",
+    "fallbackMessage": "Wir führen gerade Wartungsarbeiten durch. Bitte schau bald wieder vorbei."
+  },
+  "profile": {
+    "notFound": {
+      "title": "Profil nicht gefunden",
+      "desc": "Das gesuchte Profil existiert nicht oder wird noch nicht erfasst.",
+      "or": "oder",
+      "addAccount": "Neuen Account hinzufügen und tracken"
+    },
+    "copyId": "Profil-ID kopieren",
+    "idCopied": "Profil-ID erfolgreich kopiert",
+    "copyFailed": null,
+    "hero": {
+      "lastOnline": null,
+      "lastOnlineTooltip": null,
+      "lastOnlineExactTooltip": null,
+      "lastOnlineHiddenTooltip": null,
+      "lastOnlineRange": {
+        "RECENT": null,
+        "WEEK": null,
+        "MONTH": null,
+        "OVER_MONTH": null
+      },
+      "statsUpdated": null,
+      "addFavorite": null,
+      "removeFavorite": null,
+      "favorite": "Favorite",
+      "platformProfile": null,
+      "sectionsNav": null,
+      "profileId": null
+    },
+    "overview": {
+      "aboutMe": null,
+      "copyDiscord": null,
+      "discordCopied": null,
+      "favoriteTrial": null,
+      "favoriteTrialNotCompleted": null,
+      "recentTrials": null,
+      "viewAllTrials": null,
+      "keyFigures": null,
+      "playedTime": null,
+      "successRate": null,
+      "failedCount": null,
+      "escalation": "Escalation",
+      "lobbyRatings": null,
+      "invasionSeason": null,
+      "leaderboard": "Leaderboard",
+      "viewInvasion": null
+    },
+    "navV4": {
+      "reagent": "Reagent",
+      "collection": "Collection",
+      "owned": "Owned"
+    },
+    "sections": {
+      "statsGeneral": "General"
+    },
+    "errors": {
+      "invalidUuidTitle": null,
+      "invalidUuidMessage": null,
+      "serverErrorTitle": null,
+      "serverErrorMessage": null,
+      "networkErrorTitle": null,
+      "networkErrorMessage": null,
+      "unknownErrorTitle": null,
+      "unknownErrorMessage": null,
+      "unknownErrorStatusMessage": null
+    },
+    "addedToFavorites": "Zu Favoriten hinzugefügt",
+    "removedFromFavorites": "Aus Favoriten entfernt",
+    "viewCount": "Profilaufrufe",
+    "inactive": "Inaktiv",
+    "inactiveTooltip": "Dieser Spieler hat sich seit über 3 Monaten nicht eingeloggt",
+    "lastUpdated": {
+      "today": "Heute",
+      "yesterday": "Vor 1 Tag",
+      "daysAgo": "Vor {count} Tagen",
+      "weeksAgo": "Vor {count} Wochen",
+      "tooltip": "Profil zuletzt aktualisiert"
+    },
+    "update": {
+      "tooltip": "Profilaktualisierung anfordern",
+      "error": "Fehler beim Senden der Aktualisierungsanfrage",
+      "finished": "Profilaktualisierung abgeschlossen",
+      "items": {
+        "profile": "Profile",
+        "stats": "Stats",
+        "inventory": "Inventory",
+        "entity": "Entity"
+      },
+      "notification": {
+        "title": "Profil-Update"
+      }
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "stats": "Statistiken",
+      "invasion": "Invasion",
+      "trials": "Trials",
+      "lobbyGames": "Lobby-Spiele",
+      "currency": "Währung",
+      "lastTrials": "Letzte Trials",
+      "inventory": "Inventory"
+    },
+    "moreTabs": {
+      "completedTrials": "Abgeschlossene Trials",
+      "joinedEvents": null,
+      "tasks": "Aufgaben"
+    },
+    "joinedEvents": {
+      "emptyTitle": null,
+      "emptyMessage": null,
+      "loadErrorTitle": null,
+      "loadErrorMessage": null
+    },
+    "completedTrials": {
+      "completions": "Abschlüsse",
+      "bestTime": "Bestzeit",
+      "personalTq": "Persönliche TQ",
+      "groupTq": "Gruppen TQ",
+      "noResults": "Keine passenden Trials",
+      "noResultsMessage": "Keine abgeschlossenen Trials entsprechen den gewählten Filtern."
+    },
+    "settings": {
+      "showLastTrials": "Letzte Trials anzeigen",
+      "showShopPacks": "Shop-Pakete anzeigen",
+      "showCurrency": "Murkoff-Münze anzeigen",
+      "error": "Einstellungen konnten nicht gespeichert werden"
+    },
+    "moderation": {
+      "title": null,
+      "since": null,
+      "notRankedInfo": null,
+      "appeal": null,
+      "appealLink": null,
+      "learnMore": null
+    },
+    "visibility": {
+      "hidden": "Vom Profilbesitzer ausgeblendet",
+      "profileHiddenTitle": "Profil verborgen",
+      "profileHidden": "Dieses Profil wurde vom Besitzer verborgen.",
+      "profileHiddenNoticeTitle": "Profil ist verborgen",
+      "profileHiddenNotice": "Dieses Profil ist für die Öffentlichkeit verborgen. Nur du und Staff-Mitglieder können es sehen.",
+      "visibleToYou": null
+    },
+    "tabErrors": {
+      "statsTitle": null,
+      "statsMessage": null,
+      "invasionTitle": null,
+      "invasionMessage": null
+    },
+    "trials": {
+      "trialsStatsTitle": "Trials Statistiken",
+      "playedTrials": "Gespielte Trials",
+      "completedTrials": "Abgeschlossene Trials",
+      "failedTrials": "Fehlgeschlagene Trials",
+      "deaths": "Tode",
+      "reagentReleases": "Reagent Befreiung",
+      "prestige": "Prestige",
+      "combatDefenseStatsTitle": "Kampf & Verteidigung",
+      "headshots": "Kopfschüsse",
+      "helpTeammates": "Teammitglieder geholfen",
+      "distractEnemies": "Feinde abgelenkt",
+      "hideInSpot": "Mal versteckt",
+      "useAntidote": "Gegengift benutzt",
+      "survivalDamageStatsTitle": "Überleben & Schaden",
+      "knockedDown": "Mal niedergeschlagen",
+      "lostHealthPoints": "Verlorene Lebenspunkte",
+      "nightVisionTime": "Nachtsicht-Zeit",
+      "psychosisTime": "Psychose-Zeit",
+      "objectivesStatsTitle": "Ziele",
+      "collectEvidence": "Beweise gesammelt",
+      "unlockContainer": "Container geöffnet",
+      "collectItem": "Gegenstände gesammelt",
+      "disarmDoorTrap": "Türfallen entschärft",
+      "breakLockedDoors": "Türen aufgebrochen",
+      "movementRigStatsTitle": "Bewegung & Rig",
+      "runningTime": "Laufzeit",
+      "slidingTime": "Rutschzeit",
+      "crouchedTime": "Geduckte Zeit",
+      "useRig": "Rig benutzt",
+      "performCoopMoves": "Koop-Bewegungen",
+      "useRigRecharges": "Rig-Aufladungen benutzt",
+      "escalationStatsTitle": "Eskalations Statistiken",
+      "escalationHighestTrialReached": "Höchster erreichter Trial",
+      "escalationHighestTrialReachedWithTime": "Höchster erreichter Trial mit Zeit",
+      "escalationTrialsRunsCompleted": "Abgeschlossene Eskalations-Runs",
+      "escalationPlayTime": "Gespielte Eskalations",
+      "escalationTrialsCompleted": "Abgeschlossene Eskalations-Trials",
+      "escalationPrevious": "Vorherige",
+      "escalationV1Peak": "Eskalations-Höchstwert",
+      "escalationV1PlayTime": "Gespielte Eskalation",
+      "escalationV1Attempts": "Eskalations-Versuche",
+      "escalationV1TrialsCompleted": "Abgeschlossene Eskalations-Trials",
+      "itemsStatsTitle": "Benutzte Gegenstände",
+      "useAdrenaline": "Adrenalin benutzt",
+      "useBatteryBooster": "Batterie-Booster benutzt",
+      "useLargeBattery": "Große Batterie benutzt",
+      "useSmallBattery": "Kleine Batterie benutzt",
+      "useLargeMedicine": "Große Medizin benutzt",
+      "useSmallMedicine": "Kleine Medizin benutzt",
+      "distanceTraveled": "Zurückgelegte Distanz",
+      "revivedWithoutDeath": "Wiederbelebt ohne Tod",
+      "revivedWithDeath": "Wiederbelebt mit Tod",
+      "revivedOrHelpFriend": "Wiederbelebt oder Freund geholfen",
+      "hitEnemiesByThrowable": "Feinde mit Wurfgegenstand getroffen",
+      "noDamageDuringTrial": "Kein Schaden während Trial"
+    },
+    "playstyle": {
+      "title": "Spielstil",
+      "survivor": "Überlebender",
+      "teamPlayer": "Teamplayer",
+      "combatant": "Kämpfer",
+      "explorer": "Erkunder",
+      "veteran": "Veteran",
+      "dedication": "Hingabe",
+      "hoverHint": "Fahre über eine Achse, um zu sehen, wie sie berechnet wird",
+      "tapHint": "Tippe auf eine Achse, um zu sehen, wie sie berechnet wird",
+      "influences": {
+        "survivor": [
+          "Niedrige Todesrate · 45%",
+          "Trials ohne Schaden · 30%",
+          "Häufigkeit des Versteckens · 25%"
+        ],
+        "teamPlayer": [
+          "Wiederbelebungen & Freunden helfen · 40%",
+          "Ausgeführte Coop-Aktionen · 35%",
+          "Gegner von Teammates wegkicken · 25%"
+        ],
+        "combatant": [
+          "Kopfschüsse auf Gegner · 40%",
+          "Treffer mit Wurfgegenständen · 35%",
+          "Gegner ablenken · 25%"
+        ],
+        "explorer": [
+          "Gesammelte Beweise · 30%",
+          "Zurückgelegte Strecke · 25%",
+          "Geöffnete Behälter · 25%",
+          "Gesammelte Gegenstände · 20%"
+        ],
+        "veteran": [
+          "Höchster Eskalations-Trial · 40%",
+          "Prestige-Level · 35%",
+          "Trial-Abschlussrate · 25%"
+        ],
+        "dedication": [
+          "Gesamte Spielzeit · 50%",
+          "Gesamte Trials gespielt · 50%"
+        ]
+      }
+    },
+    "lobbyGames": {
+      "noDataAvailable": "Nicht verfügbar, da Red Barrels diese Informationen nicht sendet.",
+      "armWrestling": "Armdrücken",
+      "chess": "Schach",
+      "tennis": "Tennis",
+      "stroop": "Stroop",
+      "wins": "Siege",
+      "loses": "Niederlagen",
+      "rating": "Bewertung"
+    },
+    "currency": {
+      "stamps": "Briefmarken",
+      "coins": "Murkoff Münzen",
+      "vouchers": "Wertmarken",
+      "releasetokens": "Release-Token",
+      "event": "Event-Token"
+    },
+    "lastTrials": {
+      "noRecentTitle": null,
+      "noRecentMessage": null,
+      "playerScore": "Spieler Punkte",
+      "deaths": "Todesfälle",
+      "groupInfo": "Gruppen Info",
+      "score": "Punkte",
+      "clickForDetails": "Klicke für Details",
+      "action": "Aktion",
+      "count": "Anzahl",
+      "points": "Punkte",
+      "scoresLoadError": "Punkte konnten nicht geladen werden",
+      "groupMembers": "Zusammen gespielt mit",
+      "loadMore": null,
+      "noDifficulty": null,
+      "imposter": null,
+      "variators": "Variators"
+    },
+    "items": {
+      "loadErrorTitle": null,
+      "loadErrorMessage": null,
+      "rig": "Rig",
+      "perks": "Perks",
+      "character": "Kleiderschrank",
+      "posters": "Poster",
+      "items": "Gegenstände",
+      "emotes": "Emotes",
+      "cellRoom": "Gefängniszelle",
+      "allOwned": "Alle Besitzt",
+      "equippedOnly": "Nur Angezogen",
+      "shopPacks": null,
+      "ownedCosmetics": "Besitzte Kostüme",
+      "equipped": "Angezogen",
+      "missing": "Fehlend",
+      "missingCosmetics": "Fehlende Kostüme",
+      "noMissingItems": "Dieser Spieler besitzt alle Kostüme!",
+      "noItems": "Keine Kostüme für diesen Spieler gefunden.",
+      "loadouts": "Loadouts",
+      "reagent": "Reagent",
+      "imposter": "Imposter",
+      "reagentLoadouts": "Reagent-Loadouts",
+      "imposterLoadouts": "Imposter-Loadouts",
+      "loadoutSlot": null,
+      "selectedLoadout": "Ausgewählt",
+      "emptyLoadoutSlot": "Leerer Slot",
+      "loadoutsNotAvailable": "Loadout-Daten sind für diesen Spieler noch nicht verfügbar.",
+      "characterShort": "Character",
+      "rigAndPerks": null,
+      "cell": "Cell",
+      "emotePodium": "Podium",
+      "emoteTerminal": "Terminal",
+      "slotLabel": null
+    },
+    "invasion": {
+      "alltimeStatsTitle": "Invasion Alltime Statistiken",
+      "inaccurateHint": null,
+      "seasonMatchesPlayed": "Gespielte Season Matches",
+      "seasonImposterMatches": "Gespielte Imposter Matches",
+      "seasonImposterWonMatches": "Gewonnene Imposter Matches",
+      "seasonImposterLostMatches": "Verlorene Imposter Matches",
+      "seasonReagentMatches": "Gespielte Reagent Matches",
+      "seasonReagentWonMatches": "Gewonnene Reagent Matches",
+      "seasonReagentLostMatches": "Verlorene Reagent Matches",
+      "seasonRank": "Season {season} Rang",
+      "totalPoints": null,
+      "noSeasonData": null
+    },
+    "tasks": {
+      "title": "Tasks",
+      "all": "All",
+      "completed": "Completed",
+      "inProgress": null,
+      "empty": null,
+      "loadErrorTitle": null,
+      "loadErrorMessage": null
+    }
+  },
+  "profileSearch": {
+    "title": "Profil-Suche",
+    "subtitle": "Finde Reagents auf allen Plattformen",
+    "searchButton": "Suchen",
+    "resultsCount": "{count} Ergebnisse gefunden",
+    "showWithoutName": "Profile ohne Namen anzeigen",
+    "noName": "Unbekannter Reagent",
+    "platformFilter": null
+  },
+  "profileSearchInput": {
+    "searchText": "Suche nach einem Reagent",
+    "searchTextShort": "Suche...",
+    "noResultsFound": "Keine Ergebnisse gefunden",
+    "clickToTrackAccount": "Hier klicken um Konto zu tracken",
+    "enterSearchTerm": "Bitte gib einen Suchbegriff ein, um Reagenten zu finden",
+    "searchResults": "Suchergebnisse",
+    "recentPlayers": "Zuletzt angesehen",
+    "favorites": "Favoriten",
+    "noFavorites": "Noch keine Favoriten",
+    "noRecentPlayers": "Keine kürzlich angesehenen Spieler",
+    "showAllResults": null,
+    "openAdvancedSearch": null,
+    "keyNavigate": "navigate",
+    "keyOpen": "open",
+    "keyClose": "close",
+    "clear": null
+  },
+  "platform": {
+    "STEAM": "Steam",
+    "PSN": "PlayStation",
+    "XBOX": "Xbox",
+    "EPIC_GAMES": null,
+    "NINTENDO": "Nintendo",
+    "ALL": "Alle"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "subtitle": "Roadmap für The Outlast Trials",
+    "noEntries": "Keine Roadmap-Einträge gefunden",
+    "showDetails": "Details anzeigen",
+    "status": {
+      "inProgress": "Läuft gerade",
+      "planned": "Geplant"
+    },
+    "labels": {
+      "official": "Offiziell",
+      "unofficial": "Leak"
+    },
+    "features": "Aktivierungsschalter:"
+  },
+  "compare": {
+    "title": "Vergleichen",
+    "pageTitle": "Profile vergleichen",
+    "pageSubtitle": "Vergleiche Statistiken zwischen mehreren Reagents",
+    "addToCompare": "Zur Vergleichsliste hinzufügen",
+    "removeFromCompare": "Aus Vergleichsliste entfernen",
+    "clearAll": "Alle entfernen",
+    "loadingStats": "Lade Statistiken...",
+    "searchProfile": "Profil suchen...",
+    "searchHeroTitle": "Vergleich starten",
+    "searchHeroSubtitle": "Suche ein Profil, um es als ersten Kandidaten hinzuzufügen.",
+    "selectProfilesHint": "Wähle oben mindestens 2 Profile aus, um ihre Statistiken zu vergleichen",
+    "addedToCompare": "Profil zur Vergleichsliste hinzugefügt",
+    "removedFromCompare": "Profil aus Vergleichsliste entfernt",
+    "v4": {
+      "lineup": null,
+      "level": null,
+      "leading": "Leading",
+      "wins": null,
+      "addPlayer": null,
+      "openProfile": null,
+      "full": null,
+      "loadError": null,
+      "retry": "Retry",
+      "lowerIsBetter": null,
+      "playtime": "Playtime",
+      "teamworkTitle": "Teamwork",
+      "invasionSeasonTitle": null,
+      "matchesPlayed": null,
+      "lobbyWins": null,
+      "lobbyLosses": null,
+      "lobbyRating": null,
+      "badgesTitle": "Badges",
+      "badgeCount": null,
+      "badgeCollection": "Collection"
+    }
+  },
+  "otherPages": {
+    "title": "Weitere Seiten",
+    "subtitle": "Entdecke zusätzliche Ressourcen und Community-Inhalte",
+    "viewButton": "Ansehen",
+    "deprecated": "Veraltet",
+    "cards": {
+      "roadmap": {
+        "description": "Sehe die Entwicklungs-Roadmap und kommende Features"
+      },
+      "gameassets": {
+        "title": "Game Files",
+        "description": "Erkunde Spiel-Assets aus The Outlast Trials"
+      },
+      "translate": {
+        "title": "Beim Übersetzen helfen",
+        "description": "Hilf uns, OutlastTrialsStats auf GitHub in deine Sprache zu übersetzen"
+      },
+      "contribute": {
+        "description": "Hilf uns zu wachsen, indem du Daten zum Projekt beiträgst"
+      },
+      "discordBot": {
+        "title": null,
+        "description": "Automatische Rollenvergabe, Nickname-Sync und Bestenlisten"
+      }
+    }
+  },
+  "auth": {
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "login_benefit": "Verknüpfe dein Discord-Konto, um dein Spielprofil zu beanspruchen und auf personalisierte Funktionen zuzugreifen.",
+    "login_with_discord": "Mit Discord anmelden",
+    "login_notice": "Mit der Anmeldung gelten unsere {terms}. Ein Konto ist ab 16 Jahren möglich, unter 18 nur mit Zustimmung deiner Erziehungsberechtigten. Wie wir mit deinen Daten umgehen: {privacy}.",
+    "login_notice_terms": "Nutzungsbedingungen",
+    "login_notice_privacy": "Datenschutzerklärung",
+    "login_failed": "Anmeldung fehlgeschlagen",
+    "try_again": "Erneut versuchen",
+    "discord_denied": "Discord-Autorisierung wurde abgelehnt",
+    "invalid_state": "Ungültiger OAuth-Status. Bitte versuche es erneut.",
+    "missing_code": "Autorisierungscode fehlt",
+    "error_getting_url": "Discord-Autorisierungs-URL konnte nicht abgerufen werden",
+    "my_profile": "Mein Profil",
+    "view_profile": null,
+    "discord_account": null,
+    "claim_profile": "Profil verknüpfen",
+    "claim_profile_description": "Wähle dein Spielprofil aus den mit Discord verknüpften Plattformen aus.",
+    "claim": "Verknüpfen",
+    "claim_success": "Profil erfolgreich verknüpft!",
+    "claim_failed": "Profil konnte nicht verknüpft werden",
+    "loading_connections": "Lade verknüpfte Plattformen...",
+    "failed_load_connections": "Plattformen konnten nicht geladen werden",
+    "no_connections": "Keine Spieleplattformen mit Discord verknüpft. Verbinde Steam, PlayStation oder Xbox in deinen Discord-Einstellungen. Alternativ kannst du ein Support-Ticket auf unserem Discord-Server erstellen, um dein Konto manuell zu verknüpfen.",
+    "no_profile_found": "Kein Profil gefunden",
+    "already_claimed": "Bereits verknüpft",
+    "profile_pending": "Suche läuft...",
+    "claim_pending": "Vorauswählen",
+    "claim_pending_success": "Wir suchen dein Profil. Es wird automatisch verknüpft, sobald es gefunden wurde.",
+    "claim_pending_info": "Dein Profil wurde noch nicht gefunden. Du kannst es vorauswählen und es wird innerhalb von 15 Minuten automatisch verknüpft, sobald es entdeckt wird.",
+    "unclaim_profile": "Profil trennen",
+    "unclaim": "Trennen",
+    "unclaim_confirm": "Bist du sicher, dass du dein Spielprofil trennen möchtest? Du kannst es später erneut verknüpfen.",
+    "unclaim_success": "Profil erfolgreich getrennt!",
+    "unclaim_failed": "Profil konnte nicht getrennt werden",
+    "settings": "Einstellungen",
+    "account": "Account",
+    "claim_success_title": "Profil erfolgreich verknüpft!",
+    "claim_success_description": "Dein Spielprofil ist jetzt mit deinem Discord-Account verbunden.",
+    "already_linked_title": "Bereits verknüpft",
+    "already_linked_description": "Dein Discord-Account ist bereits mit einem Spielprofil verknüpft.",
+    "go_to_profile": "Zu meinem Profil",
+    "continue": "Continue",
+    "continue_to_maps": null,
+    "link_support_hint": "Probleme beim Verknüpfen? Melde dich bei unserem Support auf dem",
+    "page_title": "Account verknüpfen",
+    "page_subtitle": "Verbinde dein Spielprofil mit deinem Discord-Account",
+    "step_1_title": "Plattform mit Discord verknüpfen",
+    "step_1_desc": "Verknüpfe in Discord Einstellungen → {connections} deinen Steam-, PlayStation-, Xbox- oder Epic-Account.",
+    "verification": {
+      "method_title": null,
+      "method_discord_title": null,
+      "method_discord_desc": null,
+      "method_friend_code_title": null,
+      "method_friend_code_badge": null,
+      "method_friend_code_presence_desc": null,
+      "change_method": null,
+      "claim_fallback_title": null,
+      "claim_fallback_desc": null,
+      "claim_fallback_action": null,
+      "step_label": null,
+      "intro_title": null,
+      "intro_presence": null,
+      "friend_code_label": null,
+      "friend_code_hint": null,
+      "friend_code_invalid": null,
+      "start": null,
+      "challenges_left": null,
+      "no_challenges_left": null,
+      "resolving_title": null,
+      "resolving_presence_desc": null,
+      "waiting_for_source": null,
+      "presence_title": null,
+      "presence_desc": null,
+      "presence_desc_named": null,
+      "requirement_region": "Region",
+      "requirement_crossplay": "Cross-play",
+      "requirement_now": null,
+      "crossplay_on": "On",
+      "crossplay_off": "Off",
+      "status_pending": null,
+      "status_set": "Set",
+      "status_not_set": null,
+      "time_left": null,
+      "attempts": "Attempts",
+      "attempts_left": null,
+      "instructions_title": null,
+      "presence_instruction_1": null,
+      "presence_instruction_2": null,
+      "presence_instruction_3": null,
+      "presence_instruction_4": null,
+      "presence_warning": null,
+      "not_in_lobby": null,
+      "checking_presence": null,
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "verified_linking": null,
+      "try_again": null,
+      "error_title": null,
+      "dialog_hint": null,
+      "dialog_hint_link": null,
+      "result_title": {
+        "FAILED": null,
+        "EXPIRED": null,
+        "CANCELLED": null
+      },
+      "result_desc": {
+        "FAILED": null,
+        "EXPIRED": null,
+        "CANCELLED": null
+      },
+      "errors": {
+        "INVALID_FRIEND_CODE": null,
+        "INVALID_FRIEND_CODE_FORMAT": null,
+        "PROFILE_NOT_VERIFIABLE": null,
+        "USER_ALREADY_LINKED": null,
+        "NO_PROGRESSION_DATA": null,
+        "NO_ALTERNATIVE_COSMETICS": null,
+        "PLAYER_OFFLINE": null,
+        "MAX_ATTEMPTS_REACHED": null,
+        "SOURCE_UNAVAILABLE": null,
+        "SOURCE_ERROR": null,
+        "STAFF_OVERRIDE": null,
+        "LINKED_OTHERWISE": null,
+        "VERIFICATION_ALREADY_ACTIVE": null,
+        "DAILY_LIMIT_REACHED": null,
+        "VERIFICATION_NOT_ACTIVE": null,
+        "VERIFICATION_EXPIRED": null,
+        "GENERIC": null
+      }
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "subtitle": "Verwalte dein Profil und deine Datenschutz-Einstellungen",
+    "tabs": {
+      "appearance": "Darstellung",
+      "privacy": "Privatsphäre",
+      "account": "Konto"
+    },
+    "saving": "Speichern…",
+    "saved": "Gespeichert",
+    "saveError": "Speichern fehlgeschlagen",
+    "visibleTabs": "Sichtbare Tabs",
+    "visibleTabsHint": "Gilt nur, solange dein Profil sichtbar ist.",
+    "visibleTabItems": {
+      "lastTrials": null,
+      "lastTrialsHint": null,
+      "shopPacks": null,
+      "shopPacksHint": null,
+      "currency": "Murkoff-Coins",
+      "currencyHint": null
+    },
+    "visibility_description": "Wähle aus, welche Tabs auf deinem Profil für andere Spieler sichtbar sind.",
+    "processing": {
+      "title": "Datenverarbeitung",
+      "hint": "Verfügbar, solange dein Profil ausgeblendet ist."
+    },
+    "linked_profile": "Verknüpftes Profil",
+    "linked_profile_description": "Dein Spielprofil ist mit deinem Discord-Konto verknüpft. Du kannst es hier trennen.",
+    "profileDetails": {
+      "title": null,
+      "description": null,
+      "platformLink": null,
+      "platformLinkHint": null,
+      "badges": "Badges",
+      "badgesHint": null,
+      "lastLogin": null,
+      "lastLoginHint": null
+    },
+    "lastLoginToggle": {
+      "exact": "Exact",
+      "range": "Range"
+    },
+    "toggle": {
+      "visible": "Visible",
+      "hidden": "Hidden",
+      "on": "On",
+      "off": "Off"
+    },
+    "account": {
+      "discord": {
+        "title": null,
+        "description": null,
+        "signedIn": null
+      },
+      "profile": {
+        "viewTitle": null,
+        "viewHint": null,
+        "unlinkHint": null
+      }
+    },
+    "no_linked_profile": "Kein Spielprofil verknüpft. Verknüpfe ein Profil über das Benutzermenü, um Sichtbarkeitseinstellungen zu konfigurieren.",
+    "privacy": {
+      "title": "Privacy",
+      "description": null
+    },
+    "hideProfile": {
+      "title": "Profil ausblenden",
+      "description": "Blende dein Profil vollständig aus. Dein Profil wird nicht mehr verarbeitet, erscheint nicht mehr in Suchergebnissen oder Ranglisten und ist für andere Spieler nicht sichtbar. Du kannst dies jederzeit rückgängig machen."
+    },
+    "processProfile": {
+      "description": null,
+      "statusEnabled": null,
+      "statusDisabled": null
+    },
+    "appearance": {
+      "description": null
+    },
+    "background": {
+      "title": "Profil-Hintergrund",
+      "description": "Wähle ein Hintergrundbild, das auf deiner Profilseite angezeigt wird.",
+      "tileLabel": "Hintergrund {n}"
+    },
+    "nightVision": {
+      "title": null,
+      "description": null,
+      "up": null,
+      "down": null
+    },
+    "profileAccent": {
+      "title": null,
+      "description": null,
+      "custom": null,
+      "colors": {
+        "steel": "Steel",
+        "crimson": "Crimson",
+        "amber": "Amber",
+        "emerald": "Emerald",
+        "teal": "Teal",
+        "violet": "Violet",
+        "rose": "Rose",
+        "silver": "Silver",
+        "orange": "Orange",
+        "lime": "Lime",
+        "cyan": "Cyan",
+        "indigo": "Indigo"
+      },
+      "presets": "Presets",
+      "preview": "Preview",
+      "reset": "Reset",
+      "hex": null
+    },
+    "aboutMe": {
+      "title": null,
+      "description": null,
+      "placeholder": null
+    },
+    "favoriteTrial": {
+      "title": null,
+      "description": null,
+      "none": null
+    },
+    "socialLinks": {
+      "title": null,
+      "description": null,
+      "placeholder": "username",
+      "discordPlaceholder": null,
+      "invalid": null
+    },
+    "country": {
+      "title": "Country",
+      "description": null,
+      "none": null
+    },
+    "deleteProfile": {
+      "sectionTitle": null,
+      "sectionHint": null,
+      "title": null,
+      "hint": null,
+      "whatHeader": null,
+      "whatItems": [
+        "Trial statistics and trial history (Last Trials)",
+        "Inventory, cosmetics and owned items",
+        "Shop packs and currency history",
+        "Badges, tasks and username history",
+        "Invasion progress (all seasons)",
+        "Your display name, friend code and the raw game data we stored",
+        "Your About me, country, favorite trial and social links"
+      ],
+      "button": null,
+      "confirmTitle": null,
+      "confirmText": null,
+      "gracePeriod": null,
+      "understand": null,
+      "scheduled": null,
+      "scheduledTitle": null,
+      "scheduledHint": null,
+      "cancelButton": null,
+      "cancelled": null,
+      "cancelError": null,
+      "reauthFailed": null,
+      "reauthMismatch": null,
+      "reauthCancelled": null,
+      "noProfile": null,
+      "error": null
+    },
+    "reauth": {
+      "hint": null,
+      "continueWithDiscord": null
+    },
+    "accountData": {
+      "sectionTitle": null,
+      "sectionDescription": null,
+      "exportTitle": null,
+      "exportDescription": null,
+      "exportButton": null,
+      "exportFirst": null,
+      "exportFile": {
+        "title": null,
+        "intro": null,
+        "created": null,
+        "contents": "Contents",
+        "downloadJson": null,
+        "print": "Print",
+        "expandAll": null,
+        "collapseAll": null,
+        "entries": null,
+        "empty": "None",
+        "yes": "Yes",
+        "no": "No",
+        "sections": {
+          "account": "Account",
+          "linkedProfile": null,
+          "profileSettings": null,
+          "processingBlock": null,
+          "leaderboardModeration": null,
+          "profileStats": null,
+          "completedTrials": null,
+          "invasion": "Invasion",
+          "tasks": "Tasks",
+          "badges": "Badges",
+          "ownedCosmeticItemIds": null,
+          "recentTrials": null,
+          "joinedEvents": null,
+          "verifications": "Verifications",
+          "pendingClaims": null,
+          "auditEntries": null
+        }
+      },
+      "exportError": null,
+      "exportRateLimited": null,
+      "deleteTitle": null,
+      "deleteHint": null,
+      "deleteWhatItems": [
+        "Your Discord ID, name, avatar and email address",
+        "The Discord access tokens we stored (right away when you confirm; we also revoke them at Discord)",
+        "Your profile link, pending claims and verification history"
+      ],
+      "profileChoiceTitle": null,
+      "profileKeep": null,
+      "profileKeepHint": null,
+      "profileKeepCancelsWipe": null,
+      "profileWipe": null,
+      "profileWipeHint": null,
+      "profileChoiceRequired": null,
+      "button": null,
+      "confirmTitle": null,
+      "confirmWarning": null,
+      "understand": null,
+      "scheduled": null,
+      "deletionCancelled": null,
+      "reauthFailed": null,
+      "reauthMismatch": null,
+      "reauthCancelled": null,
+      "error": null,
+      "loadError": null,
+      "staffBlocked": null
+    }
+  },
+  "profileDeletionRequest": {
+    "footerLink": null,
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "fastPath": {
+      "signedOut": {
+        "title": null,
+        "desc": null,
+        "descClaim": null,
+        "button": null
+      },
+      "unverified": {
+        "title": null,
+        "desc": null,
+        "descClaim": null,
+        "fallback": null,
+        "button": null
+      },
+      "verified": {
+        "title": null,
+        "desc": null,
+        "button": null
+      }
+    },
+    "form": {
+      "title": null,
+      "desc": null,
+      "profileLabel": "Profile",
+      "searchPlaceholder": null,
+      "searching": "Searching…",
+      "noResults": null,
+      "resultsLabel": null,
+      "change": "Change",
+      "idNotFound": null,
+      "lookupNotFound": null,
+      "lookupFailed": null,
+      "profileRequired": null,
+      "contactLabel": null,
+      "contactRequired": null,
+      "contactLength": null,
+      "messageLabel": null,
+      "messageHint": null,
+      "confirm": null,
+      "confirmRequired": null,
+      "submit": null,
+      "privacyNote": null,
+      "privacyLink": null
+    },
+    "screenshots": {
+      "label": null,
+      "count": null,
+      "drop": null,
+      "hint": null,
+      "thumbAlt": null,
+      "remove": null,
+      "processing": "Preparing…",
+      "errors": {
+        "type": null,
+        "tooLarge": null,
+        "unreadable": null,
+        "limit": null
+      }
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": null,
+      "PROFILE_ALREADY_DELETED": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "SIGNED_IN": null,
+      "INVALID_SCREENSHOT": null,
+      "rateLimited": null,
+      "generic": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "reference": "Reference",
+      "home": null,
+      "another": null
+    }
+  },
+  "consent": {
+    "title": "Cookie-Einstellungen",
+    "description": "Wir verwenden Cookies und ähnliche Technologien. Essenzielle sind für die Funktion der Website erforderlich. Mit deiner Einwilligung nutzen wir außerdem PostHog (PostHog Inc., Hosting in der EU), um Seitenaufrufe und Klicks zu zählen, Sitzungen mit maskierten Formulareingaben aufzuzeichnen und Fehler zu melden. Du kannst deine Auswahl jederzeit über „Cookie-Einstellungen“ im Footer ändern.",
+    "essential": "Essenziell",
+    "alwaysActive": "Immer aktiv",
+    "essentialDescription": "Erforderlich für Kernfunktionen wie Anmeldung und Spracheinstellungen.",
+    "analytics": "Statistiken",
+    "analyticsDescription": "Seitenaufrufe, Klicks, Sitzungsaufzeichnungen mit maskierten Eingaben und Fehlerberichte über PostHog. Nur aktiv, wenn du einwilligst.",
+    "acceptAll": "Alle akzeptieren",
+    "essentialOnly": "Ablehnen",
+    "showDetails": "Details anzeigen",
+    "hideDetails": "Details ausblenden",
+    "savePreferences": "Auswahl speichern",
+    "cookieSettings": "Cookie-Einstellungen",
+    "privacyPolicy": "Datenschutzerklärung"
+  },
+  "contribute": {
+    "title": "Mitwirken",
+    "hero": {
+      "eyebrow": null
+    },
+    "flow": {
+      "eyebrow": "Community",
+      "meet": null,
+      "send": null,
+      "track": null,
+      "total": null
+    },
+    "banner": {
+      "title": "Hilf uns zu wachsen — Daten beitragen",
+      "desc": "Starte unser Hintergrund-Tool beim Spielen und erhalte ein exklusives Badge",
+      "learnMore": "Mehr erfahren",
+      "contributorBadge": "Contributor-Badge",
+      "presenceChip": null
+    },
+    "howTo": {
+      "title": "So kannst du beitragen",
+      "step1Title": "Tool herunterladen",
+      "step1Desc": "Lade das Contribute Tool herunter und starte es. Es installiert sich automatisch und startet mit Windows.",
+      "step2Title": "Spiel spielen",
+      "step2Desc": "Das Tool überwacht deine Spiel-Logs im Hintergrund und sendet neue Spieler-IDs an unser System.",
+      "step3Title": "Badge verdienen",
+      "step3Desc": "Aktive Mitwirkende erhalten ein exklusives Contributor-Badge auf ihrem Profil.",
+      "download": "Herunterladen",
+      "viewSource": "Auf GitHub ansehen",
+      "smartScreenNote": null
+    },
+    "features": {
+      "presence": {
+        "title": null,
+        "newTag": "New",
+        "desc": null,
+        "statusTitle": null,
+        "statusDesc": null,
+        "artworkTitle": null,
+        "artworkDesc": null
+      },
+      "data": {
+        "title": null,
+        "desc": null,
+        "discoverTitle": null,
+        "discoverDesc": null,
+        "privacyTitle": null,
+        "privacyDesc": null
+      }
+    },
+    "reward": {
+      "title": "Contributor-Belohnung",
+      "desc": "Jeder Beitrag hilft der Community zu wachsen. Aktive Mitwirkende werden mit einem exklusiven Profil-Badge ausgezeichnet."
+    },
+    "personal": {
+      "title": "Deine Beiträge",
+      "successful": "Erfolgreich",
+      "noProfile": "Verknüpfe ein Profil, um deine Beitragsstatistiken zu sehen."
+    },
+    "leaderboard": {
+      "title": "Top-Mitwirkende",
+      "totalProfiles": "{count} insgesamt getrackte Profile",
+      "profiles": "Profile",
+      "errorTitle": "Laden fehlgeschlagen",
+      "errorMessage": "Die Top-Mitwirkenden konnten nicht geladen werden. Bitte versuche es erneut."
+    }
+  },
+  "discordBot": {
+    "title": null,
+    "hero": {
+      "eyebrow": null,
+      "rolesEyebrow": "Roles",
+      "leaderboardEyebrow": "Rankings"
+    },
+    "commands": {
+      "title": "Commands",
+      "subtitle": null,
+      "admin": null,
+      "setupStart": null,
+      "syncProfile": null,
+      "leaderboard": null,
+      "setupLeaderboard": null
+    },
+    "invite": {
+      "title": null,
+      "desc": "Ein Discord-Bot, der automatisch Rollen vergibt, Nicknames synchronisiert und Bestenlisten basierend auf Spielerstatistiken aus The Outlast Trials anzeigt.",
+      "addBot": "Zum Server hinzufügen",
+      "learnMore": "Mehr erfahren",
+      "viewSource": "Auf GitHub ansehen"
+    },
+    "features": {
+      "roles": {
+        "title": "Rollenvergabe",
+        "desc": "Der Bot weist deinen Servermitgliedern automatisch Discord-Rollen basierend auf ihren Outlast-Trials-Statistiken zu. Spieler erhalten Rollen passend zu ihrem Prestige, Level, Rig, Invasion-Ranking und mehr — in Echtzeit aktualisiert beim Sync oder Beitritt.",
+        "categoriesTitle": "Unterstützte Kategorien",
+        "autoTitle": "Automatisch beim Beitritt",
+        "autoDesc": "Verifizierte Mitglieder erhalten ihre Rollen automatisch, wenn sie dem Server beitreten.",
+        "syncTitle": "Sync auf Abruf",
+        "syncDesc": "Spieler können ihre Rollen jederzeit aktualisieren, oder Admins synchronisieren alle Mitglieder auf einmal.",
+        "customTitle": "Voll anpassbar",
+        "customDesc": "Verknüpfe eigene Rollen mit Kategorien oder lass den Bot sie erstellen. Bot-Nachrichten können individuell angepasst werden."
+      },
+      "leaderboard": {
+        "title": "Bestenliste",
+        "desc": "Zeige Live-Bestenlisten direkt in deinen Discord-Kanälen an. Richte eine permanente Bestenliste ein, die sich stündlich aktualisiert, oder lass Spieler Rankings auf Abruf mit einem Slash-Befehl abrufen.",
+        "autoTitle": "Automatisch aktualisierende Kanäle",
+        "autoDesc": "Pinne eine Bestenliste in einen Kanal — sie aktualisiert sich stündlich mit den neuesten Daten.",
+        "onDemandTitle": "Rankings auf Abruf",
+        "onDemandDesc": "Spieler können jede Bestenlisten-Kategorie mit einem Slash-Befehl abrufen, mit Seitennavigation."
+      },
+      "nameSync": {
+        "autoTitle": "Namens-Sync",
+        "autoDesc": "Synchronisiere deinen Outlast-Trials-Profilnamen automatisch mit deinem Discord-Nickname."
+      }
+    },
+    "selfHost": {
+      "title": null,
+      "desc": "Der Bot ist vollständig Open-Source und kann mit Docker und PostgreSQL selbst gehostet werden. Schau dir das GitHub-Repository für die Einrichtung an.",
+      "openSource": null,
+      "viewDocs": "Dokumentation ansehen"
+    }
+  },
+  "common": {
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "loading": "Laden...",
+    "retry": "Retry",
+    "scrollToTop": "Nach oben scrollen"
+  },
+  "trials": {
+    "familyOther": "Other",
+    "programs": {
+      "programcore": "Core",
+      "programchain": "Escalation",
+      "programinvasion": "Invasion",
+      "programcreator": "Creator",
+      "programweekly": "Weekly",
+      "programevent": "Event"
+    },
+    "difficulties": {
+      "Easy": "Introductory",
+      "Normal": "Standard",
+      "Hard": "Intensive",
+      "Insane": "Psychosurgery",
+      "Undefined": "Undefined"
+    },
+    "variators": {
+      "BadTrip1": null,
+      "BadTrip2": null,
+      "BarricadedDoors": null,
+      "Bleeding": "Bleeding",
+      "BlockedDoors": null,
+      "BombStrapped": null,
+      "BreakTVs": null,
+      "Bundle_NPC": null,
+      "Bundle_Traps": null,
+      "Bundle_Traps2": null,
+      "ColdMines": null,
+      "ColdSnap": null,
+      "ColdTrial": null,
+      "CollectFromCorpses": null,
+      "CollectGenericSchematics": null,
+      "CollectGifts": null,
+      "CollectRats": null,
+      "DamageDisableRigs": null,
+      "DeadlyPrimeAsset": null,
+      "DeadlyTraps": null,
+      "DeepBurn": null,
+      "EnragedEnemies": null,
+      "ExitRush": null,
+      "FindTheRadio": null,
+      "FindTheTelevision": null,
+      "FireMines": null,
+      "FlameThrowerTraps": null,
+      "FrancoTime": null,
+      "GenericCollectBoxesSecondaryObjective": null,
+      "GenericFrequencyMatchSecondaryObjective": null,
+      "GlassDamage": null,
+      "HealthSickness": null,
+      "HighDoorVariators": null,
+      "HighEnemyDensity": null,
+      "HudImmersion": "Immersion",
+      "Insane_TrialMaker": "Psychosurgery",
+      "Inventory_Minus1": null,
+      "Inventory_Minus2": null,
+      "Jaeger": "Jaeger",
+      "KressTime": null,
+      "LevelOne": null,
+      "LiliyaTime": null,
+      "LimitedItems": null,
+      "LockedItems": null,
+      "LowEnemyDensity": null,
+      "MandatorySecondaryObjective": null,
+      "MorePushers": null,
+      "MoreTraps2": null,
+      "NauseaTraps": null,
+      "NoIntel": null,
+      "NoItems": null,
+      "NoPlaceToHide": null,
+      "NoPlaceToHide2": null,
+      "NoPlayerUpgrades": null,
+      "NoRadio": null,
+      "NoRunning": null,
+      "NoTechItems": null,
+      "PadLockedDoors": null,
+      "PermanentDamage": null,
+      "PermanentHallucinations": null,
+      "PrimeTime": null,
+      "PsychosisDamage": null,
+      "Psychosis_Hard": null,
+      "Rigs_InfiniteCooldown": null,
+      "RollingGates_CloseAfterPassage": null,
+      "RollingGates_Unlockable": null,
+      "SanitizationProcess": null,
+      "SoundTraps": null,
+      "StrongerEnemies2": null,
+      "TogetherWeAreStronger": null,
+      "TrappedDoors": null,
+      "VoiceDisturbance": null
+    },
+    "events": {
+      "amelia": "Amelia",
+      "badtrip_2026": null,
+      "bambino_2024": null,
+      "be_quiet_08_2026": null,
+      "bequiet_2025": null,
+      "blood_donation": null,
+      "bomb_2024": null,
+      "burnout_march_2026": "Burnout",
+      "chemical": null,
+      "classified_2026": "Classified",
+      "deadlock_march_2026": "Deadlock",
+      "deadly_prime_2026": null,
+      "deepburn": null,
+      "exitrush_may2025": null,
+      "flashback_2024": null,
+      "flashback_2025": null,
+      "halloween_2024": null,
+      "halloween_2025": null,
+      "jaeger": "Jaeger",
+      "kress": null,
+      "liliyatime": null,
+      "limitedrigs_may2025": null,
+      "lockedcontainers_2024": null,
+      "mirror_2026": "Mirror",
+      "noradio_december_2025": null,
+      "nostophobia": "Nostophobia",
+      "nostophobia_2026": "Nostophobia",
+      "onechance_2024": null,
+      "prime": null,
+      "prime_time_2026": null,
+      "scarred_2025": "Scarred",
+      "scavenger": "Scavenger",
+      "sharp_glass_november_2025": null,
+      "sharpglass_2024": null,
+      "stamps_2025": null,
+      "stamps_feb_2024": null,
+      "stamps_november_2025": null,
+      "stamps_weekend_october_2024": null,
+      "stay_together_09_2026": null,
+      "toxic_2024": null,
+      "wbadtrip_2024": null,
+      "wbleeding_2024": "Bleeding",
+      "wdualobjectives_2025": null,
+      "whard_2024": "Hard",
+      "wimposters_2024": "Imposters",
+      "winter_kills_2024": null,
+      "winterkills_2025": null,
+      "wlockedcontainers_2024": null,
+      "wnaked_2024": "Naked",
+      "wnomeds_2024": null,
+      "wnoradio_2024": null,
+      "wnorigs_2024": null,
+      "wnorunning_2025": null,
+      "wnotech_2024": null,
+      "wpadlockeddoors_2025": null,
+      "wsurvivor_2024": "Survivor"
+    },
+    "metrics": {
+      "BEST_TIME": null,
+      "COMPLETIONS": "Completions"
+    },
+    "families": {
+      "fp": null,
+      "ch": "Courthouse",
+      "ps": null,
+      "or": "Orphanage",
+      "mh": "Docks",
+      "sr": "Suburb",
+      "tf": null,
+      "dt": null,
+      "sm": null,
+      "re": "Resort",
+      "ts": null,
+      "ae": "Escape"
+    },
+    "maps": {
+      "fp_trial": null,
+      "fpb_mt01": null,
+      "fpb_mt02": null,
+      "fpb_mt03": null,
+      "fpc_mt01": null,
+      "fpc_mt02": null,
+      "fpi_mt01": null,
+      "fpi_mt02": null,
+      "ch_trial": null,
+      "cha_mt01": null,
+      "cha_mt02": null,
+      "cha_mt03": null,
+      "chj_mt01": null,
+      "chj_mt02": null,
+      "ps_trial": null,
+      "psa_mt01": null,
+      "psb_mt01": null,
+      "psb_mt02": null,
+      "psb_mt03": null,
+      "pso_mt01": null,
+      "pso_mt02": null,
+      "or_trial": null,
+      "ors_mt01": null,
+      "ors_mt02": null,
+      "ors_mt03": null,
+      "ori_mt01": null,
+      "mh_trial": null,
+      "mhs_mt01": null,
+      "mhs_mt02": null,
+      "mhs_mt03": null,
+      "mhs_mt04": null,
+      "sr_trial": null,
+      "srr_mt01": null,
+      "srr_mt02": null,
+      "srr_mt03": null,
+      "tf_trial": null,
+      "tfs_mt01": null,
+      "tfs_mt02": null,
+      "tfs_mt03": null,
+      "tfw_mt01": null,
+      "tfw_mt02": null,
+      "dt_trial": null,
+      "dts_mt01": null,
+      "dts_mt02": null,
+      "dts_mt03": null,
+      "sm_trial": null,
+      "smc_mt01": null,
+      "smc_mt02": null,
+      "re_trial": null,
+      "res_mt01": null,
+      "res_mt02": null,
+      "ts_trial": null,
+      "aet_mt01": null
+    }
+  }
+}
