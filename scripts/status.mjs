@@ -1,23 +1,23 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync } from 'node:fs'
 import { parseArgs } from 'node:util'
-import { LANGUAGE_NAMES, SOURCE_LOCALE, completeness, listLocales, readLocale, shape } from './lib/i18n.mjs'
+import { LANGUAGE_NAMES, SOURCE_LOCALE, completeness, leaves, listLocales, percent, readLocale } from './lib/i18n.mjs'
 
 const { values: args } = parseArgs({ options: { 'write-readme': { type: 'boolean', default: false } } })
 
-const source = readLocale('locales', SOURCE_LOCALE)
+const sourceLeaves = leaves(readLocale('locales', SOURCE_LOCALE))
 const rows = listLocales('locales')
   .filter((locale) => locale !== SOURCE_LOCALE)
-  .map((locale) => ({ locale, ...completeness(source, shape(source, readLocale('locales', locale), null)) }))
+  .map((locale) => ({ locale, ...completeness(sourceLeaves, readLocale('locales', locale)) }))
   .sort((a, b) => b.translated - a.translated || a.locale.localeCompare(b.locale))
 
-const total = rows[0]?.total ?? 0
+const total = sourceLeaves.size
 const table = [
   '| Locale | Language | Translated | Complete |',
   '| ------ | -------- | ---------- | -------- |',
   `| \`${SOURCE_LOCALE}\` | ${LANGUAGE_NAMES[SOURCE_LOCALE]} (source) | ${total} / ${total} | 100% |`,
   ...rows.map(({ locale, translated, total }) =>
-    `| \`${locale}\` | ${LANGUAGE_NAMES[locale] ?? locale} | ${translated} / ${total} | ${total ? Math.floor((translated / total) * 1000) / 10 : 100}% |`)
+    `| \`${locale}\` | ${LANGUAGE_NAMES[locale] ?? locale} | ${translated} / ${total} | ${percent(translated, total)}% |`)
 ].join('\n')
 
 if (!args['write-readme']) {

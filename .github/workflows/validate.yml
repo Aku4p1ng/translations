@@ -18,6 +18,7 @@ jobs:
         with:
           path: head
           fetch-depth: 0
+          filter: blob:none
           persist-credentials: false
 
       - name: Checkout trusted tooling

@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process'
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
@@ -43,6 +44,28 @@ export function writeLocale (dir, locale, tree) {
   writeFileSync(join(dir, `${locale}.json`), serialize(tree))
 }
 
+export function readLocales (dir) {
+  return Object.fromEntries(listLocales(dir).map((locale) => [locale, readLocale(dir, locale)]))
+}
+
+export function git (repo, ...args) {
+  return execFileSync('git', args, { cwd: repo, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] })
+}
+
+export function readLocalesAt (repo, ref, dir) {
+  let files
+  try {
+    files = git(repo, 'ls-tree', '--name-only', ref, '--', `${dir}/`).split('\n').filter((file) => file.endsWith('.json'))
+  } catch {
+    return undefined
+  }
+  if (!files.length) return undefined
+  return Object.fromEntries(files.map((file) => [
+    file.slice(dir.length + 1, -'.json'.length),
+    JSON.parse(git(repo, 'show', `${ref}:${file}`))
+  ]))
+}
+
 export function leaves (tree, prefix = [], out = new Map()) {
   if (!isGroup(tree)) return out
   for (const [key, value] of Object.entries(tree)) {
@@ -73,23 +96,23 @@ export function setLeaf (tree, path, value) {
 }
 
 export function shape (source, values, fill) {
+  const fillFor = typeof fill === 'function' ? fill : () => fill
   const out = {}
   for (const [key, sourceValue] of Object.entries(source)) {
     const value = isGroup(values) ? values[key] : undefined
     if (isGroup(sourceValue)) {
       const child = shape(sourceValue, value, fill)
       if (fill !== undefined || Object.keys(child).length) out[key] = child
-    } else if (value !== undefined && !isGroup(value)) {
-      out[key] = value
-    } else if (fill !== undefined) {
-      out[key] = fill
+    } else {
+      const next = value !== undefined && !isGroup(value) ? value : fillFor(sourceValue)
+      if (next !== undefined) out[key] = next
     }
   }
   return out
 }
 
-export function sameValue (a, b) {
-  return JSON.stringify(a) === JSON.stringify(b)
+function sameValue (a, b) {
+  return a === b || JSON.stringify(a) === JSON.stringify(b)
 }
 
 export function changedLeaves (before, after) {
@@ -124,23 +147,48 @@ function diffTokens (source, translated, pattern) {
   return { missing, unexpected }
 }
 
-export function checkMessage (source, translated) {
+function checkMessage (source, translated, reference) {
   const problems = []
   const placeholders = diffTokens(source, translated, PLACEHOLDER)
   if (placeholders.missing.length) problems.push(`is missing placeholder(s) ${placeholders.missing.join(', ')}`)
   if (placeholders.unexpected.length) problems.push(`has unknown placeholder(s) ${placeholders.unexpected.join(', ')}`)
   const html = diffTokens(source, translated, HTML_TAG)
-  if (html.unexpected.length) problems.push(`introduces HTML not present in ${SOURCE_LOCALE}: ${html.unexpected.join(', ')}`)
+  if (html.unexpected.length) problems.push(`introduces HTML not present in ${reference}: ${html.unexpected.join(', ')}`)
   return problems
 }
 
-export function pluralForms (value) {
-  return typeof value === 'string' ? value.split('|').length : 1
+function pluralForms (value) {
+  return value.split('|').length
 }
 
-export function completeness (source, tree) {
-  const total = leaves(source).size
+export function checkValue (key, sourceValue, value, reference = SOURCE_LOCALE) {
+  const errors = []
+  const warnings = []
+  const isList = Array.isArray(sourceValue)
+  if (isList ? !Array.isArray(value) || value.some((entry) => typeof entry !== 'string') : typeof value !== 'string') {
+    errors.push(`key "${key}" must be ${isList ? 'a list of strings' : 'a string'}`)
+    return { errors, warnings }
+  }
+  if (isList && value.length !== sourceValue.length) {
+    errors.push(`key "${key}" has ${value.length} entries, ${reference} has ${sourceValue.length}`)
+    return { errors, warnings }
+  }
+  const pairs = isList ? value.map((entry, index) => [`${key}[${index}]`, sourceValue[index], entry]) : [[key, sourceValue, value]]
+  for (const [label, expected, actual] of pairs) {
+    for (const problem of checkMessage(expected, actual, reference)) errors.push(`key "${label}" ${problem}`)
+    if (pluralForms(expected) > 1 && pluralForms(actual) !== pluralForms(expected)) {
+      warnings.push(`key "${label}" has ${pluralForms(actual)} plural form(s), ${reference} has ${pluralForms(expected)}`)
+    }
+  }
+  return { errors, warnings }
+}
+
+export function completeness (sourceLeaves, tree) {
   let translated = 0
-  for (const { value } of leaves(tree).values()) if (value !== null) translated++
-  return { translated, total }
+  for (const { path } of sourceLeaves.values()) if (getLeaf(tree, path) != null) translated++
+  return { translated, total: sourceLeaves.size }
+}
+
+export function percent (translated, total) {
+  return total ? Math.floor((translated / total) * 1000) / 10 : 100
 }

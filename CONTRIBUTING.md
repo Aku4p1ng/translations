@@ -45,8 +45,8 @@ list as `null`. Never put `null` inside a list and never change the number of it
 
 **One language per pull request.** It makes review a lot easier.
 
-**Never edit `en-US.json`.** It is updated automatically from the website. If an English text is wrong or unclear,
-[open an issue](../../issues/new).
+**`en-US.json`: corrections only.** You may fix typos and wording in the English texts. Do not add or remove entries
+and keep every `{placeholder}`, new texts always come from the website itself. The automated check enforces this.
 
 **No machine translation dumps.** Pull requests that fill a whole language with an automatic translation in one go
 are not accepted. Small, careful changes are always welcome.

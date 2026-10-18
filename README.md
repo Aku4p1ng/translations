@@ -33,8 +33,8 @@ breaks anything.
 3. Once a maintainer merges it, a pull request with your changes is opened in the website's repository and goes
    live with the next deployment.
 
-`locales/en-US.json` is the source language. It comes from the website itself and is updated automatically, so
-please do not edit it here. If an English text is wrong, [open an issue](../../issues/new).
+`locales/en-US.json` is the source language. It comes from the website and new texts are added automatically.
+You are welcome to correct typos or wording in it, but do not add or remove entries and keep every `{placeholder}`.
 
 ## For maintainers
 
