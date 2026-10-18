@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   sync-to-app:
-    if: ${{ github.repository == 'OutlastTrialsStats/translations' && !startsWith(github.event.head_commit.message, 'chore(sync): strings from the app') && !contains(github.event.head_commit.message, 'sync/app') }}
+    if: "${{ github.repository == 'OutlastTrialsStats/translations' && !startsWith(github.event.head_commit.message, 'chore(sync): strings from the app') && !contains(github.event.head_commit.message, 'sync/app') }}"
     runs-on: ubuntu-latest
 
     steps:
