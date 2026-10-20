@@ -2080,6 +2080,12 @@
     "coverAlt": null,
     "communityTotal": null,
     "finalTotal": null,
+    "discord": {
+      "title": null,
+      "text": null,
+      "online": null,
+      "join": null
+    },
     "ofGoal": null,
     "rate": null,
     "etaPhase": null,

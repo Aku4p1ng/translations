@@ -2080,6 +2080,12 @@
     "coverAlt": "{name} event artwork",
     "communityTotal": "Community progress",
     "finalTotal": "Final total",
+    "discord": {
+      "title": "Get milestone alerts",
+      "text": "We post on Discord when the community is close to a milestone or reaches one.",
+      "online": "{count} online",
+      "join": "Join Discord"
+    },
     "ofGoal": "{percent} of the final goal of {goal}",
     "rate": "Per hour",
     "etaPhase": "Phase {phase} at the current pace",
