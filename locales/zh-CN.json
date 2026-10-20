@@ -36,7 +36,8 @@
     "INVASION_REAGENT_WON_MATCHES": "试剂胜场",
     "INVASION_REAGENT_LOST_MATCHES": "试剂败场",
     "STAMPS": "邮票",
-    "EVENT_TOKENS": "活动代币"
+    "EVENT_TOKENS": "活动代币",
+    "EXTRACTED_INTEL": null
   },
   "sitebar": {
     "home": "主页",
@@ -59,7 +60,9 @@
       "reportingDescription": "游戏和站点季度统计报告",
       "newOn": "网站新功能",
       "mapsDescription": "每个试炼的的交互地图，包含物品和怪的刷点信息。",
-      "studioDescription": "在3D中放置最多五个试剂，并导出高达4K的壁纸。"
+      "studioDescription": "在3D中放置最多五个试剂，并导出高达4K的壁纸。",
+      "events": null,
+      "eventsDescription": null
     }
   },
   "faqPage": {
@@ -595,8 +598,6 @@
     "cosmeticGroupCell": "牢房",
     "cosmeticExcludedGroup": "类目",
     "cosmeticFilterNone": "无类目",
-    "trialsShowExcluded": "包括已排除的条目",
-    "excludedBadge": "已排除",
     "subtitle": "查看你在所有试剂中的排名方式",
     "trialsProgram": "项目",
     "trialsTrial": "试炼",
@@ -2040,6 +2041,114 @@
       "res_mt02": "焚烧圣物",
       "ts_trial": "让偶像噤声",
       "aet_mt01": "逃离谎言"
+    }
+  },
+  "communityEvent": {
+    "eyebrow": null,
+    "bar": {
+      "cta": null,
+      "next": null
+    },
+    "allReached": null,
+    "phase": null,
+    "reward": null,
+    "redacted": null,
+    "labels": {
+      "ESCAPE": null
+    },
+    "reached": null,
+    "toGo": null,
+    "timing": {
+      "took": null,
+      "reached": null
+    },
+    "eta": {
+      "underHour": null,
+      "hours": null,
+      "days": null,
+      "afterEnd": null,
+      "distant": null
+    },
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": null
+    },
+    "errorTitle": null,
+    "notFound": null,
+    "loadError": null,
+    "coverAlt": null,
+    "communityTotal": null,
+    "finalTotal": null,
+    "ofGoal": null,
+    "rate": null,
+    "etaPhase": null,
+    "etaNext": null,
+    "stats": {
+      "updated": null,
+      "ended": null,
+      "phases": null,
+      "phasesValue": null
+    },
+    "unknown": null,
+    "personal": {
+      "title": null,
+      "done": null,
+      "missing": null,
+      "signIn": null,
+      "link": null
+    },
+    "phases": null,
+    "history": {
+      "title": null,
+      "subtitle": null,
+      "aria": null
+    },
+    "status": {
+      "live": null,
+      "liveUntil": null,
+      "upcoming": null,
+      "ended": null,
+      "endedOn": null
+    },
+    "events": {
+      "extract_escape_plan": {
+        "name": null,
+        "description": null
+      },
+      "blood_donation": {
+        "name": null,
+        "description": null
+      },
+      "characters_released": {
+        "name": null
+      }
+    },
+    "overview": {
+      "eyebrow": null,
+      "title": null,
+      "subtitle": null,
+      "live": null,
+      "upcoming": null,
+      "past": null,
+      "empty": null,
+      "loadError": null,
+      "goal": null,
+      "awaiting": null,
+      "phasesReached": null,
+      "counters": null
+    },
+    "more": {
+      "title": null,
+      "all": null
+    },
+    "counter": {
+      "next": null,
+      "total": null,
+      "remaining": null,
+      "eta": null,
+      "steps": null,
+      "beforeTracking": null
     }
   }
 }
