@@ -36,7 +36,8 @@
     "INVASION_REAGENT_WON_MATCHES": "Réactif Gagné",
     "INVASION_REAGENT_LOST_MATCHES": "Réactif Perdu",
     "STAMPS": "Timbres",
-    "EVENT_TOKENS": "Jetons d'événement"
+    "EVENT_TOKENS": "Jetons d'événement",
+    "EXTRACTED_INTEL": null
   },
   "sitebar": {
     "home": "Accueil",
@@ -59,7 +60,9 @@
       "reportingDescription": "Rapports trimestriels de statistiques sur le jeu et le site",
       "newOn": null,
       "mapsDescription": null,
-      "studioDescription": null
+      "studioDescription": null,
+      "events": null,
+      "eventsDescription": null
     }
   },
   "faqPage": {
@@ -595,8 +598,6 @@
     "cosmeticGroupCell": "Cellule",
     "cosmeticExcludedGroup": "Catégories",
     "cosmeticFilterNone": "Aucune catégorie",
-    "trialsShowExcluded": "Inclure les entrées exclues",
-    "excludedBadge": "Exclue",
     "subtitle": "Découvrez votre classement parmi tous les réactifs",
     "trialsProgram": "Programme",
     "trialsTrial": "Épreuve",
@@ -2040,6 +2041,114 @@
       "res_mt02": "Incinérez la Relique",
       "ts_trial": "Réduisez l'Idole au Silence",
       "aet_mt01": "Échappez-vous des Mensonges"
+    }
+  },
+  "communityEvent": {
+    "eyebrow": null,
+    "bar": {
+      "cta": null,
+      "next": null
+    },
+    "allReached": null,
+    "phase": null,
+    "reward": null,
+    "redacted": null,
+    "labels": {
+      "ESCAPE": null
+    },
+    "reached": null,
+    "toGo": null,
+    "timing": {
+      "took": null,
+      "reached": null
+    },
+    "eta": {
+      "underHour": null,
+      "hours": null,
+      "days": null,
+      "afterEnd": null,
+      "distant": null
+    },
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": null
+    },
+    "errorTitle": null,
+    "notFound": null,
+    "loadError": null,
+    "coverAlt": null,
+    "communityTotal": null,
+    "finalTotal": null,
+    "ofGoal": null,
+    "rate": null,
+    "etaPhase": null,
+    "etaNext": null,
+    "stats": {
+      "updated": null,
+      "ended": null,
+      "phases": null,
+      "phasesValue": null
+    },
+    "unknown": null,
+    "personal": {
+      "title": null,
+      "done": null,
+      "missing": null,
+      "signIn": null,
+      "link": null
+    },
+    "phases": null,
+    "history": {
+      "title": null,
+      "subtitle": null,
+      "aria": null
+    },
+    "status": {
+      "live": null,
+      "liveUntil": null,
+      "upcoming": null,
+      "ended": null,
+      "endedOn": null
+    },
+    "events": {
+      "extract_escape_plan": {
+        "name": null,
+        "description": null
+      },
+      "blood_donation": {
+        "name": null,
+        "description": null
+      },
+      "characters_released": {
+        "name": null
+      }
+    },
+    "overview": {
+      "eyebrow": null,
+      "title": null,
+      "subtitle": null,
+      "live": null,
+      "upcoming": null,
+      "past": null,
+      "empty": null,
+      "loadError": null,
+      "goal": null,
+      "awaiting": null,
+      "phasesReached": null,
+      "counters": null
+    },
+    "more": {
+      "title": null,
+      "all": null
+    },
+    "counter": {
+      "next": null,
+      "total": null,
+      "remaining": null,
+      "eta": null,
+      "steps": null,
+      "beforeTracking": null
     }
   }
 }

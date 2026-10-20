@@ -36,7 +36,8 @@
     "INVASION_REAGENT_WON_MATCHES": "Reagent Won",
     "INVASION_REAGENT_LOST_MATCHES": "Reagent Lost",
     "STAMPS": "Stamps",
-    "EVENT_TOKENS": "Event-Tokens"
+    "EVENT_TOKENS": "Event-Tokens",
+    "EXTRACTED_INTEL": "Extracted pieces of Escape Intel"
   },
   "sitebar": {
     "home": "Home",
@@ -59,7 +60,9 @@
       "reportingDescription": "Quarterly stats reports on the game and the site",
       "newOn": "New on Outlast Trials Stats",
       "mapsDescription": "Interactive maps of every trial with spawns, keys and objectives.",
-      "studioDescription": "Dress up to five Reagents in 3D and export wallpapers up to 4K."
+      "studioDescription": "Dress up to five Reagents in 3D and export wallpapers up to 4K.",
+      "events": "Events",
+      "eventsDescription": "Community event progress, phases and past events"
     }
   },
   "faqPage": {
@@ -595,8 +598,6 @@
     "cosmeticGroupCell": "Cell",
     "cosmeticExcludedGroup": "Categories",
     "cosmeticFilterNone": "No category",
-    "trialsShowExcluded": "Include excluded entries",
-    "excludedBadge": "Excluded",
     "subtitle": "See how you rank among all reagents",
     "trialsProgram": "Program",
     "trialsTrial": "Trial",
@@ -2040,6 +2041,114 @@
       "res_mt02": "Incinerate The Relic",
       "ts_trial": "Silence the Idol",
       "aet_mt01": "Escape the Lies"
+    }
+  },
+  "communityEvent": {
+    "eyebrow": "Community Event",
+    "bar": {
+      "cta": "View event",
+      "next": "{remaining} to Phase {phase}"
+    },
+    "allReached": "All phases reached",
+    "phase": "Phase {n}",
+    "reward": "Reward",
+    "redacted": "[REDACTED]",
+    "labels": {
+      "ESCAPE": "Escape"
+    },
+    "reached": "Reached",
+    "toGo": "{remaining} to go",
+    "timing": {
+      "took": "Took {duration}",
+      "reached": "Reached {when}"
+    },
+    "eta": {
+      "underHour": "Under an hour",
+      "hours": "~{n} h",
+      "days": "~{n} day | ~{n} days",
+      "afterEnd": "Probably not before the end",
+      "distant": "More than a week away"
+    },
+    "duration": {
+      "days": "{n} d",
+      "hours": "{n} h",
+      "minutes": "{n} min"
+    },
+    "errorTitle": "Community event unavailable",
+    "notFound": "This event doesn't exist.",
+    "loadError": "The event couldn't be loaded. Try again in a moment.",
+    "coverAlt": "{name} event artwork",
+    "communityTotal": "Community progress",
+    "finalTotal": "Final total",
+    "ofGoal": "{percent} of the final goal of {goal}",
+    "rate": "Per hour",
+    "etaPhase": "Phase {phase} at the current pace",
+    "etaNext": "Next milestone expected",
+    "stats": {
+      "updated": "Last updated",
+      "ended": "Ended on",
+      "phases": "Phases reached",
+      "phasesValue": "{reached} of {total}"
+    },
+    "unknown": "Not enough data yet",
+    "personal": {
+      "title": "Minimum contribution",
+      "done": "You qualify for the rewards",
+      "missing": "{remaining} more to qualify for the rewards",
+      "signIn": "Sign in to see your contribution",
+      "link": "Link your profile to see your contribution"
+    },
+    "phases": "Phases",
+    "history": {
+      "title": "Progress",
+      "subtitle": "How the community total grew. Hover the line for the exact value and time.",
+      "aria": "Community total rising from {from} to {to}"
+    },
+    "status": {
+      "live": "Live now",
+      "liveUntil": "Live until {date}",
+      "upcoming": "Starts {date}",
+      "ended": "Ended",
+      "endedOn": "Ended {date}"
+    },
+    "events": {
+      "extract_escape_plan": {
+        "name": "Escape the Facility",
+        "description": "Help Amelia. Find as much Escape Intel as possible in the Trials and leave with it in your inventory. Reach community milestones to make the escape possible."
+      },
+      "blood_donation": {
+        "name": "Blood Drive",
+        "description": "The community donated blood in the Trials to reach the milestones."
+      },
+      "characters_released": {
+        "name": "Reagent Releases"
+      }
+    },
+    "overview": {
+      "eyebrow": "Community",
+      "title": "Community Events",
+      "subtitle": "Goals the whole player base works toward together, live and past.",
+      "live": "Live now",
+      "upcoming": "Upcoming",
+      "past": "Past events",
+      "empty": "No community events yet. Check back when the next one starts.",
+      "loadError": "The events couldn't be loaded. Try again in a moment.",
+      "goal": "Goal {goal}",
+      "awaiting": "Counting starts with the event",
+      "phasesReached": "{reached} of {total} phases reached",
+      "counters": "Ongoing counters"
+    },
+    "more": {
+      "title": "More events",
+      "all": "All events"
+    },
+    "counter": {
+      "next": "Next milestone at {amount}",
+      "total": "Community total",
+      "remaining": "{remaining} to {amount}",
+      "eta": "{amount} at the current pace",
+      "steps": "Milestones reached",
+      "beforeTracking": "Reached before tracking started"
     }
   }
 }
