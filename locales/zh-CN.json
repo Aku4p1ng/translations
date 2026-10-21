@@ -699,6 +699,15 @@
     "purchasedTitle": "已购买的商店礼包"
   },
   "reagentViewer": {
+    "hide": null,
+    "hidden": {
+      "weak": null,
+      "off": null,
+      "crashed": null,
+      "show": null,
+      "retry": null,
+      "remember": null
+    },
     "modelLabel": "{name}的试剂的3D模型",
     "modelLabelGeneric": "试剂的 3D 模型",
     "modelLabelCosmetic": "{name} 的 3D 预览",
@@ -2064,6 +2073,7 @@
     },
     "eta": {
       "underHour": null,
+      "withProgress": null,
       "hours": null,
       "days": null,
       "afterEnd": null,

@@ -699,6 +699,15 @@
     "purchasedTitle": "Pacchetti del negozio acquistati"
   },
   "reagentViewer": {
+    "hide": null,
+    "hidden": {
+      "weak": null,
+      "off": null,
+      "crashed": null,
+      "show": null,
+      "retry": null,
+      "remember": null
+    },
     "modelLabel": "Modello 3D del Reagente di {name}",
     "modelLabelGeneric": "Modello 3D di un Reagente",
     "modelLabelCosmetic": "Anteprima 3D di {name}",
@@ -2064,6 +2073,7 @@
     },
     "eta": {
       "underHour": null,
+      "withProgress": null,
       "hours": null,
       "days": null,
       "afterEnd": null,

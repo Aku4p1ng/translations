@@ -699,6 +699,15 @@
     "purchasedTitle": "Gekaufte Shop-Pakete"
   },
   "reagentViewer": {
+    "hide": null,
+    "hidden": {
+      "weak": null,
+      "off": null,
+      "crashed": null,
+      "show": null,
+      "retry": null,
+      "remember": null
+    },
     "modelLabel": null,
     "modelLabelGeneric": null,
     "modelLabelCosmetic": null,
@@ -2064,6 +2073,7 @@
     },
     "eta": {
       "underHour": null,
+      "withProgress": null,
       "hours": null,
       "days": null,
       "afterEnd": null,
