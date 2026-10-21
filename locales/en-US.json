@@ -699,6 +699,15 @@
     "purchasedTitle": "Purchased Shop Packs"
   },
   "reagentViewer": {
+    "hide": "Hide 3D view",
+    "hidden": {
+      "weak": "The 3D model is hidden to keep this device running smoothly.",
+      "off": "You turned the 3D model off.",
+      "crashed": "The 3D model was turned off because the page crashed while loading it.",
+      "show": "Show anyway",
+      "retry": "Try again",
+      "remember": "Remember on this device"
+    },
     "modelLabel": "3D model of {name}'s Reagent",
     "modelLabelGeneric": "3D model of a Reagent",
     "modelLabelCosmetic": "3D preview of {name}",
@@ -2064,6 +2073,7 @@
     },
     "eta": {
       "underHour": "Under an hour",
+      "withProgress": "{eta} ({percent} done)",
       "hours": "~{n} h",
       "days": "~{n} day | ~{n} days",
       "afterEnd": "Probably not before the end",
