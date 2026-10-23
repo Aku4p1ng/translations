@@ -51,10 +51,8 @@
     "imprint": "版本说明",
     "terms": "使用条款",
     "reporting": "报告",
-    "more": "更多",
     "explore": "发现",
     "menu": {
-      "getInvolved": "加入我们",
       "community": "社区",
       "siteInfo": "站点信息",
       "reportingDescription": "游戏和站点季度统计报告",
@@ -442,8 +440,8 @@
       }
     }
   },
-  "homePageV4": {
-    "announcement": null,
+  "home": {
+    "announcement": "v4 — The {map} & {skinStudio} are live",
     "newTag": "v4 新增内容",
     "hero": {
       "title": "The Outlast Trials 统计",
@@ -481,14 +479,12 @@
     "skinStudio": {
       "eyebrow": "试剂工作室",
       "title": "您的试剂，以 3D 呈现",
-      "desc": "为你的 Reagent 穿上任意服装或物品，选择发色和体型，并用表情、自定义姿势和手型为其摆造型。在工作室、游戏室或菜单背景中最多排列五个 Reagent，设置灯光和相机，然后导出最高 4K 的壁纸、GIF 或分享链接。",
+      "desc": "为你的 Reagent 穿上任意服装，用表情动作摆造型，并在一个场景中最多排列五个。然后导出 4K 壁纸、GIF 或分享链接。",
       "features": {
-        "outfits": "1,400+ 件物品和套装",
-        "appearance": "发色与体型",
-        "emotes": "表情动作、姿势和手型",
-        "group": "每个场景最多 5 个试剂",
-        "scene": "游戏房间与菜单背景",
-        "export": "4K 壁纸、GIF 和链接"
+        "outfits": "1,400+ 套装和物品",
+        "emotes": "表情动作与姿势",
+        "group": "最多 5 个试剂",
+        "export": "4K 壁纸和 GIF"
       },
       "cta": "打开 Reagent Studio",
       "badge": "新建"
@@ -508,7 +504,9 @@
       "eyebrow": "Discord 机器人",
       "title": "将你的统计数据带到 Discord",
       "desc": "根据你的游戏进度和实时排名，在服务器频道内自动分配身份组。",
-      "cta": "添加机器人"
+      "cta": "添加机器人",
+      "autoRoles": "自动分配身份组",
+      "liveRankings": "频道内实时显示"
     },
     "statsBand": {
       "title": "试炼数据",
@@ -516,63 +514,8 @@
     },
     "community": "社区",
     "faqHint": "对追踪、更新或个人资料有疑问？",
-    "faqLink": "阅读常见问题"
-  },
-  "homePage": {
-    "projects": "我们的项目",
-    "secretProject": {
-      "comingSoon": "敬请期待",
-      "placeholderHeadline": "秘密项目",
-      "placeholderDesc": "新的事务正在计划中。详细信息暂不便透露。",
-      "placeholderButton": "了解更多",
-      "placeholderChipOne": "最高机密",
-      "placeholderChipTwo": "制作中",
-      "placeholderChipCaption": "机密"
-    },
-    "maps": {
-      "title": "逃生试炼地图",
-      "desc": "每个试炼的交互式地图 — — 房间、刷怪门、钥匙、门和目标。包括免费的浏览器编辑器，以便任何人都能帮助测绘。",
-      "openMaps": "打开地图",
-      "betaChip": "测试",
-      "mapsChip": "交互式地图",
-      "mapsChipCaption": "刷怪门和房间",
-      "editorChip": "地图编辑器",
-      "editorChipCaption": "社区"
-    },
+    "faqLink": "阅读常见问题",
     "topPlayers": "顶尖玩家",
-    "addAccount": {
-      "title": "追踪您的帐户",
-      "desc": "提交您的《逃生：试炼》好友代码或者 Steam ID来开始跟踪您的统计数据。",
-      "cta": "添加账户"
-    },
-    "discordBot": {
-      "autoRoles": "自动分配身份组",
-      "liveRankings": "频道内实时显示"
-    },
-    "faq": {
-      "title": "常见问题",
-      "items": {
-        "addAccount": {
-          "question": "如何添加我的账户？",
-          "answer": "请前往{link}页面然后递交您的《逃生：试炼》好友代码或者 Steam ID。递交之后，您的账号就会出现在排行榜和搜索结果中。",
-          "linkText": "添加账户"
-        },
-        "updateFrequency": {
-          "question": "我的个人资料什么时候会更新？",
-          "answer": "受跟踪的账户将会自动刷新。大多数个人资料（这取决于我们的刷新队列负载）将会在您游玩游戏后24小时内更新。"
-        },
-        "hideOrDelete": {
-          "question": "我想要隐藏我的个人资料，使其不再更新或删除我的资料，我该怎么办？",
-          "answer": "一旦你完成关联并登录了账户，请前往你的{link}：在那里，你可以选择将个人资料设为不可见或者申请停止更新资料，亦或者直接彻底删除账户及所有相关数据。当然，你也可以随时通过我们的 Discord 客服来联系我们。",
-          "linkText": "设置"
-        },
-        "linkAccount": {
-          "question": "如何将我的账户与我的Outlast Trials Stats账户关联？",
-          "answer": "请先用 Discord 登录，然后打开你的 {link} 来绑定你的游戏档案。绑定成功后，你就可以自定义哪些信息对外公开，还能顺便管理你的账号了。",
-          "linkText": "设置"
-        }
-      }
-    },
     "errors": {
       "statsTitle": "统计数据不可用",
       "statsMessage": "我们当前无法加载统计数据。请稍后再试。",
@@ -746,7 +689,6 @@
     "subtitle": "加入实验并追踪您的进度",
     "or": "或",
     "friendCode": "好友代码",
-    "enterFriendCode": "输入您的好友代码...",
     "errorValidationFriendCode": "请输入有效的好友代码",
     "friendCodeTip": "添加您的好友代码开始追踪您的账户",
     "successMessage": "请求发送成功。请等待最多48小时来追踪账户。",
@@ -774,6 +716,25 @@
     "autoCheck": "正在自动检查状态…",
     "discordPrompt": "需要了解更多？加入我们的 Discord 服务器。",
     "fallbackMessage": "我们目前正在进行维护。请稍后再试。"
+  },
+  "notFoundPage": {
+    "eyebrow": null,
+    "title": null,
+    "desc": null,
+    "home": null,
+    "back": null,
+    "linksLabel": null,
+    "linksTitle": null,
+    "links": {
+      "search": null,
+      "searchDesc": null,
+      "leaderboard": null,
+      "leaderboardDesc": null,
+      "badges": null,
+      "badgesDesc": null,
+      "events": null,
+      "eventsDesc": null
+    }
   },
   "profile": {
     "notFound": {
@@ -822,7 +783,7 @@
       "leaderboard": "排行榜",
       "viewInvasion": "查看入侵"
     },
-    "navV4": {
+    "nav": {
       "reagent": "试剂",
       "collection": "收藏",
       "owned": "已拥有"
@@ -850,8 +811,7 @@
       "today": "今天",
       "yesterday": "1天前",
       "daysAgo": "{count}天前",
-      "weeksAgo": "{count}周前",
-      "tooltip": "资料最后更新"
+      "weeksAgo": "{count}周前"
     },
     "update": {
       "tooltip": "请求更新资料",
@@ -897,9 +857,6 @@
       "noResultsMessage": "没有试炼符合所选筛选条件。"
     },
     "settings": {
-      "showLastTrials": "显示最近试验",
-      "showShopPacks": "显示商店包",
-      "showCurrency": "显示Murkoff硬币",
       "error": "保存设置失败"
     },
     "moderation": {
@@ -1063,14 +1020,11 @@
       "loadErrorTitle": "加载失败",
       "loadErrorMessage": "无法获取此玩家的物品数据。请稍后再试。",
       "rig": "装备",
-      "perks": "特长",
       "character": "角色自定义",
       "posters": "海报",
       "items": "物品",
       "emotes": "表情",
       "cellRoom": "牢房",
-      "allOwned": "全部拥有",
-      "equippedOnly": "仅已装备",
       "shopPacks": "商店礼包",
       "ownedCosmetics": "拥有的装饰品",
       "equipped": "已装备",
@@ -1175,35 +1129,30 @@
     "addToCompare": "添加到比较列表",
     "removeFromCompare": "从比较列表移除",
     "clearAll": "清除全部",
-    "loadingStats": "加载统计数据...",
     "searchProfile": "搜索资料...",
-    "searchHeroTitle": "开始比较",
-    "searchHeroSubtitle": "搜索一个资料并将其作为首位参赛者。",
     "selectProfilesHint": "在上方选择至少2个资料以比较其统计数据",
     "addedToCompare": "已将资料添加到比较列表",
     "removedFromCompare": "已从比较列表移除资料",
-    "v4": {
-      "lineup": "所选试剂",
-      "level": "{level}级",
-      "leading": "赢家",
-      "wins": "胜 | 胜",
-      "addPlayer": "添加试剂",
-      "openProfile": "打开 {name} 的个人资料",
-      "full": "对比已满（最多 {max} 个试剂）",
-      "loadError": "无法加载此配置文件",
-      "retry": "重试",
-      "lowerIsBetter": "越低越好",
-      "playtime": "游戏时间",
-      "teamworkTitle": "团队合作",
-      "invasionSeasonTitle": "入侵赛季 {season}",
-      "matchesPlayed": "比赛场次",
-      "lobbyWins": "{game} 获胜",
-      "lobbyLosses": "{game} 败场",
-      "lobbyRating": "{game} 评分",
-      "badgesTitle": "徽章",
-      "badgeCount": "已收集徽章",
-      "badgeCollection": "集合"
-    }
+    "lineup": "所选试剂",
+    "level": "{level}级",
+    "leading": "赢家",
+    "wins": "胜 | 胜",
+    "addPlayer": "添加试剂",
+    "openProfile": "打开 {name} 的个人资料",
+    "full": "对比已满（最多 {max} 个试剂）",
+    "loadError": "无法加载此配置文件",
+    "retry": "重试",
+    "lowerIsBetter": "越低越好",
+    "playtime": "游戏时间",
+    "teamworkTitle": "团队合作",
+    "invasionSeasonTitle": "入侵赛季 {season}",
+    "matchesPlayed": "比赛场次",
+    "lobbyWins": "{game} 获胜",
+    "lobbyLosses": "{game} 败场",
+    "lobbyRating": "{game} 评分",
+    "badgesTitle": "徽章",
+    "badgeCount": "已收集徽章",
+    "badgeCollection": "集合"
   },
   "otherPages": {
     "title": "其他页面",
@@ -1245,7 +1194,6 @@
     "invalid_state": "无效的OAuth状态。请重试。",
     "missing_code": "缺少授权码",
     "error_getting_url": "无法获取Discord授权URL",
-    "my_profile": "我的资料",
     "view_profile": "查看个人资料",
     "discord_account": "Discord 账户",
     "claim_profile": "认领资料",
@@ -1267,7 +1215,6 @@
     "unclaim_confirm": "您确定要取消关联游戏资料吗？您可以稍后重新关联。",
     "unclaim_success": "资料取消关联成功！",
     "unclaim_failed": "取消关联资料失败",
-    "settings": "设置",
     "account": "账户",
     "claim_success_title": "档案关联成功！",
     "claim_success_description": "您的游戏档案现在已与Discord账户关联。",
@@ -1369,7 +1316,6 @@
     "subtitle": "管理您的个人资料和隐私设置",
     "tabs": {
       "appearance": "外观",
-      "privacy": "隐私",
       "account": "账户"
     },
     "saving": "保存中…",
@@ -1385,7 +1331,6 @@
       "currency": "默科夫硬币",
       "currencyHint": "您的 Murkoff-Coins 余额和记录。"
     },
-    "visibility_description": "选择哪些标签对其他玩家可见。",
     "processing": {
       "title": "数据处理",
       "hint": "当您隐藏个人资料时可用。"
@@ -1434,9 +1379,7 @@
       "description": "完全隐藏您的个人资料。您的个人资料将不再被处理，不会出现在搜索结果或排行榜中，也不会对其他玩家可见。您可以随时撤销此操作。"
     },
     "processProfile": {
-      "description": "当您的个人资料被隐藏时，您可以阻止爬虫更新数据。您的统计资料将被冻结直到您重新开启。",
-      "statusEnabled": "个人资料将被处理",
-      "statusDisabled": "个人资料将不会被处理"
+      "description": "当您的个人资料被隐藏时，您可以阻止爬虫更新数据。您的统计资料将被冻结直到您重新开启。"
     },
     "appearance": {
       "description": "自定义他人看到的个人资料外观。"
@@ -1713,11 +1656,7 @@
       "total": "目前已跟踪的配置文件"
     },
     "banner": {
-      "title": "帮助我们成长 — 贡献数据",
-      "desc": "在您游戏时运行我们的后台工具，即可获得独家徽章",
-      "learnMore": "了解更多",
-      "contributorBadge": "贡献者徽章",
-      "presenceChip": "游戏状态展示"
+      "desc": "在您游戏时运行我们的后台工具，即可获得独家徽章"
     },
     "howTo": {
       "title": "如何贡献",
@@ -1784,10 +1723,8 @@
       "setupLeaderboard": "在频道中发布排行榜，每小时刷新一次。"
     },
     "invite": {
-      "title": "福特曼电台",
       "desc": "一个Discord机器人，能够根据The Outlast Trials的玩家统计数据自动分配身份组、同步昵称并显示排行榜。",
       "addBot": "添加到服务器",
-      "learnMore": "了解更多",
       "viewSource": "在GitHub上查看"
     },
     "features": {
@@ -2038,6 +1975,7 @@
       "tfs_mt03": "工厂消毒",
       "tfw_mt01": "关闭工厂",
       "tfw_mt02": "击倒工头",
+      "tfw_mt03": null,
       "dt_trial": "取悦检察官",
       "dts_mt01": "绑架情妇",
       "dts_mt02": "传播疾病",
@@ -2115,10 +2053,17 @@
       "link": null
     },
     "phases": null,
+    "leaders": {
+      "title": null,
+      "subtitle": null,
+      "fullLeaderboard": null,
+      "you": null
+    },
     "history": {
       "title": null,
       "subtitle": null,
-      "aria": null
+      "aria": null,
+      "reached": null
     },
     "status": {
       "live": null,
@@ -2130,7 +2075,8 @@
     "events": {
       "extract_escape_plan": {
         "name": null,
-        "description": null
+        "description": null,
+        "leaders": null
       },
       "blood_donation": {
         "name": null,
@@ -2141,7 +2087,6 @@
       }
     },
     "overview": {
-      "eyebrow": null,
       "title": null,
       "subtitle": null,
       "live": null,
@@ -2165,6 +2110,24 @@
       "eta": null,
       "steps": null,
       "beforeTracking": null
+    }
+  },
+  "ameliaTheme": {
+    "nav": {
+      "subtitle": null
+    },
+    "hero": {
+      "subline": null,
+      "polaroid": null
+    },
+    "slogans": {
+      "fight": null,
+      "therapy": null,
+      "complicity": null,
+      "hijacked": null
+    },
+    "footer": {
+      "signoff": null
     }
   }
 }

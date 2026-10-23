@@ -51,10 +51,8 @@
     "imprint": "Informacje prawne",
     "terms": null,
     "reporting": "Reporting",
-    "more": "Więcej",
     "explore": "Explore",
     "menu": {
-      "getInvolved": null,
       "community": "Community",
       "siteInfo": null,
       "reportingDescription": null,
@@ -442,142 +440,87 @@
       }
     }
   },
-  "homePageV4": {
-    "announcement": null,
-    "newTag": null,
+  "home": {
+    "announcement": "v4 — The {map} & {skinStudio} are live",
+    "newTag": "New in v4",
     "hero": {
-      "title": null,
-      "subline": null
+      "title": "The Outlast Trials Stats",
+      "subline": "Stats, leaderboards, maps & skins. All in one place."
     },
     "quickLinks": {
       "leaderboard": "Leaderboards",
       "badges": "Badges",
       "compare": "Compare",
       "map": "Map",
-      "skinStudio": null
+      "skinStudio": "Reagent Studio"
     },
     "featuredUsers": {
-      "title": null
+      "title": "Featured Reagents"
     },
     "popularOutfits": {
-      "title": null,
-      "subtitle": null,
+      "title": "Popular outfits",
+      "subtitle": "The outfits Reagents wear the most right now.",
       "equipped": "Reagents",
-      "viewAll": null
+      "viewAll": "View all"
     },
     "map": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "The Outlast Trials Map",
+      "title": "Know every room before you enter it",
+      "desc": "Interactive maps for every trial — rooms, enemy spawns, keys, doors and objectives. A free browser editor lets the whole community help map the game.",
       "features": {
-        "trials": null,
-        "spawns": null,
-        "objectives": null,
-        "editor": null
+        "trials": "Every trial",
+        "spawns": "Enemy spawns",
+        "objectives": "Keys & objectives",
+        "editor": "Community editor"
       },
-      "cta": null,
+      "cta": "Open the Map",
       "badge": "New"
     },
     "skinStudio": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "Reagent Studio",
+      "title": "Your Reagent, rendered in 3D",
+      "desc": "Dress your Reagent in any outfit, pose them with emotes and line up to five in one scene. Then export a 4K wallpaper, a GIF or a share link.",
       "features": {
-        "outfits": null,
-        "appearance": null,
-        "emotes": null,
-        "group": null,
-        "scene": null,
-        "export": null
+        "outfits": "1,400+ outfits & items",
+        "emotes": "Emotes & poses",
+        "group": "Up to 5 Reagents",
+        "export": "4K wallpapers & GIFs"
       },
-      "cta": null,
+      "cta": "Open Reagent Studio",
       "badge": "New"
     },
     "monitor": {
       "eyebrow": "TOTStatsMonitor",
-      "title": null,
-      "desc": null,
+      "title": "Your trial, live on Discord",
+      "desc": "Our desktop companion shows the trial you are in on your Discord profile, helps us discover new players while you play and earns you the contributor badge.",
       "features": {
-        "presence": null,
-        "discover": null,
-        "badge": null
+        "presence": "Discord presence",
+        "discover": "Discover new players",
+        "badge": "Contributor badge"
       },
-      "cta": null
+      "cta": "Learn more"
     },
     "discordBot": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
-      "cta": null
-    },
-    "statsBand": {
-      "title": null,
-      "subtitle": null
-    },
-    "community": "Community",
-    "faqHint": null,
-    "faqLink": null
-  },
-  "homePage": {
-    "projects": "Nasze projekty",
-    "secretProject": {
-      "comingSoon": null,
-      "placeholderHeadline": null,
-      "placeholderDesc": null,
-      "placeholderButton": null,
-      "placeholderChipOne": null,
-      "placeholderChipTwo": null,
-      "placeholderChipCaption": "Classified"
-    },
-    "maps": {
-      "title": null,
-      "desc": null,
-      "openMaps": null,
-      "betaChip": "Beta",
-      "mapsChip": null,
-      "mapsChipCaption": null,
-      "editorChip": null,
-      "editorChipCaption": "Community"
-    },
-    "topPlayers": null,
-    "addAccount": {
-      "title": "Śledź swoje konto",
-      "desc": "Wyślij swój kod znajomego lub Steam ID, aby rozpocząć śledzenie statystyk.",
-      "cta": "Dodaj konto"
-    },
-    "discordBot": {
+      "eyebrow": "Discord Bot",
+      "title": "Bring your stats to Discord",
+      "desc": "Automatic roles based on your in-game progress and live rankings right inside your server channels.",
+      "cta": "Add the bot",
       "autoRoles": "Automatyczne role",
       "liveRankings": "Na żywo na kanałach"
     },
-    "faq": {
-      "title": null,
-      "items": {
-        "addAccount": {
-          "question": null,
-          "answer": null,
-          "linkText": null
-        },
-        "updateFrequency": {
-          "question": null,
-          "answer": null
-        },
-        "hideOrDelete": {
-          "question": null,
-          "answer": "Once you've linked and logged into your account, head to your {link}: you can make your profile invisible, request that it's no longer updated, or delete your account and all of its data outright. Alternatively, you can still reach out to us via our Discord support.",
-          "linkText": "Settings"
-        },
-        "linkAccount": {
-          "question": "Jak mogę połączyć moje konto z kontem Outlast Trials Stats?",
-          "answer": null,
-          "linkText": "Settings"
-        }
-      }
+    "statsBand": {
+      "title": "The Trials in numbers",
+      "subtitle": "Live totals across every tracked account."
     },
+    "community": "Community",
+    "faqHint": "Questions about tracking, updates or your profile?",
+    "faqLink": "Read the FAQ",
+    "topPlayers": "Top Players",
     "errors": {
-      "statsTitle": null,
-      "statsMessage": null,
-      "topPlayersTitle": null,
-      "topPlayersMessage": null
+      "statsTitle": "Statistics unavailable",
+      "statsMessage": "We couldn't load the website statistics right now. Please try again in a moment.",
+      "topPlayersTitle": "Top players unavailable",
+      "topPlayersMessage": "We couldn't load the top players right now. Please try again in a moment."
     }
   },
   "leaderboard": {
@@ -746,7 +689,6 @@
     "subtitle": "Dołącz do eksperymentu i śledź swoje postępy",
     "or": "or",
     "friendCode": "Kod znajomego",
-    "enterFriendCode": "Wpisz swój kod znajomego...",
     "errorValidationFriendCode": "Wprowadź poprawny kod znajomego",
     "friendCodeTip": "Dodaj swój kod znajomego, aby rozpocząć śledzenie konta",
     "successMessage": "Prośba została wysłana pomyślnie. Śledzenie konta może rozpocząć się w ciągu 48 godzin.",
@@ -774,6 +716,25 @@
     "autoCheck": null,
     "discordPrompt": null,
     "fallbackMessage": null
+  },
+  "notFoundPage": {
+    "eyebrow": null,
+    "title": null,
+    "desc": null,
+    "home": null,
+    "back": null,
+    "linksLabel": null,
+    "linksTitle": null,
+    "links": {
+      "search": null,
+      "searchDesc": null,
+      "leaderboard": null,
+      "leaderboardDesc": null,
+      "badges": null,
+      "badgesDesc": null,
+      "events": null,
+      "eventsDesc": null
+    }
   },
   "profile": {
     "notFound": {
@@ -822,7 +783,7 @@
       "leaderboard": "Leaderboard",
       "viewInvasion": null
     },
-    "navV4": {
+    "nav": {
       "reagent": "Reagent",
       "collection": "Collection",
       "owned": "Owned"
@@ -850,8 +811,7 @@
       "today": "Dzisiaj",
       "yesterday": "1 dzień temu",
       "daysAgo": "{count} dni temu",
-      "weeksAgo": "{count} tygodni temu",
-      "tooltip": "Profil ostatnio zaktualizowany"
+      "weeksAgo": "{count} tygodni temu"
     },
     "update": {
       "tooltip": "Wyślij prośbę o aktualizację profilu",
@@ -897,9 +857,6 @@
       "noResultsMessage": "Żadne ukończone próby nie pasują do wybranych filtrów."
     },
     "settings": {
-      "showLastTrials": "Pokaż ostatnie próby",
-      "showShopPacks": "Pokaż pakiety sklepu",
-      "showCurrency": "Pokaż Monety Murkoff",
       "error": "Nie udało się zapisać ustawień"
     },
     "moderation": {
@@ -1063,14 +1020,11 @@
       "loadErrorTitle": null,
       "loadErrorMessage": null,
       "rig": "Aparatura",
-      "perks": "Atuty",
       "character": "Personalizacja postaci",
       "posters": "Plakaty",
       "items": "Przedmioty",
       "emotes": "Emotki",
       "cellRoom": "Cela",
-      "allOwned": "Wszystkie posiadane",
-      "equippedOnly": "Tylko założone",
       "shopPacks": null,
       "ownedCosmetics": "Posiadane elementy kosmetyczne",
       "equipped": "Założone",
@@ -1175,35 +1129,30 @@
     "addToCompare": "Dodaj do listy porównań",
     "removeFromCompare": "Usuń z listy porównań",
     "clearAll": "Wyczyść wszystko",
-    "loadingStats": "Ładowanie statystyk...",
     "searchProfile": "Wyszukaj profil...",
-    "searchHeroTitle": "Rozpocznij porównanie",
-    "searchHeroSubtitle": "Wyszukaj profil, aby dodać go jako pierwszego uczestnika.",
     "selectProfilesHint": "Wybierz przynajmniej 2 profile powyżej, aby porównać ich statystyki",
     "addedToCompare": "Profil dodany do listy porównań",
     "removedFromCompare": "Profil usunięty z listy porównań",
-    "v4": {
-      "lineup": null,
-      "level": null,
-      "leading": "Leading",
-      "wins": null,
-      "addPlayer": null,
-      "openProfile": null,
-      "full": null,
-      "loadError": null,
-      "retry": "Retry",
-      "lowerIsBetter": null,
-      "playtime": "Playtime",
-      "teamworkTitle": "Teamwork",
-      "invasionSeasonTitle": null,
-      "matchesPlayed": null,
-      "lobbyWins": null,
-      "lobbyLosses": null,
-      "lobbyRating": null,
-      "badgesTitle": "Badges",
-      "badgeCount": null,
-      "badgeCollection": "Collection"
-    }
+    "lineup": "Selected reagents",
+    "level": "Lv. {level}",
+    "leading": "Leading",
+    "wins": "win | wins",
+    "addPlayer": "Add reagent",
+    "openProfile": "Open profile of {name}",
+    "full": "Comparison is full (max. {max} reagents)",
+    "loadError": "Could not load this profile",
+    "retry": "Retry",
+    "lowerIsBetter": "Lower is better",
+    "playtime": "Playtime",
+    "teamworkTitle": "Teamwork",
+    "invasionSeasonTitle": "Invasion Season {season}",
+    "matchesPlayed": "Matches Played",
+    "lobbyWins": "{game} Wins",
+    "lobbyLosses": "{game} Losses",
+    "lobbyRating": "{game} Rating",
+    "badgesTitle": "Badges",
+    "badgeCount": "Badges collected",
+    "badgeCollection": "Collection"
   },
   "otherPages": {
     "title": "Inne strony",
@@ -1245,7 +1194,6 @@
     "invalid_state": "Nieprawidłowy stan OAuth. Spróbuj ponownie.",
     "missing_code": "Brak kodu autoryzacji",
     "error_getting_url": "Nie udało się uzyskać URL autoryzacji Discord",
-    "my_profile": "Mój profil",
     "view_profile": null,
     "discord_account": null,
     "claim_profile": "Przypisz profil",
@@ -1267,7 +1215,6 @@
     "unclaim_confirm": "Czy na pewno chcesz odłączyć swój profil gry? Możesz go ponownie połączyć później.",
     "unclaim_success": "Profil został pomyślnie odłączony!",
     "unclaim_failed": "Nie udało się odłączyć profilu",
-    "settings": "Ustawienia",
     "account": "Account",
     "claim_success_title": "Profil połączony pomyślnie!",
     "claim_success_description": "Twój profil gry jest teraz połączony z kontem Discord.",
@@ -1369,7 +1316,6 @@
     "subtitle": "Zarządzaj swoim profilem i preferencjami prywatności",
     "tabs": {
       "appearance": "Appearance",
-      "privacy": "Privacy",
       "account": "Account"
     },
     "saving": "Saving…",
@@ -1385,7 +1331,6 @@
       "currency": "Murkoff-Coins",
       "currencyHint": null
     },
-    "visibility_description": "Wybierz, które zakładki będą widoczne dla innych graczy na Twoim profilu.",
     "processing": {
       "title": null,
       "hint": null
@@ -1434,9 +1379,7 @@
       "description": "Ukryj swój profil całkowicie. Twój profil nie będzie przetwarzany, nie pojawi się w wynikach wyszukiwania ani w rankingach i nie będzie widoczny dla innych graczy. Możesz to w każdej chwili cofnąć."
     },
     "processProfile": {
-      "description": null,
-      "statusEnabled": null,
-      "statusDisabled": null
+      "description": null
     },
     "appearance": {
       "description": null
@@ -1713,11 +1656,7 @@
       "total": null
     },
     "banner": {
-      "title": "Pomóż nam się rozwijać — przekazuj dane",
-      "desc": "Uruchom nasze narzędzie w tle podczas gry i zdobądź ekskluzywną odznakę",
-      "learnMore": "Dowiedz się więcej",
-      "contributorBadge": "Odznaka Współtwórcy",
-      "presenceChip": null
+      "desc": "Uruchom nasze narzędzie w tle podczas gry i zdobądź ekskluzywną odznakę"
     },
     "howTo": {
       "title": "Jak wesprzeć projekt",
@@ -1784,10 +1723,8 @@
       "setupLeaderboard": null
     },
     "invite": {
-      "title": null,
       "desc": "Bot Discord, który automatycznie przyznaje role, synchronizuje pseudonimy i wyświetla rankingi oparte na statystykach graczy z The Outlast Trials.",
       "addBot": "Dodaj do serwera",
-      "learnMore": "Dowiedz się więcej",
       "viewSource": "Zobacz na GitHub"
     },
     "features": {
@@ -2038,6 +1975,7 @@
       "tfs_mt03": null,
       "tfw_mt01": null,
       "tfw_mt02": null,
+      "tfw_mt03": null,
       "dt_trial": null,
       "dts_mt01": null,
       "dts_mt02": null,
@@ -2115,10 +2053,17 @@
       "link": null
     },
     "phases": null,
+    "leaders": {
+      "title": null,
+      "subtitle": null,
+      "fullLeaderboard": null,
+      "you": null
+    },
     "history": {
       "title": null,
       "subtitle": null,
-      "aria": null
+      "aria": null,
+      "reached": null
     },
     "status": {
       "live": null,
@@ -2130,7 +2075,8 @@
     "events": {
       "extract_escape_plan": {
         "name": null,
-        "description": null
+        "description": null,
+        "leaders": null
       },
       "blood_donation": {
         "name": null,
@@ -2141,7 +2087,6 @@
       }
     },
     "overview": {
-      "eyebrow": null,
       "title": null,
       "subtitle": null,
       "live": null,
@@ -2165,6 +2110,24 @@
       "eta": null,
       "steps": null,
       "beforeTracking": null
+    }
+  },
+  "ameliaTheme": {
+    "nav": {
+      "subtitle": null
+    },
+    "hero": {
+      "subline": null,
+      "polaroid": null
+    },
+    "slogans": {
+      "fight": null,
+      "therapy": null,
+      "complicity": null,
+      "hijacked": null
+    },
+    "footer": {
+      "signoff": null
     }
   }
 }

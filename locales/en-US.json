@@ -51,10 +51,8 @@
     "imprint": "Impressum",
     "terms": "Terms of Use",
     "reporting": "Reporting",
-    "more": "More",
     "explore": "Explore",
     "menu": {
-      "getInvolved": "Get Involved",
       "community": "Community",
       "siteInfo": "Site Info",
       "reportingDescription": "Quarterly stats reports on the game and the site",
@@ -442,7 +440,7 @@
       }
     }
   },
-  "homePageV4": {
+  "home": {
     "announcement": "v4 — The {map} & {skinStudio} are live",
     "newTag": "New in v4",
     "hero": {
@@ -481,14 +479,12 @@
     "skinStudio": {
       "eyebrow": "Reagent Studio",
       "title": "Your Reagent, rendered in 3D",
-      "desc": "Dress your Reagent in any outfit or item, pick hair color and body type and pose them with emotes, custom poses and hand shapes. Line up to five Reagents in the studio, a game room or a menu backdrop, set the lighting and camera, then export a wallpaper up to 4K, a GIF or a share link.",
+      "desc": "Dress your Reagent in any outfit, pose them with emotes and line up to five in one scene. Then export a 4K wallpaper, a GIF or a share link.",
       "features": {
-        "outfits": "1,400+ items & outfits",
-        "appearance": "Hair color & body type",
-        "emotes": "Emotes, poses & hand shapes",
-        "group": "Up to 5 Reagents per scene",
-        "scene": "Game rooms & menu backdrops",
-        "export": "4K wallpapers, GIFs & links"
+        "outfits": "1,400+ outfits & items",
+        "emotes": "Emotes & poses",
+        "group": "Up to 5 Reagents",
+        "export": "4K wallpapers & GIFs"
       },
       "cta": "Open Reagent Studio",
       "badge": "New"
@@ -508,7 +504,9 @@
       "eyebrow": "Discord Bot",
       "title": "Bring your stats to Discord",
       "desc": "Automatic roles based on your in-game progress and live rankings right inside your server channels.",
-      "cta": "Add the bot"
+      "cta": "Add the bot",
+      "autoRoles": "Auto-assign roles",
+      "liveRankings": "Live in channels"
     },
     "statsBand": {
       "title": "The Trials in numbers",
@@ -516,63 +514,8 @@
     },
     "community": "Community",
     "faqHint": "Questions about tracking, updates or your profile?",
-    "faqLink": "Read the FAQ"
-  },
-  "homePage": {
-    "projects": "Our Projects",
-    "secretProject": {
-      "comingSoon": "Coming Soon",
-      "placeholderHeadline": "Classified Project",
-      "placeholderDesc": "Something new is in the works. Details are still under wraps for now.",
-      "placeholderButton": "Learn more",
-      "placeholderChipOne": "Top Secret",
-      "placeholderChipTwo": "In Progress",
-      "placeholderChipCaption": "Classified"
-    },
-    "maps": {
-      "title": "Outlast Trials Maps",
-      "desc": "Interactive maps for every trial — rooms, enemy spawns, keys, doors and objectives. Includes a free browser editor so anyone can help map the game.",
-      "openMaps": "Open Maps",
-      "betaChip": "Beta",
-      "mapsChip": "Interactive Maps",
-      "mapsChipCaption": "Spawns & rooms",
-      "editorChip": "Map Editor",
-      "editorChipCaption": "Community"
-    },
+    "faqLink": "Read the FAQ",
     "topPlayers": "Top Players",
-    "addAccount": {
-      "title": "Track Your Account",
-      "desc": "Submit your Friend Code or Steam ID to start tracking your stats.",
-      "cta": "Add Account"
-    },
-    "discordBot": {
-      "autoRoles": "Auto-assign roles",
-      "liveRankings": "Live in channels"
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "items": {
-        "addAccount": {
-          "question": "How can I add my account?",
-          "answer": "Head to the {link} page and submit your Friend Code or Steam ID. Once processed, your profile will show up in the search and on leaderboards.",
-          "linkText": "Add Account"
-        },
-        "updateFrequency": {
-          "question": "When will my account be updated?",
-          "answer": "Tracked accounts are refreshed automatically on a rolling schedule. Most profiles update within 24 hours after you play, depending on queue load."
-        },
-        "hideOrDelete": {
-          "question": "I want my profile hidden, no longer updated, or removed. What do I do?",
-          "answer": "Once you've linked and logged into your account, head to your {link}: you can make your profile invisible, stop it from being updated, or delete every piece of game data we've collected about you and block any further collection. Alternatively, you can still reach out to us via our Discord support.",
-          "linkText": "Settings"
-        },
-        "linkAccount": {
-          "question": "How do I link my account with my Outlast Trials Stats account?",
-          "answer": "Sign in with Discord, then open your {link} to claim your in-game profile. Once linked, you can customize which sections are public and manage your account.",
-          "linkText": "Settings"
-        }
-      }
-    },
     "errors": {
       "statsTitle": "Statistics unavailable",
       "statsMessage": "We couldn't load the website statistics right now. Please try again in a moment.",
@@ -746,7 +689,6 @@
     "subtitle": "Join the experiment and track your progress",
     "or": "or",
     "friendCode": "Friend Code",
-    "enterFriendCode": "Enter your friend code...",
     "errorValidationFriendCode": "Please enter a valid Friend Code",
     "friendCodeTip": "Add your Friend Code to start tracking your account",
     "successMessage": "Request sent successfully. Please wait up to 48 hours for the account to be tracked.",
@@ -774,6 +716,25 @@
     "autoCheck": "Checking status automatically…",
     "discordPrompt": "Need more info? Join our Discord server.",
     "fallbackMessage": "We are currently performing maintenance. Please check back soon."
+  },
+  "notFoundPage": {
+    "eyebrow": "Error 404",
+    "title": "This page escaped the trial",
+    "desc": "The page you are looking for does not exist, was moved, or never made it out of the Sinyala facility.",
+    "home": "Back to home",
+    "back": "Go back",
+    "linksLabel": "Popular pages",
+    "linksTitle": "Or continue here",
+    "links": {
+      "search": "Search players",
+      "searchDesc": "Look up any Reagent",
+      "leaderboard": "Leaderboards",
+      "leaderboardDesc": "Top players in every category",
+      "badges": "Badges",
+      "badgesDesc": "All collectible badges",
+      "events": "Community events",
+      "eventsDesc": "Live community goals"
+    }
   },
   "profile": {
     "notFound": {
@@ -822,7 +783,7 @@
       "leaderboard": "Leaderboard",
       "viewInvasion": "View invasion"
     },
-    "navV4": {
+    "nav": {
       "reagent": "Reagent",
       "collection": "Collection",
       "owned": "Owned"
@@ -850,8 +811,7 @@
       "today": "Today",
       "yesterday": "1 day ago",
       "daysAgo": "{count} days ago",
-      "weeksAgo": "{count} weeks ago",
-      "tooltip": "Profile last updated"
+      "weeksAgo": "{count} weeks ago"
     },
     "update": {
       "tooltip": "Request a profile update",
@@ -897,9 +857,6 @@
       "noResultsMessage": "No completed trials match the selected filters."
     },
     "settings": {
-      "showLastTrials": "Show Last Trials",
-      "showShopPacks": "Show Shop Packs",
-      "showCurrency": "Show Murkoff-Coins",
       "error": "Failed to save settings"
     },
     "moderation": {
@@ -1063,14 +1020,11 @@
       "loadErrorTitle": "Failed to Load",
       "loadErrorMessage": "We were unable to retrieve the items data of this player. Please try again later.",
       "rig": "Rig",
-      "perks": "Perks",
       "character": "Character Customization",
       "posters": "Posters",
       "items": "Items",
       "emotes": "Emotes",
       "cellRoom": "Cell Room",
-      "allOwned": "All Owned",
-      "equippedOnly": "Equipped Only",
       "shopPacks": "Shop Packs",
       "ownedCosmetics": "Owned Cosmetics",
       "equipped": "Equipped",
@@ -1175,35 +1129,30 @@
     "addToCompare": "Add to compare list",
     "removeFromCompare": "Remove from compare list",
     "clearAll": "Clear All",
-    "loadingStats": "Loading stats...",
     "searchProfile": "Search profile...",
-    "searchHeroTitle": "Start a comparison",
-    "searchHeroSubtitle": "Search a profile to add it as the first contender.",
     "selectProfilesHint": "Select at least 2 profiles above to compare their stats",
     "addedToCompare": "Profile added to compare list",
     "removedFromCompare": "Profile removed from compare list",
-    "v4": {
-      "lineup": "Selected reagents",
-      "level": "Lv. {level}",
-      "leading": "Leading",
-      "wins": "win | wins",
-      "addPlayer": "Add reagent",
-      "openProfile": "Open profile of {name}",
-      "full": "Comparison is full (max. {max} reagents)",
-      "loadError": "Could not load this profile",
-      "retry": "Retry",
-      "lowerIsBetter": "Lower is better",
-      "playtime": "Playtime",
-      "teamworkTitle": "Teamwork",
-      "invasionSeasonTitle": "Invasion Season {season}",
-      "matchesPlayed": "Matches Played",
-      "lobbyWins": "{game} Wins",
-      "lobbyLosses": "{game} Losses",
-      "lobbyRating": "{game} Rating",
-      "badgesTitle": "Badges",
-      "badgeCount": "Badges collected",
-      "badgeCollection": "Collection"
-    }
+    "lineup": "Selected reagents",
+    "level": "Lv. {level}",
+    "leading": "Leading",
+    "wins": "win | wins",
+    "addPlayer": "Add reagent",
+    "openProfile": "Open profile of {name}",
+    "full": "Comparison is full (max. {max} reagents)",
+    "loadError": "Could not load this profile",
+    "retry": "Retry",
+    "lowerIsBetter": "Lower is better",
+    "playtime": "Playtime",
+    "teamworkTitle": "Teamwork",
+    "invasionSeasonTitle": "Invasion Season {season}",
+    "matchesPlayed": "Matches Played",
+    "lobbyWins": "{game} Wins",
+    "lobbyLosses": "{game} Losses",
+    "lobbyRating": "{game} Rating",
+    "badgesTitle": "Badges",
+    "badgeCount": "Badges collected",
+    "badgeCollection": "Collection"
   },
   "otherPages": {
     "title": "Other Pages",
@@ -1245,7 +1194,6 @@
     "invalid_state": "Invalid OAuth state. Please try again.",
     "missing_code": "Authorization code missing",
     "error_getting_url": "Failed to get Discord authorization URL",
-    "my_profile": "My Profile",
     "view_profile": "View Profile",
     "discord_account": "Discord Account",
     "claim_profile": "Claim Profile",
@@ -1267,7 +1215,6 @@
     "unclaim_confirm": "Are you sure you want to unlink your game profile? You can link it again later.",
     "unclaim_success": "Profile successfully unlinked!",
     "unclaim_failed": "Failed to unlink profile",
-    "settings": "Settings",
     "account": "Account",
     "claim_success_title": "Profile Successfully Linked!",
     "claim_success_description": "Your game profile is now linked to your Discord account.",
@@ -1369,7 +1316,6 @@
     "subtitle": "Manage your profile and privacy preferences",
     "tabs": {
       "appearance": "Appearance",
-      "privacy": "Privacy",
       "account": "Account"
     },
     "saving": "Saving…",
@@ -1385,7 +1331,6 @@
       "currency": "Murkoff-Coins",
       "currencyHint": "Your Murkoff-Coins balance and history."
     },
-    "visibility_description": "Choose which tabs are visible to other players on your profile.",
     "processing": {
       "title": "Data processing",
       "hint": "Available while your profile is hidden."
@@ -1434,9 +1379,7 @@
       "description": "Hides your profile from search, leaderboards and other players."
     },
     "processProfile": {
-      "description": "While your profile is hidden, you can stop the scraper from updating its data. Stats will be frozen until you re-enable processing.",
-      "statusEnabled": "Profile will be processed",
-      "statusDisabled": "Profile will not be processed"
+      "description": "While your profile is hidden, you can stop the scraper from updating its data. Stats will be frozen until you re-enable processing."
     },
     "appearance": {
       "description": "Customize how your profile looks to others."
@@ -1713,11 +1656,7 @@
       "total": "Profiles tracked so far"
     },
     "banner": {
-      "title": "TOTStatsMonitor",
-      "desc": "Puts the trial you are currently in on your Discord profile, and helps us find new players while you play",
-      "learnMore": "Learn more",
-      "contributorBadge": "Contributor Badge",
-      "presenceChip": "Rich Presence"
+      "desc": "Puts the trial you are currently in on your Discord profile, and helps us find new players while you play"
     },
     "howTo": {
       "title": "Get Started",
@@ -1784,10 +1723,8 @@
       "setupLeaderboard": "Posts a leaderboard in a channel that refreshes every hour."
     },
     "invite": {
-      "title": "Futterman's Radio",
       "desc": "A Discord bot that automatically assigns roles, syncs nicknames, and displays leaderboards based on player stats from The Outlast Trials.",
       "addBot": "Add to Server",
-      "learnMore": "Learn more",
       "viewSource": "View on GitHub"
     },
     "features": {
@@ -2038,6 +1975,7 @@
       "tfs_mt03": "Fumigate the Factory",
       "tfw_mt01": "Shutdown the Factory",
       "tfw_mt02": "Flatten the Foreman",
+      "tfw_mt03": "Sanitize the Factory",
       "dt_trial": "Pleasure the Prosecutor",
       "dts_mt01": "Kidnap the Mistress",
       "dts_mt02": "Spread the Disease",
@@ -2115,10 +2053,17 @@
       "link": "Link your profile to see your contribution"
     },
     "phases": "Phases",
+    "leaders": {
+      "title": "Top contributors",
+      "subtitle": "The players with the highest total so far.",
+      "fullLeaderboard": "Full leaderboard",
+      "you": "You"
+    },
     "history": {
       "title": "Progress",
-      "subtitle": "How the community total grew. Hover the line for the exact value and time.",
-      "aria": "Community total rising from {from} to {to}"
+      "subtitle": "How the community total grew, with each phase marked.",
+      "aria": "Community total rising from {from} to {to}",
+      "reached": "{phase} reached"
     },
     "status": {
       "live": "Live now",
@@ -2130,7 +2075,8 @@
     "events": {
       "extract_escape_plan": {
         "name": "Escape the Facility",
-        "description": "Help Amelia. Find as much Escape Intel as possible in the Trials and leave with it in your inventory. Reach community milestones to make the escape possible."
+        "description": "Help Amelia. Find as much Escape Intel as possible in the Trials and leave with it in your inventory. Reach community milestones to make the escape possible.",
+        "leaders": "The players who have extracted the most Escape Intel so far."
       },
       "blood_donation": {
         "name": "Blood Drive",
@@ -2141,7 +2087,6 @@
       }
     },
     "overview": {
-      "eyebrow": "Community",
       "title": "Community Events",
       "subtitle": "Goals the whole player base works toward together, live and past.",
       "live": "Live now",
@@ -2165,6 +2110,24 @@
       "eta": "{amount} at the current pace",
       "steps": "Milestones reached",
       "beforeTracking": "Reached before tracking started"
+    }
+  },
+  "ameliaTheme": {
+    "nav": {
+      "subtitle": "Resistance Intel Tool"
+    },
+    "hero": {
+      "subline": "Find Escape Intel in the Trials, get it out and help Amelia escape. Track the community's progress, your stats and the leaderboards right here.",
+      "polaroid": "Escape plans"
+    },
+    "slogans": {
+      "fight": "Fight Murkoff",
+      "therapy": "The therapy is a lie",
+      "complicity": "Complicity is death",
+      "hijacked": "Signal hijacked by A"
+    },
+    "footer": {
+      "signoff": "Complicity is death. — A"
     }
   }
 }
