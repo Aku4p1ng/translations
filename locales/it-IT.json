@@ -557,9 +557,6 @@
       "active": "I giocatori nascosti vengono mostrati",
       "why": "Perché ci sono giocatori nascosti?",
       "explanation": "Il nostro team nasconde tutti quei giocatori i quali punteggi non sono stati raccolti normalmente o sono sbagliati per un errore di sistema. Le loro statistiche sono visibili sui loro profili, ma non vengono classificati.",
-      "breakdownTitle": "Nascosti in questa classifica",
-      "breakdownItem": null,
-      "mapCount": "{count} nascosti",
       "faqLink": "Scopri di più nelle FAQ"
     }
   },
@@ -679,8 +676,6 @@
   },
   "badges": {
     "subtitle": "Colleziona e mostra i tuoi traguardi",
-    "deprecatedTitle": "In Rimozione",
-    "deprecated": "Questo encomio non viene più aggiornato perché il gioco non fornisce più questa informazione. Verrà rimosso a breve.",
     "retiredTitle": "Non Più Assegnato",
     "retired": "Questo encomio non viene più assegnato perché il gioco non fornisce più questa informazione."
   },
@@ -1155,10 +1150,6 @@
     "badgeCollection": "Collection"
   },
   "otherPages": {
-    "title": "Altre Pagine",
-    "subtitle": "Esplora altri siti e contenuti della community",
-    "viewButton": "Visita",
-    "deprecated": "Obsoleto",
     "cards": {
       "roadmap": {
         "description": "Visualizza la roadmap di sviluppo e gli eventi in arrivo"
@@ -1918,76 +1909,6 @@
     "metrics": {
       "BEST_TIME": "Miglior Tempo",
       "COMPLETIONS": "Completamenti"
-    },
-    "families": {
-      "fp": "Parco Divertimenti",
-      "ch": "Tribunale",
-      "ps": "Stazione di Polizia",
-      "or": "Orfanotrofio",
-      "mh": "Il Molo",
-      "sr": "La Periferia",
-      "tf": "Fabbrica di Giocattoli",
-      "dt": "Centro",
-      "sm": "Centro Commerciale",
-      "re": "Resort",
-      "ts": "Studio Televisivo",
-      "ae": "Fuga"
-    },
-    "maps": {
-      "fp_trial": "Tritura le Mele Marce",
-      "fpb_mt01": "Punisci i Miscredenti",
-      "fpb_mt02": "Apri le Porte",
-      "fpb_mt03": "Deturpa i Futterman",
-      "fpc_mt01": "Ferisci Futterman col Trapano",
-      "fpc_mt02": "Riscatta la tua Libertà",
-      "fpi_mt01": "Ammalia i Bambini",
-      "fpi_mt02": "Vinci la Verità",
-      "ch_trial": "Scagiona i Colpevoli",
-      "cha_mt01": "Fuggi dal Tribunale",
-      "cha_mt02": "Distruggi le Prove",
-      "cha_mt03": "Alimenta la Libertà",
-      "chj_mt01": "Fai Pendere la Bilancia della Giustizia",
-      "chj_mt02": "Condanna l'Imputato",
-      "ps_trial": "Uccidi la Spia",
-      "psa_mt01": "Insegna agli Agenti di Polizia",
-      "psb_mt01": "Annulla l'Autopsia",
-      "psb_mt02": "Sabota l'Isolamento",
-      "psb_mt03": "Distruggi il Passato",
-      "pso_mt01": "Libera i Prigionieri",
-      "pso_mt02": "Prendi le Droghe",
-      "or_trial": "Purifica gli Orfani",
-      "ors_mt01": "Nutri i Bambini",
-      "ors_mt02": "Salva gli Orfani",
-      "ors_mt03": "Riunisci la Famiglia",
-      "ori_mt01": "Raduna i Figli di Dio",
-      "mh_trial": "Avvelena il Farmaco",
-      "mhs_mt01": "Svuota il Caveau",
-      "mhs_mt02": "Avvelena il Bestiame",
-      "mhs_mt03": "Nascondi le Droghe di Contrabbando",
-      "mhs_mt04": "Cuoci l'Informatore",
-      "sr_trial": "Sciogli il Sindacato",
-      "srr_mt01": "Tira Fuori il Voto",
-      "srr_mt02": "Disturba il Quartiere",
-      "srr_mt03": "Eliminare il Retaggio",
-      "tf_trial": "Rendi Immorale Futterman",
-      "tfs_mt01": "Distruggi i Sex Toy",
-      "tfs_mt02": "Incenerisci i Sex Toy",
-      "tfs_mt03": "Fumiga la Fabbrica",
-      "tfw_mt01": "Arresta la Fabbrica",
-      "tfw_mt02": "Schiaccia il Caposquadra",
-      "tfw_mt03": null,
-      "dt_trial": "Soddisfa il Procuratore",
-      "dts_mt01": "Rapisci la Dominatrice",
-      "dts_mt02": "Diffondi la Malattia",
-      "dts_mt03": "Spaccia il Prodotto",
-      "sm_trial": "A Morte il Politico",
-      "smc_mt01": "Indaga sul Minotauro",
-      "smc_mt02": "Architetta lo Scandalo",
-      "re_trial": "Depreda l'Asta",
-      "res_mt01": "Risolvi l'Omicidio",
-      "res_mt02": "Incenerisci la Reliquia",
-      "ts_trial": "Zittisci l'Idolo",
-      "aet_mt01": "Scappa dalle Menzogne"
     }
   },
   "communityEvent": {

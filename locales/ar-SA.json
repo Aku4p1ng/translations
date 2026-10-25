@@ -557,9 +557,6 @@
       "active": null,
       "why": null,
       "explanation": null,
-      "breakdownTitle": null,
-      "breakdownItem": null,
-      "mapCount": null,
       "faqLink": null
     }
   },
@@ -679,8 +676,6 @@
   },
   "badges": {
     "subtitle": null,
-    "deprecatedTitle": "قيد الإزالة",
-    "deprecated": "لم يعد يتم تحديث هذه الشارة لأن اللعبة لم تعد توفر هذه المعلومات. ستتم إزالتها قريباً.",
     "retiredTitle": "لم تعد تُمنح",
     "retired": "لم تعد هذه الشارة تُمنح لأن اللعبة لم تعد توفر هذه المعلومات."
   },
@@ -1155,10 +1150,6 @@
     "badgeCollection": "Collection"
   },
   "otherPages": {
-    "title": "صفحات أخرى",
-    "subtitle": "استكشاف موارد إضافية ومحتوى المجتمع",
-    "viewButton": "منظر",
-    "deprecated": "مهمل",
     "cards": {
       "roadmap": {
         "description": null
@@ -1918,76 +1909,6 @@
     "metrics": {
       "BEST_TIME": null,
       "COMPLETIONS": "Completions"
-    },
-    "families": {
-      "fp": null,
-      "ch": "Courthouse",
-      "ps": null,
-      "or": "Orphanage",
-      "mh": "Docks",
-      "sr": "Suburb",
-      "tf": null,
-      "dt": null,
-      "sm": null,
-      "re": "Resort",
-      "ts": null,
-      "ae": "Escape"
-    },
-    "maps": {
-      "fp_trial": null,
-      "fpb_mt01": null,
-      "fpb_mt02": null,
-      "fpb_mt03": null,
-      "fpc_mt01": null,
-      "fpc_mt02": null,
-      "fpi_mt01": null,
-      "fpi_mt02": null,
-      "ch_trial": null,
-      "cha_mt01": null,
-      "cha_mt02": null,
-      "cha_mt03": null,
-      "chj_mt01": null,
-      "chj_mt02": null,
-      "ps_trial": null,
-      "psa_mt01": null,
-      "psb_mt01": null,
-      "psb_mt02": null,
-      "psb_mt03": null,
-      "pso_mt01": null,
-      "pso_mt02": null,
-      "or_trial": null,
-      "ors_mt01": null,
-      "ors_mt02": null,
-      "ors_mt03": null,
-      "ori_mt01": null,
-      "mh_trial": null,
-      "mhs_mt01": null,
-      "mhs_mt02": null,
-      "mhs_mt03": null,
-      "mhs_mt04": null,
-      "sr_trial": null,
-      "srr_mt01": null,
-      "srr_mt02": null,
-      "srr_mt03": null,
-      "tf_trial": null,
-      "tfs_mt01": null,
-      "tfs_mt02": null,
-      "tfs_mt03": null,
-      "tfw_mt01": null,
-      "tfw_mt02": null,
-      "tfw_mt03": null,
-      "dt_trial": null,
-      "dts_mt01": null,
-      "dts_mt02": null,
-      "dts_mt03": null,
-      "sm_trial": null,
-      "smc_mt01": null,
-      "smc_mt02": null,
-      "re_trial": null,
-      "res_mt01": null,
-      "res_mt02": null,
-      "ts_trial": null,
-      "aet_mt01": null
     }
   },
   "communityEvent": {

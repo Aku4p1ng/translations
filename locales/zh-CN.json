@@ -557,9 +557,6 @@
       "active": "显示隐藏的玩家",
       "why": "为什么玩家被隐藏了？",
       "explanation": "我们的团队会隐藏那些数据并非通过正常游玩获得，或因数据错误而不正确的玩家。他们的数据仍会显示在个人资料中，但不会参与排名。",
-      "breakdownTitle": "在此排行榜上隐藏",
-      "breakdownItem": null,
-      "mapCount": "{count} 项已隐藏",
       "faqLink": "在常见问题解答中了解更多"
     }
   },
@@ -679,8 +676,6 @@
   },
   "badges": {
     "subtitle": "收集和展示您的成就",
-    "deprecatedTitle": "即将移除",
-    "deprecated": "由于游戏不再提供此信息，此徽章已不再更新，即将被移除。",
     "retiredTitle": "不再颁发",
     "retired": "由于游戏不再提供此信息，此徽章已不再颁发。"
   },
@@ -1155,10 +1150,6 @@
     "badgeCollection": "集合"
   },
   "otherPages": {
-    "title": "其他页面",
-    "subtitle": "探索更多资源和社区内容",
-    "viewButton": "查看",
-    "deprecated": "已弃用",
     "cards": {
       "roadmap": {
         "description": "查看开发路线图和即将推出的功能"
@@ -1918,76 +1909,6 @@
     "metrics": {
       "BEST_TIME": "最佳时间",
       "COMPLETIONS": "完成次数"
-    },
-    "families": {
-      "fp": "游乐园",
-      "ch": "法院",
-      "ps": "警察局",
-      "or": "孤儿院",
-      "mh": "码头",
-      "sr": "郊区",
-      "tf": "玩具工厂",
-      "dt": "市中心",
-      "sm": "购物中心",
-      "re": "度假村",
-      "ts": "电视台",
-      "ae": "逃离"
-    },
-    "maps": {
-      "fp_trial": "碾碎坏苹果",
-      "fpb_mt01": "惩罚恶人",
-      "fpb_mt02": "打开大门",
-      "fpb_mt03": "损毁福特曼父女",
-      "fpc_mt01": "钻穿福特曼",
-      "fpc_mt02": "兑换自由",
-      "fpi_mt01": "蛊惑孩童",
-      "fpi_mt02": "赢得真相",
-      "ch_trial": "为罪行辩护",
-      "cha_mt01": "逃离法院",
-      "cha_mt02": "销毁证据",
-      "cha_mt03": "释放的动力",
-      "chj_mt01": "让正义的天平倾斜",
-      "chj_mt02": "对被告做出判决",
-      "ps_trial": "杀死告密者",
-      "psa_mt01": "教育警察",
-      "psb_mt01": "取消尸检",
-      "psb_mt02": "冲破封锁",
-      "psb_mt03": "消除过往",
-      "pso_mt01": "释放囚犯",
-      "pso_mt02": "缴获毒品",
-      "or_trial": "净化孤儿",
-      "ors_mt01": "喂养孩童",
-      "ors_mt02": "收养孤儿",
-      "ors_mt03": "重聚家庭",
-      "ori_mt01": "召集上帝之子",
-      "mh_trial": "在药物中下毒",
-      "mhs_mt01": "清空保险库",
-      "mhs_mt02": "给牛下毒",
-      "mhs_mt03": "储藏违禁品",
-      "mhs_mt04": "炙烤告密者",
-      "sr_trial": "瓦解工会",
-      "srr_mt01": "动员选民投票",
-      "srr_mt02": "扰乱社区",
-      "srr_mt03": "消除旧有遗留问题",
-      "tf_trial": "腐蚀福特曼",
-      "tfs_mt01": "粉碎性玩具",
-      "tfs_mt02": "焚烧性玩具",
-      "tfs_mt03": "工厂消毒",
-      "tfw_mt01": "关闭工厂",
-      "tfw_mt02": "击倒工头",
-      "tfw_mt03": null,
-      "dt_trial": "取悦检察官",
-      "dts_mt01": "绑架情妇",
-      "dts_mt02": "传播疾病",
-      "dts_mt03": "贩卖货物",
-      "sm_trial": "消灭政客",
-      "smc_mt01": "调查牛头怪",
-      "smc_mt02": "捏造丑闻",
-      "re_trial": "洗劫拍卖会",
-      "res_mt01": "侦破谋杀案",
-      "res_mt02": "焚烧圣物",
-      "ts_trial": "让偶像噤声",
-      "aet_mt01": "逃离谎言"
     }
   },
   "communityEvent": {
